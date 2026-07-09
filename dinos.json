@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1,
+    "nome": "Tiranossauro",
+    "latim": "Tyrannosaurus rex",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 12,
+    "peso": 8000,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Um dos maiores predadores terrestres que já existiram, com mordida capaz de esmagar ossos. Caçava outros grandes dinossauros e também se alimentava de carcaças.",
+    "fato": "Seus bracinhos curtos tinham apenas dois dedos, mas eram surpreendentemente fortes.",
+    "perigo": 9,
+    "velocidade": 6,
+    "altura": 4,
+    "periodo": {
+      "inicio": 68,
+      "fim": 66
+    },
+    "formacao": "Formação Hell Creek",
+    "local": "Montana, EUA",
+    "mapa": {
+      "x": 55,
+      "y": 40
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda",
+      "familia": "Tyrannosauridae"
+    },
+    "descoberta": {
+      "por": "Barnum Brown",
+      "ano": 1902
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "O T-rex tinha uma das mordidas mais fortes já estimadas entre os animais terrestres, capaz de triturar ossos.",
+      "Pesquisas indicam que seu olfato era comparável ao de aves de rapina modernas, ajudando a farejar carcaças a longa distância."
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Velociraptor",
+    "latim": "Velociraptor mongoliensis",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 2,
+    "peso": 15,
+    "regiao": "Ásia (Mongólia)",
+    "forma": "raptor",
+    "desc": "Pequeno caçador ágil, provavelmente coberto de penas, que usava a garra em forma de foice na pata para dominar presas.",
+    "fato": "Do tamanho de um peru grande — bem menor do que os filmes mostram.",
+    "perigo": 7,
+    "velocidade": 8,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 75,
+      "fim": 71
+    },
+    "formacao": "Formação Djadochta",
+    "local": "Deserto de Gobi, Mongólia",
+    "mapa": {
+      "x": 245,
+      "y": 35
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda",
+      "familia": "Dromaeosauridae"
+    },
+    "descoberta": {
+      "por": "Peter Kaisen (fóssil) / Henry F. Osborn (descrição)",
+      "ano": 1924
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Ao contrário dos filmes, o Velociraptor provavelmente era coberto de penas, mais parecido com uma ave grande do que com um réptil escamoso.",
+      "Um famoso fóssil mostra um Velociraptor e um Protoceratops fossilizados em pleno combate."
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Tricerátops",
+    "latim": "Triceratops horridus",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 6000,
+    "regiao": "América do Norte",
+    "forma": "ceratopsian",
+    "desc": "Reconhecido por seus três chifres e pelo grande escudo ósseo na cabeça, usados em disputas territoriais e defesa contra predadores.",
+    "fato": "Um dos dinossauros mais comuns encontrados em fósseis do final do Cretáceo.",
+    "perigo": 6,
+    "velocidade": 5,
+    "altura": 3,
+    "periodo": {
+      "inicio": 68,
+      "fim": 66
+    },
+    "formacao": "Formação Hell Creek / Lance",
+    "local": "Wyoming/Montana, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Ceratopsidae"
+    },
+    "descoberta": {
+      "por": "John Bell Hatcher / Othniel C. Marsh",
+      "ano": 1889
+    },
+    "tipo": null,
+    "curiosidades": [
+      "O escudo ósseo na cabeça do Tricerátops podia ter mais de 2 metros de largura.",
+      "Estudos de crescimento sugerem que os chifres mudavam de formato conforme o animal envelhecia."
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Estegossauro",
+    "latim": "Stegosaurus stenops",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 3800,
+    "regiao": "América do Norte",
+    "forma": "stego",
+    "desc": "Famoso pelas placas triangulares ao longo das costas e pelos espinhos afiados na cauda (o 'thagomizer'), usados como defesa.",
+    "fato": "Seu cérebro era do tamanho de uma noz apesar do corpo enorme.",
+    "perigo": 5,
+    "velocidade": 3,
+    "altura": 4,
+    "periodo": {
+      "inicio": 155,
+      "fim": 150
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 60,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora",
+      "familia": "Stegosauridae"
+    },
+    "descoberta": {
+      "por": "Marshall Felch (fóssil) / Othniel C. Marsh",
+      "ano": 1877
+    },
+    "tipo": null,
+    "curiosidades": [
+      "As placas nas costas podem ter servido tanto para defesa quanto para regular a temperatura do corpo.",
+      "Ele conviveu com o Alossauro, um dos seus principais predadores."
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Braquiossauro",
+    "latim": "Brachiosaurus altithorax",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 21,
+    "peso": 35000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Gigante de pescoço longo e pernas dianteiras maiores que as traseiras, o que lhe dava postura inclinada para cima, ideal para comer folhas altas.",
+    "fato": "As narinas ficavam no alto da cabeça, formando uma pequena crista.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 13,
+    "periodo": {
+      "inicio": 154,
+      "fim": 150
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado/Utah, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 46
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropoda",
+      "familia": "Brachiosauridae"
+    },
+    "descoberta": {
+      "por": "Elmer S. Riggs",
+      "ano": 1900
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Apesar do tamanho, provavelmente não conseguia levantar a cabeça muito acima do nível do coração por muito tempo.",
+      "Seus dentes em formato de cinzel eram trocados constantemente ao longo da vida."
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Espinossauro",
+    "latim": "Spinosaurus aegyptiacus",
+    "era": "Cretáceo",
+    "dieta": "Piscívoro",
+    "comprimento": 15,
+    "peso": 7000,
+    "regiao": "Norte da África",
+    "forma": "sail",
+    "desc": "Provavelmente o maior dinossauro carnívoro conhecido, com uma vela nas costas e hábitos semiaquáticos, caçando peixes grandes em rios.",
+    "fato": "Estudos recentes sugerem que ele nadava e mergulhava melhor que qualquer outro dinossauro conhecido.",
+    "perigo": 9,
+    "velocidade": 5,
+    "altura": 4,
+    "periodo": {
+      "inicio": 99,
+      "fim": 93
+    },
+    "formacao": "Formação Bahariya",
+    "local": "Oásis de Bahariya, Egito",
+    "mapa": {
+      "x": 182,
+      "y": 58
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda",
+      "familia": "Spinosauridae"
+    },
+    "descoberta": {
+      "por": "Richard Markgraf (fóssil) / Ernst Stromer (descrição)",
+      "ano": 1915
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Tinha ossos densos, parecidos com os de animais aquáticos modernos, o que ajudava a flutuar e mergulhar.",
+      "A vela nas costas pode ter servido para exibição visual além de regulação térmica."
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Anquilossauro",
+    "latim": "Ankylosaurus magniventris",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 7,
+    "peso": 4800,
+    "regiao": "América do Norte",
+    "forma": "ankylosaur",
+    "desc": "Blindado da cabeça à cauda com placas ósseas, terminava a cauda em uma maça capaz de quebrar as pernas de predadores.",
+    "fato": "Era tão bem protegido que poucos predadores conseguiam feri-lo.",
+    "perigo": 6,
+    "velocidade": 3,
+    "altura": 1.7,
+    "periodo": {
+      "inicio": 68,
+      "fim": 66
+    },
+    "formacao": "Formação Hell Creek",
+    "local": "Montana, EUA",
+    "mapa": {
+      "x": 55,
+      "y": 40
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora",
+      "familia": "Ankylosauridae"
+    },
+    "descoberta": {
+      "por": "Barnum Brown",
+      "ano": 1908
+    },
+    "tipo": null,
+    "curiosidades": [
+      "A cauda em forma de maça podia pesar até 30 kg e era usada como arma de defesa.",
+      "Mesmo o T-rex provavelmente evitava atacar um Anquilossauro adulto de frente."
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Parassaurolofo",
+    "latim": "Parasaurolophus walkeri",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 10,
+    "peso": 2500,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Dinossauro de bico de pato com uma longa crista óssea curva na cabeça, provavelmente usada para produzir sons graves e se comunicar.",
+    "fato": "A crista funcionava quase como um trombone natural.",
+    "perigo": 2,
+    "velocidade": 6,
+    "altura": 2.7,
+    "periodo": {
+      "inicio": 76,
+      "fim": 73
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 60,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Hadrosauridae"
+    },
+    "descoberta": {
+      "por": "Levi Sternberg (fóssil) / William Parks (descrição)",
+      "ano": 1922
+    },
+    "tipo": null,
+    "curiosidades": [
+      "A crista oca funcionava como uma câmara de ressonância, amplificando os sons que o animal emitia.",
+      "Cada indivíduo pode ter tido uma crista de tamanho ligeiramente diferente, alterando o som produzido."
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Alossauro",
+    "latim": "Allosaurus fragilis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 9.7,
+    "peso": 2300,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Predador dominante do Jurássico tardio, com crânio leve e mandíbula que se abria em ângulo amplo para dar mordidas rápidas e profundas.",
+    "fato": "Tinha pequenas cristas ósseas acima dos olhos, como 'sobrancelhas'.",
+    "perigo": 8,
+    "velocidade": 7,
+    "altura": 3,
+    "periodo": {
+      "inicio": 155,
+      "fim": 145
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado/Utah, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 46
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda",
+      "familia": "Allosauridae"
+    },
+    "descoberta": {
+      "por": "Othniel C. Marsh",
+      "ano": 1877
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Fósseis foram encontrados em grande quantidade na Formação Morrison, tornando-o um dos terópodes mais estudados do Jurássico.",
+      "Provavelmente caçava presas muito maiores que ele, possivelmente em grupo."
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Diplodoco",
+    "latim": "Diplodocus carnegii",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 26,
+    "peso": 16000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Um dos dinossauros mais compridos já descobertos, com pescoço e cauda extremamente longos que ajudavam a equilibrar o corpo.",
+    "fato": "A cauda podia ser usada como um chicote para afastar predadores.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 4.5,
+    "periodo": {
+      "inicio": 154,
+      "fim": 152
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 60,
+      "y": 45
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropoda",
+      "familia": "Diplodocidae"
+    },
+    "descoberta": {
+      "por": "Expedição financiada por Andrew Carnegie / John Bell Hatcher",
+      "ano": 1901
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "O pescoço tinha até 15 vértebras, permitindo alcançar vegetação em uma grande área sem se mover muito.",
+      "Estudos sugerem que engolia pedras (gastrólitos) para ajudar a digerir plantas fibrosas."
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Iguanodonte",
+    "latim": "Iguanodon bernissartensis",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 10,
+    "peso": 3500,
+    "regiao": "Europa",
+    "forma": "ornithopod",
+    "desc": "Um dos primeiros dinossauros descritos pela ciência, podia andar em duas ou quatro patas e tinha um esporão em formato de polegar.",
+    "fato": "O esporão do polegar provavelmente era usado como arma de defesa.",
+    "perigo": 3,
+    "velocidade": 5,
+    "altura": 2.7,
+    "periodo": {
+      "inicio": 140,
+      "fim": 125
+    },
+    "formacao": "Camadas de Wealden / Argilas de Sainte-Barbe (Bernissart)",
+    "local": "Bernissart, Bélgica",
+    "mapa": {
+      "x": 165,
+      "y": 28
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Iguanodontidae"
+    },
+    "descoberta": {
+      "por": "Mineiros de Bernissart / estudado por Louis Dollo",
+      "ano": 1878
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Foi um dos primeiros dinossauros a ganhar um nome científico, em 1825.",
+      "Os primeiros cientistas erroneamente colocaram o esporão do polegar na ponta do nariz, como um chifre."
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Compsognato",
+    "latim": "Compsognathus longipes",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1,
+    "peso": 3,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Um dos menores dinossauros carnívoros conhecidos, do tamanho de uma galinha, caçava lagartos e pequenos animais.",
+    "fato": "Fósseis mostram que ele comia lagartos inteiros.",
+    "perigo": 3,
+    "velocidade": 8,
+    "altura": 0.3,
+    "periodo": {
+      "inicio": 150,
+      "fim": 145
+    },
+    "formacao": "Calcário de Solnhofen",
+    "local": "Baviera, Alemanha",
+    "mapa": {
+      "x": 170,
+      "y": 27
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda",
+      "familia": "Compsognathidae"
+    },
+    "descoberta": {
+      "por": "Joseph Oberndorfer (fóssil) / Johann A. Wagner (descrição)",
+      "ano": 1859
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Era do tamanho de uma galinha grande, um dos menores dinossauros não-aviários conhecidos.",
+      "Seu nome significa 'mandíbula elegante', referência ao formato fino do crânio."
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Paquicefalossauro",
+    "latim": "Pachycephalosaurus wyomingensis",
+    "era": "Cretáceo",
+    "dieta": "Onívoro",
+    "comprimento": 4.5,
+    "peso": 450,
+    "regiao": "América do Norte",
+    "forma": "dome",
+    "desc": "Tinha o topo do crânio extremamente espesso, formando uma cúpula óssea provavelmente usada em disputas de cabeçadas entre machos.",
+    "fato": "A cúpula podia ter mais de 20 cm de espessura de osso sólido.",
+    "perigo": 4,
+    "velocidade": 6,
+    "altura": 2,
+    "periodo": {
+      "inicio": 70,
+      "fim": 66
+    },
+    "formacao": "Formação Hell Creek / Lance",
+    "local": "Montana/Wyoming, EUA",
+    "mapa": {
+      "x": 57,
+      "y": 41
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Marginocephalia",
+      "familia": "Pachycephalosauridae"
+    },
+    "descoberta": {
+      "por": "Barnum Brown & Erich M. Schlaikjer",
+      "ano": 1943
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Apesar da cúpula grossa, estudos recentes sugerem que as cabeçadas eram mais cuidadosas do que se imaginava antes.",
+      "É conhecido quase só por fósseis do crânio; o resto do esqueleto ainda é pouco compreendido."
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Carnotauro",
+    "latim": "Carnotaurus sastrei",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 8,
+    "peso": 1500,
+    "regiao": "América do Sul",
+    "forma": "theropod",
+    "desc": "Predador de corpo leve e pernas longas, com dois pequenos chifres acima dos olhos e braços quase inúteis, ainda menores que os do T-rex.",
+    "fato": "É considerado um dos dinossauros carnívoros mais rápidos já descobertos.",
+    "perigo": 8,
+    "velocidade": 9,
+    "altura": 3,
+    "periodo": {
+      "inicio": 72,
+      "fim": 69.9
+    },
+    "formacao": "Formação La Colonia",
+    "local": "Chubut, Argentina",
+    "mapa": {
+      "x": 90,
+      "y": 120
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda",
+      "familia": "Abelisauridae"
+    },
+    "descoberta": {
+      "por": "José Bonaparte",
+      "ano": 1985
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Impressões de pele fossilizada mostram escamas com pequenos nódulos, sem penas.",
+      "Os chifres acima dos olhos eram únicos entre os grandes terópodes carnívoros."
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Terizinossauro",
+    "latim": "Therizinosaurus cheloniformis",
+    "era": "Cretáceo",
+    "dieta": "Onívoro",
+    "comprimento": 10,
+    "peso": 5000,
+    "regiao": "Ásia (Mongólia)",
+    "forma": "claws",
+    "desc": "Apesar de descender de dinossauros carnívoros, provavelmente se alimentava de plantas, usando garras enormes para puxar galhos.",
+    "fato": "Suas garras estão entre as maiores já registradas em qualquer animal, com quase 1 metro de comprimento.",
+    "perigo": 5,
+    "velocidade": 4,
+    "altura": 5,
+    "periodo": {
+      "inicio": 70,
+      "fim": 66
+    },
+    "formacao": "Formação Nemegt",
+    "local": "Deserto de Gobi, Mongólia",
+    "mapa": {
+      "x": 240,
+      "y": 38
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda",
+      "familia": "Therizinosauridae"
+    },
+    "descoberta": {
+      "por": "Expedição soviético-mongol / Evgeny Maleev",
+      "ano": 1954
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Por muito tempo, só as garras gigantes eram conhecidas, e os cientistas nem sabiam a que tipo de animal pertenciam.",
+      "Apesar do visual assustador, provavelmente era um herbívoro pacífico."
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Giganotossauro",
+    "latim": "Giganotosaurus carolinii",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 13,
+    "peso": 8200,
+    "regiao": "América do Sul",
+    "forma": "theropod",
+    "desc": "Um dos maiores terópodes conhecidos, possivelmente até maior que o T-rex, provavelmente caçava em grupo para abater presas enormes.",
+    "fato": "Viveu bem antes do T-rex e não teve contato com ele.",
+    "perigo": 9,
+    "velocidade": 6,
+    "altura": 4,
+    "periodo": {
+      "inicio": 99.6,
+      "fim": 97
+    },
+    "formacao": "Formação Candeleros",
+    "local": "Neuquén, Argentina",
+    "mapa": {
+      "x": 92,
+      "y": 112
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda",
+      "familia": "Carcharodontosauridae"
+    },
+    "descoberta": {
+      "por": "Rubén Carolini (fóssil) / Rodolfo Coria & Leonardo Salgado (descrição)",
+      "ano": 1995
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Rivaliza em tamanho com o T-rex, mas viveu cerca de 30 milhões de anos antes dele, na América do Sul.",
+      "Tinha um crânio mais leve e estreito, adaptado para mordidas rápidas em vez de esmagadoras."
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Deinoníco",
+    "latim": "Deinonychus antirrhopus",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 3.4,
+    "peso": 73,
+    "regiao": "América do Norte",
+    "forma": "raptor",
+    "desc": "Caçador ágil com a icônica garra-foice na pata traseira, foi a inspiração científica para o tamanho dos 'velociraptors' nos filmes.",
+    "fato": "Fósseis encontrados em grupo sugerem que caçava em bando.",
+    "perigo": 8,
+    "velocidade": 8,
+    "altura": 0.9,
+    "periodo": {
+      "inicio": 115,
+      "fim": 108
+    },
+    "formacao": "Formação Cloverly",
+    "local": "Montana/Wyoming, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 38
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda",
+      "familia": "Dromaeosauridae"
+    },
+    "descoberta": {
+      "por": "John Ostrom",
+      "ano": 1964
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Sua descoberta na década de 1960 mudou a forma como os cientistas enxergavam os dinossauros: ativos e ágeis, não lentos e arrastados.",
+      "Inspirou o conceito científico dos 'raptors' popularizado (e exagerado em tamanho) pelo cinema."
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Arqueoptérix",
+    "latim": "Archaeopteryx lithographica",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 0.5,
+    "peso": 1,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Um dos elos mais famosos entre dinossauros e aves, tinha penas bem desenvolvidas e provavelmente conseguia planar entre árvores.",
+    "fato": "Foi descoberto poucos anos depois da publicação da teoria de Darwin, e ajudou a sustentá-la.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 0.3,
+    "periodo": {
+      "inicio": 150,
+      "fim": 148
+    },
+    "formacao": "Calcário de Solnhofen",
+    "local": "Baviera, Alemanha",
+    "mapa": {
+      "x": 170,
+      "y": 27
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida) — ave basal",
+      "ordem": "Theropoda — Avialae",
+      "familia": "Archaeopterygidae"
+    },
+    "descoberta": {
+      "por": "Fóssil de pena descrito por Hermann von Meyer",
+      "ano": 1861
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Tinha características de dinossauro (dentes, cauda óssea longa, garras) e de ave (penas, asas) ao mesmo tempo.",
+      "Provavelmente não voava como as aves modernas, mas conseguia planar entre árvores e arbustos."
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Brontossauro",
+    "latim": "Brontosaurus excelsus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 22,
+    "peso": 15000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Gigante herbívoro de pescoço longo, seu nome significa 'lagarto trovão', em referência ao peso de seus passos.",
+    "fato": "Por décadas foi considerado o mesmo animal que o Apatossauro, até estudos recentes separá-los novamente.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 4.5,
+    "periodo": {
+      "inicio": 152,
+      "fim": 151
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 62,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropoda",
+      "familia": "Diplodocidae"
+    },
+    "descoberta": {
+      "por": "Othniel C. Marsh",
+      "ano": 1879
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Foi considerado um nome inválido por quase um século, até um estudo de 2015 reconhecê-lo novamente como gênero distinto.",
+      "Seu pescoço, apesar do comprimento, provavelmente não conseguia se erguer muito acima do corpo."
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Pteranodonte",
+    "latim": "Pteranodon longiceps",
+    "era": "Cretáceo",
+    "dieta": "Piscívoro",
+    "comprimento": 1.8,
+    "peso": 25,
+    "regiao": "América do Norte",
+    "forma": "pterosaur",
+    "desc": "Réptil voador com envergadura de até 6 metros e uma longa crista óssea na cabeça, mergulhava para capturar peixes.",
+    "fato": "Não é tecnicamente um dinossauro — é um pterossauro, um parente próximo que dominava os céus.",
+    "perigo": 4,
+    "velocidade": 7,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 86,
+      "fim": 84
+    },
+    "formacao": "Formação Niobrara (Membro Smoky Hill Chalk)",
+    "local": "Kansas, EUA",
+    "mapa": {
+      "x": 65,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida) — não é dinossauro",
+      "ordem": "Pterosauria — Pterodactyloidea",
+      "familia": "Pteranodontidae"
+    },
+    "descoberta": {
+      "por": "Othniel C. Marsh",
+      "ano": 1876
+    },
+    "tipo": "Voador",
+    "curiosidades": [
+      "Não tinha dentes — capturava peixes com um bico afiado, como muitas aves marinhas atuais.",
+      "Machos e fêmeas tinham cristas de tamanhos bem diferentes, um caso claro de dimorfismo sexual."
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Eoraptor",
+    "latim": "Eoraptor lunensis",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 1,
+    "peso": 10,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "tipo": "Terópode",
+    "desc": "Um dos dinossauros mais antigos conhecidos, pequeno e ágil, viveu no início da história do grupo, quando os dinossauros ainda estavam dando os primeiros passos evolutivos.",
+    "fato": "Seus dentes sugerem uma dieta mista, com plantas e pequenos animais — uma pista de como era a alimentação dos primeiros dinossauros.",
+    "perigo": 2,
+    "velocidade": 6,
+    "altura": 0.3,
+    "periodo": {
+      "inicio": 231,
+      "fim": 228
+    },
+    "formacao": "Formação Ischigualasto",
+    "local": "San Juan, Argentina",
+    "mapa": {
+      "x": 95,
+      "y": 118
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Eoraptoridae"
+    },
+    "descoberta": {
+      "por": "Paul Sereno",
+      "ano": 1993
+    },
+    "curiosidades": [
+      "Viveu cerca de 231 milhões de anos atrás, próximo do início da era dos dinossauros.",
+      "Por ser tão primitivo, ajuda os cientistas a entender como era o ancestral comum de grupos como terópodes e saurópodes."
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Plateossauro",
+    "latim": "Plateosaurus engelhardti",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 8,
+    "peso": 700,
+    "regiao": "Europa",
+    "forma": "sauropod",
+    "tipo": "Saurópode",
+    "desc": "Um dos maiores animais terrestres do Triássico, parente distante dos saurópodes gigantes que viriam depois, conseguia se apoiar em duas patas para alcançar vegetação mais alta.",
+    "fato": "Centenas de esqueletos foram encontrados juntos na Alemanha, sugerindo que os indivíduos podem ter morrido em grupo.",
+    "perigo": 2,
+    "velocidade": 4,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 214,
+      "fim": 204
+    },
+    "formacao": "Formação Löwenstein / Trossingen",
+    "local": "Trossingen, Alemanha",
+    "mapa": {
+      "x": 168,
+      "y": 26
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha",
+      "familia": "Plateosauridae"
+    },
+    "descoberta": {
+      "por": "Hermann von Meyer",
+      "ano": 1837
+    },
+    "curiosidades": [
+      "Viveu bem antes dos saurópodes gigantes como o Braquiossauro, sendo um parente evolutivo mais antigo e menor.",
+      "Podia alternar entre andar em quatro patas e ficar apoiado só nas patas traseiras, dependendo da atividade."
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Mosassauro",
+    "latim": "Mosasaurus hoffmannii",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 15,
+    "peso": 15000,
+    "regiao": "Europa",
+    "forma": "marine",
+    "tipo": "Marinho",
+    "desc": "Réptil marinho gigante — não é tecnicamente um dinossauro, e sim um parente distante de lagartos e cobras que se adaptou totalmente à vida nos oceanos do Cretáceo.",
+    "fato": "Nadava usando uma cauda forte em forma de nadadeira, de maneira parecida com a de alguns tubarões modernos.",
+    "perigo": 8,
+    "velocidade": 6,
+    "altura": 3,
+    "periodo": {
+      "inicio": 70,
+      "fim": 66
+    },
+    "formacao": "Formação de Maastricht",
+    "local": "Maastricht, Países Baixos",
+    "mapa": {
+      "x": 167,
+      "y": 24
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida) — não é dinossauro",
+      "ordem": "Squamata — Mosasauridae",
+      "familia": "Mosasauridae"
+    },
+    "descoberta": {
+      "por": "Encontrado em uma pedreira de Maastricht",
+      "ano": 1764
+    },
+    "curiosidades": [
+      "Apesar de parecer um dinossauro marinho, o Mosassauro é na verdade um parente gigante dos lagartos e das cobras atuais.",
+      "Foi um dos primeiros fósseis de réptil gigante extinto estudados cientificamente, ainda no século 18, antes mesmo do termo 'dinossauro' existir."
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Carcarodontossauro",
+    "latim": "Carcharodontosaurus saharicus",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 12,
+    "peso": 6000,
+    "regiao": "Norte da África",
+    "forma": "theropod",
+    "desc": "Um dos maiores terópodes já descobertos, com crânio enorme e dentes serrilhados parecidos com os de um tubarão — daí seu nome, que significa 'lagarto de dentes de tubarão'.",
+    "fato": "Rivalizava em tamanho com o T. rex, mas viveu bem antes dele, na África do Norte.",
+    "perigo": 9,
+    "velocidade": 6,
+    "altura": 4,
+    "periodo": {
+      "inicio": 100,
+      "fim": 93
+    },
+    "formacao": "Formação Kem Kem",
+    "local": "Bacia de Kem Kem, Marrocos",
+    "mapa": {
+      "x": 175,
+      "y": 52
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Carcharodontosauria)",
+      "familia": "Carcharodontosauridae"
+    },
+    "descoberta": {
+      "por": "Ernst Stromer",
+      "ano": 1931
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "O primeiro esqueleto estudado por Ernst Stromer foi destruído em um bombardeio na Segunda Guerra Mundial, restando apenas os desenhos originais.",
+      "Fósseis mais completos só foram encontrados décadas depois, na década de 1990, pelo paleontólogo Paul Sereno."
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Utaraptor",
+    "latim": "Utahraptor ostrommaysorum",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 6,
+    "peso": 500,
+    "regiao": "América do Norte",
+    "forma": "raptor",
+    "desc": "O maior dromeossaurídeo conhecido, muito maior que o Velociraptor — usava uma garra curva gigante na pata para atacar presas.",
+    "fato": "Sua garra de pata podia ultrapassar 20 cm de comprimento, uma das maiores entre os dromeossaurídeos.",
+    "perigo": 8,
+    "velocidade": 6,
+    "altura": 1.5,
+    "periodo": {
+      "inicio": 135,
+      "fim": 130
+    },
+    "formacao": "Formação Cedar Mountain",
+    "local": "Utah, EUA",
+    "mapa": {
+      "x": 52,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Dromaeosauridae)",
+      "familia": "Dromaeosauridae"
+    },
+    "descoberta": {
+      "por": "James Kirkland",
+      "ano": 1993
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Fósseis foram encontrados agrupados em um mesmo local, o que levantou a hipótese de que caçava em grupo.",
+      "Inspirou o tamanho exagerado dos 'velociraptors' nos filmes de Jurassic Park, mesmo antes de ser formalmente descrito."
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Barioníquio",
+    "latim": "Baryonyx walkeri",
+    "era": "Cretáceo",
+    "dieta": "Piscívoro",
+    "comprimento": 7.5,
+    "peso": 1700,
+    "regiao": "Europa",
+    "forma": "sail",
+    "desc": "Terópode de focinho alongado parecido com o de um crocodilo, com garras enormes nas mãos usadas para pescar em rios.",
+    "fato": "Foi descoberto por um colecionador amador que encontrou primeiro a garra gigante — daí o nome, que significa 'garra pesada'.",
+    "perigo": 6,
+    "velocidade": 5,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 130,
+      "fim": 125
+    },
+    "formacao": "Formação Weald Clay",
+    "local": "Surrey, Inglaterra",
+    "mapa": {
+      "x": 163,
+      "y": 27
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Spinosauridae)",
+      "familia": "Spinosauridae"
+    },
+    "descoberta": {
+      "por": "William Walker (colecionador amador)",
+      "ano": 1983
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Foi um dos primeiros dinossauros para os quais se encontrou evidência direta de dieta: escamas de peixe fossilizadas no estômago.",
+      "Sua descoberta ajudou a revelar que os espinossaurídeos, como o Spinossauro, eram adaptados à pesca."
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Sucomimo",
+    "latim": "Suchomimus tenerensis",
+    "era": "Cretáceo",
+    "dieta": "Piscívoro",
+    "comprimento": 11,
+    "peso": 2700,
+    "regiao": "África",
+    "forma": "sail",
+    "desc": "Parente do Baryonyx e do Spinossauro, com focinho longo e estreito parecido com o de um crocodilo — seu nome significa 'imitador de crocodilo'.",
+    "fato": "Tinha uma pequena crista baixa ao longo das costas, menor que a vela do Spinossauro.",
+    "perigo": 6,
+    "velocidade": 5,
+    "altura": 3,
+    "periodo": {
+      "inicio": 121,
+      "fim": 112
+    },
+    "formacao": "Formação Elrhaz",
+    "local": "Níger",
+    "mapa": {
+      "x": 172,
+      "y": 76
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Spinosauridae)",
+      "familia": "Spinosauridae"
+    },
+    "descoberta": {
+      "por": "Paul Sereno",
+      "ano": 1998
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Seus dentes eram numerosos e levemente curvados para trás, ideais para prender peixes escorregadios.",
+      "Viveu na mesma região onde hoje fica o deserto do Saara, que na época era cortada por grandes rios."
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Ceratossauro",
+    "latim": "Ceratosaurus nasicornis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 6,
+    "peso": 500,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Terópode de porte médio com um chifre distintivo no focinho e uma fileira de pequenas placas ósseas ao longo das costas.",
+    "fato": "É um dos poucos terópodes conhecidos com um chifre nasal bem desenvolvido.",
+    "perigo": 6,
+    "velocidade": 6,
+    "altura": 2,
+    "periodo": {
+      "inicio": 154,
+      "fim": 149
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 57,
+      "y": 45
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Ceratosauria)",
+      "familia": "Ceratosauridae"
+    },
+    "descoberta": {
+      "por": "Othniel Charles Marsh",
+      "ano": 1884
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Convivia com o Alossauro e o Estegossauro na mesma região, mas era bem menos comum que eles.",
+      "Tinha dentes proporcionalmente maiores que os do Alossauro, apesar do corpo menor."
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Dilofossauro",
+    "latim": "Dilophosaurus wetherilli",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 7,
+    "peso": 400,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Um dos maiores predadores do início do Jurássico, reconhecido por duas cristas ósseas paralelas no alto do crânio.",
+    "fato": "Diferente do que aparece no filme Jurassic Park, não há evidência de que cuspisse veneno ou tivesse um babador expansível.",
+    "perigo": 5,
+    "velocidade": 7,
+    "altura": 2,
+    "periodo": {
+      "inicio": 193,
+      "fim": 183
+    },
+    "formacao": "Formação Kayenta",
+    "local": "Arizona, EUA",
+    "mapa": {
+      "x": 50,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Dilophosauridae"
+    },
+    "descoberta": {
+      "por": "Samuel Welles",
+      "ano": 1954
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "As cristas eram frágeis e provavelmente serviam para exibição visual, não para combate.",
+      "Está entre os maiores animais terrestres conhecidos logo no início do período Jurássico."
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Albertossauro",
+    "latim": "Albertosaurus sarcophagus",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 9,
+    "peso": 1700,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Parente próximo do T. rex, porém mais leve e ágil, encontrado em grande número em um mesmo depósito fóssil no Canadá.",
+    "fato": "Um sítio fóssil com dezenas de indivíduos juntos sugere que podia caçar ou se deslocar em grupo.",
+    "perigo": 7,
+    "velocidade": 7,
+    "altura": 3.5,
+    "periodo": {
+      "inicio": 71,
+      "fim": 68
+    },
+    "formacao": "Formação Horseshoe Canyon",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 50,
+      "y": 28
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Tyrannosauroidea)",
+      "familia": "Tyrannosauridae"
+    },
+    "descoberta": {
+      "por": "Joseph Tyrrell",
+      "ano": 1884
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Foi um dos primeiros tiranossaurídeos descobertos, décadas antes do próprio T. rex ser nomeado.",
+      "Provavelmente crescia rápido na juventude, como outros membros da família Tyrannosauridae."
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Tarbossauro",
+    "latim": "Tarbosaurus bataar",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 10,
+    "peso": 4500,
+    "regiao": "Ásia (Mongólia)",
+    "forma": "theropod",
+    "desc": "Primo asiático do T. rex, um dos maiores tiranossaurídeos conhecidos, com crânio massivo e mordida poderosa.",
+    "fato": "É tão parecido com o T. rex que alguns cientistas já o consideraram uma espécie do mesmo gênero.",
+    "perigo": 9,
+    "velocidade": 6,
+    "altura": 4,
+    "periodo": {
+      "inicio": 70,
+      "fim": 66
+    },
+    "formacao": "Formação Nemegt",
+    "local": "Deserto de Gobi, Mongólia",
+    "mapa": {
+      "x": 243,
+      "y": 37
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Tyrannosauroidea)",
+      "familia": "Tyrannosauridae"
+    },
+    "descoberta": {
+      "por": "Evgeny Maleev",
+      "ano": 1955
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Compartilhava o ecossistema com o Velociraptor e o Terizinossauro, ambos também encontrados na Formação Nemegt.",
+      "Seus bracinhos eram ainda mais reduzidos, proporcionalmente, que os do T. rex."
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Acrocantossauro",
+    "latim": "Acrocanthosaurus atokensis",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 11.5,
+    "peso": 4400,
+    "regiao": "América do Norte",
+    "forma": "sail",
+    "desc": "Um dos maiores predadores da América do Norte antes do T. rex, com espinhos altos ao longo da coluna formando uma crista baixa nas costas.",
+    "fato": "A crista nas costas provavelmente sustentava uma corcova muscular, não uma vela fina como a do Spinossauro.",
+    "perigo": 8,
+    "velocidade": 6,
+    "altura": 3.5,
+    "periodo": {
+      "inicio": 115,
+      "fim": 105
+    },
+    "formacao": "Formação Antlers",
+    "local": "Oklahoma, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 50
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Carcharodontosauria)",
+      "familia": "Carcharodontosauridae"
+    },
+    "descoberta": {
+      "por": "J. Willis Stovall e Wann Langston Jr.",
+      "ano": 1950
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Pegadas atribuídas a ele foram encontradas junto a pegadas de saurópodes no Texas, sugerindo interação entre as espécies.",
+      "Era o maior predador de sua região antes dos tiranossaurídeos se tornarem dominantes, milhões de anos depois."
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Majungassauro",
+    "latim": "Majungasaurus crenatissimus",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 6,
+    "peso": 1100,
+    "regiao": "África",
+    "forma": "theropod",
+    "desc": "Predador de Madagascar com focinho curto e robusto, parente dos abelissaurídeos como o Carnotauro.",
+    "fato": "Marcas de dentes em ossos da própria espécie são a evidência mais clara de canibalismo já encontrada em um dinossauro.",
+    "perigo": 6,
+    "velocidade": 5,
+    "altura": 2,
+    "periodo": {
+      "inicio": 70,
+      "fim": 66
+    },
+    "formacao": "Formação Maevarano",
+    "local": "Madagascar",
+    "mapa": {
+      "x": 203,
+      "y": 104
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Ceratosauria)",
+      "familia": "Abelisauridae"
+    },
+    "descoberta": {
+      "por": "Charles Depéret",
+      "ano": 1896
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Assim como o Carnotauro, tinha braços muito curtos e quase inúteis.",
+      "Viveu isolado em Madagascar, que já era uma ilha separada da África na época."
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Daspletossauro",
+    "latim": "Daspletosaurus torosus",
+    "era": "Cretáceo",
+    "dieta": "Carnívoro",
+    "comprimento": 9,
+    "peso": 2500,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Tiranossaurídeo robusto e de mandíbula pesada, contemporâneo de várias outras espécies de grandes predadores na mesma região.",
+    "fato": "Seu nome significa 'lagarto assustador' — um dos tiranossaurídeos mais robustos em proporção ao tamanho.",
+    "perigo": 8,
+    "velocidade": 6,
+    "altura": 3.5,
+    "periodo": {
+      "inicio": 77,
+      "fim": 74
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 51,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Tyrannosauroidea)",
+      "familia": "Tyrannosauridae"
+    },
+    "descoberta": {
+      "por": "Dale Russell",
+      "ano": 1970
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Fósseis sugerem cicatrizes de mordidas de outros indivíduos da mesma espécie, indicando brigas violentas entre eles.",
+      "Viveu milhões de anos antes do T. rex, na mesma linhagem de tiranossaurídeos norte-americanos."
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Celofise",
+    "latim": "Coelophysis bauri",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 3,
+    "peso": 27,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Um dos primeiros dinossauros terópodes bem conhecidos, pequeno, leve e veloz, vivendo em grandes grupos.",
+    "fato": "Centenas de esqueletos foram encontrados juntos em um único sítio fóssil no Novo México.",
+    "perigo": 3,
+    "velocidade": 8,
+    "altura": 1,
+    "periodo": {
+      "inicio": 215,
+      "fim": 201
+    },
+    "formacao": "Formação Chinle",
+    "local": "Novo México, EUA",
+    "mapa": {
+      "x": 48,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Coelophysoidea)",
+      "familia": "Coelophysidae"
+    },
+    "descoberta": {
+      "por": "Edward Drinker Cope",
+      "ano": 1889
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Foi um dos primeiros dinossauros levados ao espaço — um crânio fóssil viajou no ônibus espacial Endeavour em 1998.",
+      "Viveu apenas alguns milhões de anos depois dos primeiros dinossauros surgirem no planeta."
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Herrerassauro",
+    "latim": "Herrerasaurus ischigualastensis",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 5,
+    "peso": 210,
+    "regiao": "América do Sul",
+    "forma": "theropod",
+    "desc": "Um dos dinossauros mais antigos conhecidos, com mandíbula flexível e mãos com garras afiadas para segurar presas.",
+    "fato": "Foi batizado em homenagem a Victorino Herrera, um fazendeiro que encontrou os primeiros fósseis na Argentina.",
+    "perigo": 5,
+    "velocidade": 7,
+    "altura": 1.5,
+    "periodo": {
+      "inicio": 231,
+      "fim": 229
+    },
+    "formacao": "Formação Ischigualasto",
+    "local": "San Juan, Argentina",
+    "mapa": {
+      "x": 87,
+      "y": 118
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Herrerasauridae"
+    },
+    "descoberta": {
+      "por": "Osvaldo Reig",
+      "ano": 1963
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Viveu quando os dinossauros ainda eram um grupo raro, dividindo o ambiente com répteis muito mais comuns na época.",
+      "Sua posição exata na árvore genealógica dos dinossauros ainda é debatida entre paleontólogos."
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Monolofossauro",
+    "latim": "Monolophosaurus jiangi",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 6,
+    "peso": 700,
+    "regiao": "Ásia",
+    "forma": "theropod",
+    "desc": "Terópode de porte médio com uma única crista arredondada no topo do crânio, encontrado na China.",
+    "fato": "A crista provavelmente era usada só para exibição visual — era oca e frágil demais para combate.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 2.3,
+    "periodo": {
+      "inicio": 165,
+      "fim": 161
+    },
+    "formacao": "Formação Shishugou",
+    "local": "Xinjiang, China",
+    "mapa": {
+      "x": 222,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Tetanurae)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Zhao Xijin e Philip Currie",
+      "ano": 1993
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos terópodes mais completos já encontrados do Jurássico médio da Ásia, período pouco representado no registro fóssil mundial.",
+      "Sua classificação exata dentro da árvore dos terópodes ainda gera debate — é um dos dinossauros com menor confiança de dados desta lista."
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Criolofossauro",
+    "latim": "Cryolophosaurus ellioti",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 6.5,
+    "peso": 465,
+    "regiao": "Antártida",
+    "forma": "theropod",
+    "desc": "O primeiro dinossauro carnívoro descoberto na Antártida, com uma crista óssea alta e curvada para trás sobre os olhos.",
+    "fato": "Seu apelido não oficial é 'Elvisaurus', por causa da crista que lembra um topete penteado.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 2.3,
+    "periodo": {
+      "inicio": 194,
+      "fim": 188
+    },
+    "formacao": "Formação Hanson",
+    "local": "Monte Kirkpatrick, Antártida",
+    "mapa": {
+      "x": 195,
+      "y": 147
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Tetanurae)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "William Hammer",
+      "ano": 1994
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Foi encontrado a mais de 4.000 metros de altitude nas montanhas Transantárticas.",
+      "Na época em que viveu, a Antártida tinha clima bem mais ameno e ficava conectada a outros continentes."
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Megalossauro",
+    "latim": "Megalosaurus bucklandii",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 9,
+    "peso": 1000,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "O primeiro dinossauro a receber um nome científico formal na história, descrito a partir de ossos fragmentados encontrados na Inglaterra.",
+    "fato": "Foi descrito em 1824, quase 20 anos antes de a própria palavra 'dinossauro' ser criada.",
+    "perigo": 6,
+    "velocidade": 5,
+    "altura": 2.7,
+    "periodo": {
+      "inicio": 168,
+      "fim": 166
+    },
+    "formacao": "Formação Stonesfield Slate",
+    "local": "Oxfordshire, Inglaterra",
+    "mapa": {
+      "x": 161,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Megalosauridae"
+    },
+    "descoberta": {
+      "por": "William Buckland",
+      "ano": 1824
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Por muito tempo foi usado como uma espécie de 'gaveta' para vários fósseis de terópodes não relacionados, hoje reclassificados.",
+      "Sua descrição oficial antecede até o trabalho de Charles Darwin sobre evolução."
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Torvossauro",
+    "latim": "Torvosaurus tanneri",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 10,
+    "peso": 2000,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Um dos maiores predadores do Jurássico, com braços curtos e fortes e dentes grandes e serrilhados.",
+    "fato": "Fósseis muito semelhantes foram encontrados também em Portugal, sugerindo que o grupo se espalhou por diferentes continentes.",
+    "perigo": 7,
+    "velocidade": 5,
+    "altura": 3,
+    "periodo": {
+      "inicio": 153,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 60,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Megalosauridae"
+    },
+    "descoberta": {
+      "por": "James Jensen e Peter Galton",
+      "ano": 1979
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Dividia o ecossistema da Formação Morrison com o Alossauro, o Estegossauro e o Diplodoco.",
+      "É um dos maiores terópodes conhecidos fora da linhagem dos carcarodontossaurídeos e tiranossaurídeos."
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Coritossauro",
+    "latim": "Corythosaurus casuarius",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 3500,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Hadrossaurídeo com uma crista óssea alta em forma de capacete sobre a cabeça, provavelmente usada para produzir sons e reconhecimento entre indivíduos.",
+    "fato": "Fósseis com impressões de pele mostram um padrão de escamas bem preservado ao longo do corpo.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 3,
+    "periodo": {
+      "inicio": 77,
+      "fim": 75.6
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 54,
+      "y": 29
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Hadrosauridae (Lambeosaurinae)"
+    },
+    "descoberta": {
+      "por": "Barnum Brown",
+      "ano": 1914
+    },
+    "tipo": null,
+    "curiosidades": [
+      "A crista era oca por dentro, conectada às vias respiratórias — funcionava quase como um instrumento de sopro natural.",
+      "Vivia em grandes grupos, o que provavelmente ajudava a se proteger de predadores como o Albertossauro."
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Lambeossauro",
+    "latim": "Lambeosaurus lambei",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 4000,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Hadrossaurídeo com crista oca em formato de machado, uma das mais elaboradas entre os dinossauros de bico de pato.",
+    "fato": "Foi batizado em homenagem ao paleontólogo canadense Lawrence Lambe, que estudou os primeiros fósseis da espécie.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 3,
+    "periodo": {
+      "inicio": 76,
+      "fim": 75
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 53,
+      "y": 31
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Hadrosauridae (Lambeosaurinae)"
+    },
+    "descoberta": {
+      "por": "William Parks",
+      "ano": 1923
+    },
+    "tipo": null,
+    "curiosidades": [
+      "A forma exata da crista variava entre indivíduos, o que por décadas levou a confusões taxonômicas com outros hadrossaurídeos.",
+      "Dividia o mesmo ecossistema do Coritossauro, ambos hadrossaurídeos de crista oca convivendo na mesma região."
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Edmontossauro",
+    "latim": "Edmontosaurus annectens",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 12,
+    "peso": 5600,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Um dos maiores hadrossaurídeos conhecidos, sem crista proeminente, com o clássico bico largo em formato de pá.",
+    "fato": "Múmias fósseis com pele e tecidos preservados tornaram-no um dos dinossauros mais estudados em termos de aparência externa.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 4,
+    "periodo": {
+      "inicio": 73,
+      "fim": 66
+    },
+    "formacao": "Formação Hell Creek",
+    "local": "Montana, EUA",
+    "mapa": {
+      "x": 56,
+      "y": 38
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Hadrosauridae (Saurolophinae)"
+    },
+    "descoberta": {
+      "por": "Lawrence Lambe",
+      "ano": 1917
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Provavelmente foi presa direta do T. rex — uma vértebra de Edmontossauro já foi encontrada com uma marca de mordida do predador cicatrizada.",
+      "Tinha centenas de dentes organizados em baterias dentárias, substituídos continuamente ao longo da vida."
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Maiassaura",
+    "latim": "Maiasaura peeblesorum",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 2500,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Hadrossaurídeo famoso por evidências de cuidado parental — ninhos, ovos e filhotes foram encontrados juntos no mesmo sítio fóssil.",
+    "fato": "Seu nome significa 'lagarta boa mãe', o primeiro dinossauro a fornecer evidência clara de que cuidava dos filhotes no ninho.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 76.7,
+      "fim": 75.5
+    },
+    "formacao": "Formação Two Medicine",
+    "local": "Montana, EUA",
+    "mapa": {
+      "x": 55,
+      "y": 37
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Hadrosauridae (Saurolophinae)"
+    },
+    "descoberta": {
+      "por": "Jack Horner e Robert Makela",
+      "ano": 1979
+    },
+    "tipo": null,
+    "curiosidades": [
+      "A descoberta de 'Egg Mountain', um sítio com vários ninhos, mudou a forma como os cientistas entendem o comportamento social dos dinossauros.",
+      "Filhotes provavelmente permaneciam no ninho por um tempo, dependendo dos adultos para se alimentar."
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Paquirrinossauro",
+    "latim": "Pachyrhinosaurus lakustai",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 8,
+    "peso": 4000,
+    "regiao": "América do Norte",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano incomum, sem chifres longos — no lugar deles, tinha um grande espessamento ósseo achatado sobre o focinho.",
+    "fato": "Grandes leitos de ossos com dezenas de indivíduos sugerem que vivia e talvez migrava em manadas.",
+    "perigo": 5,
+    "velocidade": 4,
+    "altura": 2,
+    "periodo": {
+      "inicio": 73,
+      "fim": 70
+    },
+    "formacao": "Formação Wapiti",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 48,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Ceratopsidae (Centrosaurinae)"
+    },
+    "descoberta": {
+      "por": "Charles M. Sternberg",
+      "ano": 1950
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Parentes próximos foram encontrados tão ao norte quanto o Alasca, sugerindo que viviam perto do Círculo Polar Ártico da época.",
+      "O espessamento ósseo no focinho provavelmente era usado em disputas de força entre machos, como uma versão óssea de uma cabeçada."
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Estiracossauro",
+    "latim": "Styracosaurus albertensis",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 5.5,
+    "peso": 3000,
+    "regiao": "América do Norte",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano com um único chifre nasal longo e uma coroa de espinhos ósseos ao redor da fralha.",
+    "fato": "Os espinhos da fralha podiam ultrapassar 50 cm de comprimento, um dos ornamentos mais dramáticos entre os ceratopsianos.",
+    "perigo": 5,
+    "velocidade": 4,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 75.5,
+      "fim": 75
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 52,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Ceratopsidae (Centrosaurinae)"
+    },
+    "descoberta": {
+      "por": "Lawrence Lambe",
+      "ano": 1913
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Os espinhos provavelmente serviam mais para exibição e reconhecimento entre indivíduos do que para defesa direta.",
+      "É um dos ceratopsianos mais reconhecíveis, frequentemente usado em ilustrações e brinquedos de dinossauros."
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Centrossauro",
+    "latim": "Centrosaurus apertus",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 6,
+    "peso": 2500,
+    "regiao": "América do Norte",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano de porte médio com um chifre nasal curvado para a frente e pequenos ganchos ósseos na borda da fralha.",
+    "fato": "Um dos maiores leitos de ossos de dinossauro já encontrados contém milhares de indivíduos desta espécie, possivelmente vítimas de uma enchente em massa.",
+    "perigo": 5,
+    "velocidade": 4,
+    "altura": 2,
+    "periodo": {
+      "inicio": 76,
+      "fim": 75.5
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 51,
+      "y": 29
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Ceratopsidae (Centrosaurinae)"
+    },
+    "descoberta": {
+      "por": "Lawrence Lambe",
+      "ano": 1904
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Deu nome ao grupo Centrosaurinae, um dos dois principais ramos dos ceratopsianos com fralda.",
+      "Viveu na mesma época e região que o Estiracossauro, seu parente próximo."
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Chasmossauro",
+    "latim": "Chasmosaurus belli",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 5,
+    "peso": 2000,
+    "regiao": "América do Norte",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano com chifres relativamente pequenos, mas uma fralda óssea longa e retangular, uma das maiores entre os ceratopsianos.",
+    "fato": "A fralda tinha grandes aberturas ósseas, cobertas apenas por pele em vida, tornando-a mais leve do que parece.",
+    "perigo": 4,
+    "velocidade": 4,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 76,
+      "fim": 75.5
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 53,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Ceratopsidae (Chasmosaurinae)"
+    },
+    "descoberta": {
+      "por": "Lawrence Lambe",
+      "ano": 1914
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Deu nome ao grupo Chasmosaurinae, o outro grande ramo dos ceratopsianos, que inclui também o Tricerátops.",
+      "Sua fralda comprida provavelmente ajudava no reconhecimento visual entre indivíduos da mesma espécie."
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Psitacossauro",
+    "latim": "Psittacosaurus mongoliensis",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 2,
+    "peso": 20,
+    "regiao": "Ásia (Mongólia)",
+    "forma": "small",
+    "desc": "Ceratopsiano basal e pequeno, ainda sem a grande fralda característica dos parentes posteriores, com um bico curvo parecido com o de um papagaio.",
+    "fato": "Fósseis excepcionalmente preservados mostram longas cerdas ocas saindo da cauda, de função ainda debatida.",
+    "perigo": 2,
+    "velocidade": 6,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 120,
+      "fim": 110
+    },
+    "formacao": "Formação Yixian",
+    "local": "Mongólia / China",
+    "mapa": {
+      "x": 238,
+      "y": 40
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia (basal)",
+      "familia": "Psittacosauridae"
+    },
+    "descoberta": {
+      "por": "Henry Fairfield Osborn",
+      "ano": 1923
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É um dos gêneros de dinossauro com mais espécies nomeadas — mais de dez espécies diferentes já foram descritas.",
+      "Provavelmente conseguia se locomover tanto em duas quanto em quatro patas, dependendo da velocidade."
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Protocerátops",
+    "latim": "Protoceratops andrewsi",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 1.8,
+    "peso": 180,
+    "regiao": "Ásia (Mongólia)",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano pequeno com uma fralda óssea já visível, porém sem chifres desenvolvidos, muito comum no deserto de Gobi.",
+    "fato": "Ficou mundialmente famoso pelo fóssil 'Combate Eterno', que mostra um Protocerátops preservado em pleno confronto com um Velociraptor.",
+    "perigo": 3,
+    "velocidade": 5,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 75,
+      "fim": 71
+    },
+    "formacao": "Formação Djadochta",
+    "local": "Deserto de Gobi, Mongólia",
+    "mapa": {
+      "x": 244,
+      "y": 36
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Protoceratopsidae"
+    },
+    "descoberta": {
+      "por": "Expedição de Roy Chapman Andrews (nomeado por Henry Fairfield Osborn)",
+      "ano": 1923
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Foi um dos primeiros dinossauros para os quais se encontraram ovos claramente atribuídos à espécie.",
+      "Convivia na mesma região e época que o Velociraptor, ambos encontrados na Formação Djadochta."
+    ]
+  }
+]

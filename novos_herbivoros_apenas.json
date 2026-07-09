@@ -1,0 +1,402 @@
+[
+  {
+    "id": 41,
+    "nome": "Coritossauro",
+    "latim": "Corythosaurus casuarius",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 3500,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Hadrossaurídeo com uma crista óssea alta em forma de capacete sobre a cabeça, provavelmente usada para produzir sons e reconhecimento entre indivíduos.",
+    "fato": "Fósseis com impressões de pele mostram um padrão de escamas bem preservado ao longo do corpo.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 3,
+    "periodo": {
+      "inicio": 77,
+      "fim": 75.6
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 54,
+      "y": 29
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Hadrosauridae (Lambeosaurinae)"
+    },
+    "descoberta": {
+      "por": "Barnum Brown",
+      "ano": 1914
+    },
+    "tipo": null,
+    "curiosidades": [
+      "A crista era oca por dentro, conectada às vias respiratórias — funcionava quase como um instrumento de sopro natural.",
+      "Vivia em grandes grupos, o que provavelmente ajudava a se proteger de predadores como o Albertossauro."
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Lambeossauro",
+    "latim": "Lambeosaurus lambei",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 4000,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Hadrossaurídeo com crista oca em formato de machado, uma das mais elaboradas entre os dinossauros de bico de pato.",
+    "fato": "Foi batizado em homenagem ao paleontólogo canadense Lawrence Lambe, que estudou os primeiros fósseis da espécie.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 3,
+    "periodo": {
+      "inicio": 76,
+      "fim": 75
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 53,
+      "y": 31
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Hadrosauridae (Lambeosaurinae)"
+    },
+    "descoberta": {
+      "por": "William Parks",
+      "ano": 1923
+    },
+    "tipo": null,
+    "curiosidades": [
+      "A forma exata da crista variava entre indivíduos, o que por décadas levou a confusões taxonômicas com outros hadrossaurídeos.",
+      "Dividia o mesmo ecossistema do Coritossauro, ambos hadrossaurídeos de crista oca convivendo na mesma região."
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Edmontossauro",
+    "latim": "Edmontosaurus annectens",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 12,
+    "peso": 5600,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Um dos maiores hadrossaurídeos conhecidos, sem crista proeminente, com o clássico bico largo em formato de pá.",
+    "fato": "Múmias fósseis com pele e tecidos preservados tornaram-no um dos dinossauros mais estudados em termos de aparência externa.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 4,
+    "periodo": {
+      "inicio": 73,
+      "fim": 66
+    },
+    "formacao": "Formação Hell Creek",
+    "local": "Montana, EUA",
+    "mapa": {
+      "x": 56,
+      "y": 38
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Hadrosauridae (Saurolophinae)"
+    },
+    "descoberta": {
+      "por": "Lawrence Lambe",
+      "ano": 1917
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Provavelmente foi presa direta do T. rex — uma vértebra de Edmontossauro já foi encontrada com uma marca de mordida do predador cicatrizada.",
+      "Tinha centenas de dentes organizados em baterias dentárias, substituídos continuamente ao longo da vida."
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Maiassaura",
+    "latim": "Maiasaura peeblesorum",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 2500,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Hadrossaurídeo famoso por evidências de cuidado parental — ninhos, ovos e filhotes foram encontrados juntos no mesmo sítio fóssil.",
+    "fato": "Seu nome significa 'lagarta boa mãe', o primeiro dinossauro a fornecer evidência clara de que cuidava dos filhotes no ninho.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 76.7,
+      "fim": 75.5
+    },
+    "formacao": "Formação Two Medicine",
+    "local": "Montana, EUA",
+    "mapa": {
+      "x": 55,
+      "y": 37
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Hadrosauridae (Saurolophinae)"
+    },
+    "descoberta": {
+      "por": "Jack Horner e Robert Makela",
+      "ano": 1979
+    },
+    "tipo": null,
+    "curiosidades": [
+      "A descoberta de 'Egg Mountain', um sítio com vários ninhos, mudou a forma como os cientistas entendem o comportamento social dos dinossauros.",
+      "Filhotes provavelmente permaneciam no ninho por um tempo, dependendo dos adultos para se alimentar."
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Paquirrinossauro",
+    "latim": "Pachyrhinosaurus lakustai",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 8,
+    "peso": 4000,
+    "regiao": "América do Norte",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano incomum, sem chifres longos — no lugar deles, tinha um grande espessamento ósseo achatado sobre o focinho.",
+    "fato": "Grandes leitos de ossos com dezenas de indivíduos sugerem que vivia e talvez migrava em manadas.",
+    "perigo": 5,
+    "velocidade": 4,
+    "altura": 2,
+    "periodo": {
+      "inicio": 73,
+      "fim": 70
+    },
+    "formacao": "Formação Wapiti",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 48,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Ceratopsidae (Centrosaurinae)"
+    },
+    "descoberta": {
+      "por": "Charles M. Sternberg",
+      "ano": 1950
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Parentes próximos foram encontrados tão ao norte quanto o Alasca, sugerindo que viviam perto do Círculo Polar Ártico da época.",
+      "O espessamento ósseo no focinho provavelmente era usado em disputas de força entre machos, como uma versão óssea de uma cabeçada."
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Estiracossauro",
+    "latim": "Styracosaurus albertensis",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 5.5,
+    "peso": 3000,
+    "regiao": "América do Norte",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano com um único chifre nasal longo e uma coroa de espinhos ósseos ao redor da fralha.",
+    "fato": "Os espinhos da fralha podiam ultrapassar 50 cm de comprimento, um dos ornamentos mais dramáticos entre os ceratopsianos.",
+    "perigo": 5,
+    "velocidade": 4,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 75.5,
+      "fim": 75
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 52,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Ceratopsidae (Centrosaurinae)"
+    },
+    "descoberta": {
+      "por": "Lawrence Lambe",
+      "ano": 1913
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Os espinhos provavelmente serviam mais para exibição e reconhecimento entre indivíduos do que para defesa direta.",
+      "É um dos ceratopsianos mais reconhecíveis, frequentemente usado em ilustrações e brinquedos de dinossauros."
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Centrossauro",
+    "latim": "Centrosaurus apertus",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 6,
+    "peso": 2500,
+    "regiao": "América do Norte",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano de porte médio com um chifre nasal curvado para a frente e pequenos ganchos ósseos na borda da fralha.",
+    "fato": "Um dos maiores leitos de ossos de dinossauro já encontrados contém milhares de indivíduos desta espécie, possivelmente vítimas de uma enchente em massa.",
+    "perigo": 5,
+    "velocidade": 4,
+    "altura": 2,
+    "periodo": {
+      "inicio": 76,
+      "fim": 75.5
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 51,
+      "y": 29
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Ceratopsidae (Centrosaurinae)"
+    },
+    "descoberta": {
+      "por": "Lawrence Lambe",
+      "ano": 1904
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Deu nome ao grupo Centrosaurinae, um dos dois principais ramos dos ceratopsianos com fralda.",
+      "Viveu na mesma época e região que o Estiracossauro, seu parente próximo."
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Chasmossauro",
+    "latim": "Chasmosaurus belli",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 5,
+    "peso": 2000,
+    "regiao": "América do Norte",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano com chifres relativamente pequenos, mas uma fralda óssea longa e retangular, uma das maiores entre os ceratopsianos.",
+    "fato": "A fralda tinha grandes aberturas ósseas, cobertas apenas por pele em vida, tornando-a mais leve do que parece.",
+    "perigo": 4,
+    "velocidade": 4,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 76,
+      "fim": 75.5
+    },
+    "formacao": "Formação Dinosaur Park",
+    "local": "Alberta, Canadá",
+    "mapa": {
+      "x": 53,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Ceratopsidae (Chasmosaurinae)"
+    },
+    "descoberta": {
+      "por": "Lawrence Lambe",
+      "ano": 1914
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Deu nome ao grupo Chasmosaurinae, o outro grande ramo dos ceratopsianos, que inclui também o Tricerátops.",
+      "Sua fralda comprida provavelmente ajudava no reconhecimento visual entre indivíduos da mesma espécie."
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Psitacossauro",
+    "latim": "Psittacosaurus mongoliensis",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 2,
+    "peso": 20,
+    "regiao": "Ásia (Mongólia)",
+    "forma": "small",
+    "desc": "Ceratopsiano basal e pequeno, ainda sem a grande fralda característica dos parentes posteriores, com um bico curvo parecido com o de um papagaio.",
+    "fato": "Fósseis excepcionalmente preservados mostram longas cerdas ocas saindo da cauda, de função ainda debatida.",
+    "perigo": 2,
+    "velocidade": 6,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 120,
+      "fim": 110
+    },
+    "formacao": "Formação Yixian",
+    "local": "Mongólia / China",
+    "mapa": {
+      "x": 238,
+      "y": 40
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia (basal)",
+      "familia": "Psittacosauridae"
+    },
+    "descoberta": {
+      "por": "Henry Fairfield Osborn",
+      "ano": 1923
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É um dos gêneros de dinossauro com mais espécies nomeadas — mais de dez espécies diferentes já foram descritas.",
+      "Provavelmente conseguia se locomover tanto em duas quanto em quatro patas, dependendo da velocidade."
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Protocerátops",
+    "latim": "Protoceratops andrewsi",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 1.8,
+    "peso": 180,
+    "regiao": "Ásia (Mongólia)",
+    "forma": "ceratopsian",
+    "desc": "Ceratopsiano pequeno com uma fralda óssea já visível, porém sem chifres desenvolvidos, muito comum no deserto de Gobi.",
+    "fato": "Ficou mundialmente famoso pelo fóssil 'Combate Eterno', que mostra um Protocerátops preservado em pleno confronto com um Velociraptor.",
+    "perigo": 3,
+    "velocidade": 5,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 75,
+      "fim": 71
+    },
+    "formacao": "Formação Djadochta",
+    "local": "Deserto de Gobi, Mongólia",
+    "mapa": {
+      "x": 244,
+      "y": 36
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia",
+      "familia": "Protoceratopsidae"
+    },
+    "descoberta": {
+      "por": "Expedição de Roy Chapman Andrews (nomeado por Henry Fairfield Osborn)",
+      "ano": 1923
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Foi um dos primeiros dinossauros para os quais se encontraram ovos claramente atribuídos à espécie.",
+      "Convivia na mesma região e época que o Velociraptor, ambos encontrados na Formação Djadochta."
+    ]
+  }
+]
