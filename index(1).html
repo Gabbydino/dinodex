@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DINODEX</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --shell:#6B4FA0;
+    --shell-light:#8A6FC0;
+    --shell-dark:#4A3573;
+    --shell-darkest:#332450;
+    --bezel:#1c1c1c;
+    --lcd-0:#0F380F;
+    --lcd-1:#306230;
+    --lcd-2:#8BAC0F;
+    --lcd-3:#9BBC0F;
+    --btn-red:#D6483C;
+    --btn-red-dark:#9C2F26;
+    --cream:#E8E4D0;
+    --px:'Press Start 2P', monospace;
+    --lcd-font:'VT323', monospace;
+  }
+  *{box-sizing:border-box;}
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important;}
+  }
+  html,body{margin:0;padding:0;}
+  body{
+    min-height:100vh;
+    background:
+      radial-gradient(circle at 50% 0%, #2b2350 0%, #16112b 60%, #0d0a1c 100%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px 12px;
+    font-family:var(--lcd-font);
+    color:var(--cream);
+  }
+  .stars{position:fixed;inset:0;pointer-events:none;opacity:.5;
+    background-image:
+      radial-gradient(1px 1px at 20px 30px, #fff, transparent),
+      radial-gradient(1px 1px at 140px 90px, #fff, transparent),
+      radial-gradient(1px 1px at 300px 60px, #fff, transparent),
+      radial-gradient(1px 1px at 400px 200px, #fff, transparent),
+      radial-gradient(1px 1px at 500px 40px, #fff, transparent),
+      radial-gradient(1px 1px at 600px 150px, #fff, transparent),
+      radial-gradient(1px 1px at 80px 220px, #fff, transparent),
+      radial-gradient(1px 1px at 250px 260px, #fff, transparent);
+    background-repeat:repeat;
+    background-size:640px 320px;
+  }
+
+  /* ===== DEVICE SHELL ===== */
+  .dex{
+    position:relative;
+    width:min(920px, 96vw);
+    background:linear-gradient(160deg, var(--shell-light), var(--shell) 45%, var(--shell-dark) 100%);
+    border-radius:28px;
+    padding:22px 26px 28px;
+    box-shadow:
+      0 0 0 4px var(--shell-darkest),
+      0 20px 0 0 rgba(0,0,0,.35),
+      0 30px 60px rgba(0,0,0,.55),
+      inset 0 2px 0 rgba(255,255,255,.25);
+  }
+  .dex-top{display:flex;align-items:center;gap:14px;margin-bottom:6px;}
+  .lens{width:34px;height:34px;border-radius:50%;background:radial-gradient(circle at 35% 30%, #cfe8ff, #4a8fd6 45%, #1c3f66 100%);box-shadow:0 0 0 4px var(--shell-darkest), inset 0 0 6px rgba(0,0,0,.5);}
+  .lights{display:flex;gap:8px;margin-left:auto;}
+  .light{width:10px;height:10px;border-radius:50%;box-shadow:0 0 0 2px var(--shell-darkest);}
+  .light.red{background:#ff5b52;box-shadow:0 0 0 2px var(--shell-darkest), 0 0 6px #ff5b52;}
+  .light.yellow{background:#ffd84d;}
+  .light.green{background:#7CFC6E;}
+  .brand{
+    font-family:var(--px);
+    font-size:clamp(18px,3vw,28px);
+    letter-spacing:2px;
+    margin:4px 0 2px 4px;
+    color:var(--cream);
+    text-shadow:2px 2px 0 var(--shell-darkest);
+  }
+  .dex-progress{
+    font-family:var(--px);
+    font-size:8px;
+    color:var(--cream);
+    opacity:.75;
+    margin:0 0 14px 5px;
+    letter-spacing:1px;
+  }
+
+  .panels-wrap{position:relative;}
+  .panels{display:grid;grid-template-columns:1fr 1.35fr;gap:18px;}
+  @media (max-width:720px){ .panels{grid-template-columns:1fr;} }
+
+  /* ===== BOOT SCREEN ===== */
+  .boot-screen{
+    position:absolute;inset:0;
+    background:var(--lcd-3);
+    border-radius:14px;
+    display:flex;align-items:center;justify-content:center;
+    z-index:30;
+    padding:20px;
+    box-shadow:inset 0 0 18px rgba(0,0,0,.35);
+    transition:opacity .5s ease;
+  }
+  .boot-screen.hidden{opacity:0;pointer-events:none;}
+  .boot-lines{font-family:var(--lcd-font);color:var(--lcd-0);text-align:left;width:100%;max-width:320px;}
+  .boot-title{font-family:var(--px);font-size:13px;margin-bottom:16px;text-align:center;letter-spacing:1px;}
+  .boot-row{margin:8px 0;font-size:19px;}
+  .boot-row .boot-label{margin-bottom:2px;}
+  .boot-bar{letter-spacing:1px;font-size:18px;}
+  .boot-ready{font-family:var(--px);font-size:12px;margin-top:16px;text-align:center;animation:flicker .5s steps(2) infinite;}
+
+  /* ===== SCAN (ao selecionar um dino) ===== */
+  .scan-box{margin:auto;text-align:center;}
+  .scan-title{font-family:var(--px);font-size:12px;margin-bottom:12px;animation:flicker .4s steps(2) infinite;}
+  .scan-bar{font-size:20px;letter-spacing:1px;}
+  .scan-id{font-family:var(--px);font-size:11px;margin-bottom:10px;color:var(--lcd-1);}
+  .scan-num{font-family:var(--px);font-size:10px;margin-bottom:6px;}
+  .scan-name{font-family:var(--px);font-size:14px;}
+
+  /* ===== FATO DO DIA (tela inicial) ===== */
+  .boot-wrap{margin:auto;text-align:center;display:flex;flex-direction:column;gap:16px;align-items:center;padding:0 8px;}
+  .daily-fact{max-width:260px;}
+  .daily-fact-title{font-family:var(--px);font-size:9px;margin-bottom:6px;}
+  .daily-fact-text{font-size:18px;line-height:1.35;}
+
+  /* ===== PROGRESSO / CONQUISTAS ===== */
+  .dex-progress-row{display:flex;gap:14px;margin:0 0 14px 5px;}
+  .dex-progress{font-family:var(--px);font-size:8px;color:var(--cream);opacity:.75;letter-spacing:1px;}
+  .achievement-toast{
+    position:fixed;top:16px;left:50%;transform:translate(-50%,-20px);
+    background:var(--lcd-0);color:var(--lcd-3);font-family:var(--px);font-size:9px;
+    padding:10px 14px;border-radius:6px;box-shadow:0 4px 12px rgba(0,0,0,.5);
+    opacity:0;transition:all .3s ease;z-index:100;text-align:center;max-width:80vw;
+    pointer-events:none;
+  }
+  .achievement-toast.show{opacity:1;transform:translate(-50%,0);}
+  .reg-toast{font-size:13px;line-height:1.5;}
+
+  /* ===== PAINEL DE REGISTRO (estilo Pokédex) ===== */
+  .reg-panel{background:var(--lcd-2);color:var(--lcd-0);border:2px solid var(--lcd-0);border-radius:4px;padding:6px 8px;margin-bottom:8px;font-family:var(--lcd-font);flex:none;}
+  .reg-row{display:flex;justify-content:space-between;align-items:center;font-family:var(--px);font-size:8px;}
+  .reg-bar{font-size:14px;letter-spacing:1px;margin:3px 0;}
+  .reg-checklist{display:flex;flex-wrap:wrap;gap:2px 10px;font-size:13px;margin-top:2px;}
+  .reg-item{opacity:.5;white-space:nowrap;}
+  .reg-item.done{opacity:1;font-weight:bold;}
+
+  /* ===== "SE VOCÊ ENCONTRASSE UM..." ===== */
+  .encounter-box{margin-top:10px;border-top:2px dashed var(--lcd-0);padding-top:8px;}
+  .encounter-title{font-family:var(--px);font-size:8px;margin-bottom:6px;}
+  .encounter-row{display:flex;justify-content:space-between;gap:10px;margin:4px 0;font-size:18px;}
+  .encounter-row .stars{font-family:var(--lcd-font);letter-spacing:2px;white-space:nowrap;}
+  .encounter-disclaimer{margin-top:8px;font-size:13px;font-style:italic;opacity:.75;}
+
+  .screen-bezel{background:var(--bezel);border-radius:14px;padding:10px;box-shadow:inset 0 0 0 3px #000, 0 4px 0 rgba(0,0,0,.4);}
+  .screen{
+    background:var(--lcd-3);
+    border-radius:6px;
+    position:relative;
+    overflow:hidden;
+    box-shadow:inset 0 0 18px rgba(0,0,0,.35);
+    color:var(--lcd-0);
+  }
+
+  /* ===== LEFT: LIST SCREEN ===== */
+  .list-screen{padding:12px;height:440px;display:flex;flex-direction:column;gap:8px;}
+  .search-row input{
+    width:100%;
+    font-family:var(--lcd-font);
+    font-size:20px;
+    background:var(--lcd-2);
+    border:2px solid var(--lcd-0);
+    border-radius:4px;
+    padding:6px 8px;
+    color:var(--lcd-0);
+    outline:none;
+  }
+  .search-row input::placeholder{color:var(--lcd-1);}
+  .search-row input:focus{background:var(--lcd-3);box-shadow:0 0 0 3px var(--lcd-1);}
+
+  .filters{display:flex;flex-wrap:wrap;gap:6px;}
+  .chip{
+    font-family:var(--px);
+    font-size:8px;
+    line-height:1.4;
+    padding:5px 7px;
+    border:2px solid var(--lcd-0);
+    border-radius:3px;
+    background:var(--lcd-2);
+    color:var(--lcd-0);
+    cursor:pointer;
+    user-select:none;
+  }
+  .chip:hover{background:var(--lcd-3);}
+  .chip.active{background:var(--lcd-0);color:var(--lcd-3);}
+  .chip:focus-visible, .list-item:focus-visible, button:focus-visible, input:focus-visible{
+    outline:3px solid #ffd84d; outline-offset:2px;
+  }
+
+  .dino-list{list-style:none;margin:0;padding:0;overflow-y:auto;flex:1;border-top:2px dashed var(--lcd-0);padding-top:6px;}
+  .dino-list::-webkit-scrollbar{width:10px;}
+  .dino-list::-webkit-scrollbar-thumb{background:var(--lcd-0);border-radius:6px;}
+  .dino-list::-webkit-scrollbar-track{background:var(--lcd-2);}
+
+  .list-item{
+    display:flex;align-items:center;gap:8px;
+    padding:6px 6px;
+    cursor:pointer;
+    border-bottom:1px solid var(--lcd-2);
+    font-size:20px;
+  }
+  .list-item:hover{background:var(--lcd-2);}
+  .list-item.selected{background:var(--lcd-0);color:var(--lcd-3);}
+  .list-num{font-family:var(--px);font-size:9px;min-width:34px;}
+  .list-icon{width:26px;height:26px;flex:none;}
+  .list-item.undiscovered .list-icon svg{filter:brightness(0);opacity:.5;}
+  .list-item.undiscovered .list-name{opacity:.65;letter-spacing:2px;}
+  .list-empty{padding:14px;font-size:18px;text-align:center;opacity:.75;}
+
+  .special-row{display:flex;gap:6px;margin-top:2px;}
+  .special-row .chip{flex:1;text-align:center;}
+
+  /* ===== RIGHT: DETAIL SCREEN ===== */
+  .detail-screen{height:440px;padding:16px;display:flex;flex-direction:column;}
+  .scanlines{
+    position:absolute;inset:0;pointer-events:none;
+    background:repeating-linear-gradient(to bottom, rgba(15,56,15,.12) 0px, rgba(15,56,15,.12) 1px, transparent 2px, transparent 4px);
+    mix-blend-mode:multiply;
+  }
+  .boot-msg{
+    text-align:center;font-family:var(--px);font-size:11px;line-height:2;
+    animation:flicker 1.6s steps(2) infinite;
+  }
+  @keyframes flicker{ 0%,100%{opacity:1;} 50%{opacity:.55;} }
+
+  .static-noise{
+    position:absolute;inset:0;
+    background-image:repeating-linear-gradient(0deg, var(--lcd-0) 0 2px, var(--lcd-2) 2px 4px);
+    opacity:0; pointer-events:none;
+  }
+  .static-noise.on{opacity:.9; animation:noise .12s steps(2) infinite;}
+  @keyframes noise{ 0%{transform:translateY(0);} 100%{transform:translateY(4px);} }
+
+  .scroll-hint{
+    position:absolute;left:0;right:0;bottom:0;
+    padding:16px 0 6px;
+    text-align:center;
+    font-family:var(--px);
+    font-size:8px;
+    letter-spacing:1px;
+    color:var(--lcd-0);
+    background:linear-gradient(to bottom, rgba(155,188,15,0), var(--lcd-3) 60%);
+    pointer-events:none;
+    opacity:0;
+    transition:opacity .25s ease;
+  }
+  .scroll-hint.show{opacity:1; animation:bounce-hint 1.3s ease-in-out infinite;}
+  @keyframes bounce-hint{0%,100%{transform:translateY(0);} 50%{transform:translateY(4px);}}
+
+  .d-header{display:flex;justify-content:space-between;align-items:center;font-family:var(--px);font-size:10px;margin-bottom:6px;}
+  .fav-btn{background:none;border:none;cursor:pointer;font-size:18px;color:var(--lcd-0);line-height:1;padding:0 2px;}
+  .fav-btn:hover{transform:scale(1.15);}
+  .d-name{font-family:var(--px);font-size:clamp(13px,2.2vw,17px);margin:2px 0 2px;}
+  .d-latin{font-style:italic;font-size:16px;opacity:.85;margin-bottom:6px;}
+
+  .d-body{display:flex;gap:14px;flex:1;min-height:0;}
+  .d-art{width:150px;flex:none;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:4px;}
+  .d-art-icon{width:100%;}
+  .d-art-icon svg{width:100%;height:auto;}
+  .d-art-caption{font-size:11px;text-align:center;opacity:.7;line-height:1.2;}
+
+  /* ===== seções enciclopédicas da ficha ===== */
+  .section{margin-top:10px;border-top:2px dashed var(--lcd-0);padding-top:8px;}
+  .section-title{font-family:var(--px);font-size:8px;margin-bottom:6px;}
+  .section-caption{font-size:15px;margin-top:4px;opacity:.85;text-align:center;}
+
+  .map-svg{width:100%;max-width:260px;display:block;margin:0 auto;}
+  .map-ocean{fill:var(--lcd-0);}
+  .map-land{fill:var(--lcd-2);stroke:var(--lcd-1);stroke-width:1;}
+  .map-pin{fill:var(--lcd-0);}
+  .map-pin-pulse{fill:none;stroke:var(--lcd-0);stroke-width:2;transform-origin:center;transform-box:fill-box;animation:pulse-ring 1.6s ease-out infinite;}
+  @keyframes pulse-ring{0%{transform:scale(1);opacity:1;} 100%{transform:scale(3.2);opacity:0;}}
+
+  .tl-track{display:flex;height:22px;border:2px solid var(--lcd-0);position:relative;}
+  .tl-seg{display:flex;align-items:center;justify-content:center;border-right:1px solid var(--lcd-0);color:var(--lcd-0);background:var(--lcd-2);overflow:hidden;white-space:nowrap;font-family:var(--px);font-size:6px;text-align:center;}
+  .tl-seg:last-child{border-right:none;}
+  .tl-marker{position:absolute;top:-4px;height:30px;background:var(--lcd-0);opacity:.85;border:2px solid var(--cream);box-sizing:border-box;}
+  .tl-scale{display:flex;justify-content:space-between;font-size:11px;margin-top:4px;opacity:.8;}
+
+  .discovery-box > div{margin:3px 0;font-size:16px;}
+
+  .tax-list{list-style:none;padding:0;margin:0;font-size:16px;}
+  .tax-list li{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted var(--lcd-1);padding:2px 0;}
+  .tax-list li span:first-child{opacity:.7;flex:none;}
+  .tax-list li span:last-child{text-align:right;}
+
+  .compare-wrap{display:flex;gap:28px;align-items:flex-end;justify-content:center;margin-top:6px;padding-bottom:2px;}
+  .compare-col{display:flex;flex-direction:column-reverse;align-items:center;gap:6px;}
+  .compare-bar{width:26px;background:var(--lcd-0);border:2px solid var(--lcd-1);}
+  .compare-bar.human{background:var(--lcd-1);}
+  .compare-label{font-size:13px;text-align:center;line-height:1.25;}
+
+  .sources-box ul{margin:4px 0 0;padding-left:16px;font-size:14px;line-height:1.4;}
+
+  .d-info{flex:1;overflow-y:auto;font-size:19px;line-height:1.35;padding-right:4px;}
+  .d-info::-webkit-scrollbar{width:8px;}
+  .d-info::-webkit-scrollbar-thumb{background:var(--lcd-0);border-radius:6px;}
+
+  .tag-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;}
+  .tag{font-family:var(--px);font-size:8px;background:var(--lcd-0);color:var(--lcd-3);padding:4px 6px;border-radius:3px;}
+
+  .stat{display:flex;align-items:center;gap:8px;margin:5px 0;}
+  .stat-label{font-family:var(--px);font-size:8px;width:80px;flex:none;}
+  .stat-bar{display:flex;gap:2px;}
+  .stat-cell{width:9px;height:12px;background:var(--lcd-2);border:1px solid var(--lcd-0);}
+  .stat-cell.filled{background:var(--lcd-0);}
+
+  .desc{margin-top:8px;}
+  .fact{margin-top:6px;font-style:italic;opacity:.9;}
+
+  .placeholder-icon{opacity:.35;}
+
+  /* ===== POWER ROW ===== */
+  .power-row{display:flex;align-items:center;gap:8px;margin-top:8px;justify-content:flex-end;padding-right:4px;}
+  .power-label{font-family:var(--px);font-size:8px;color:var(--cream);}
+  .power-switch{position:relative;display:inline-block;width:42px;height:20px;}
+  .power-switch input{opacity:0;width:0;height:0;}
+  .switch-track{position:absolute;inset:0;background:var(--shell-darkest);border-radius:10px;cursor:pointer;box-shadow:inset 0 0 0 2px #000;}
+  .switch-track::before{content:"";position:absolute;width:16px;height:16px;left:2px;top:2px;background:var(--btn-red);border-radius:50%;transition:transform .15s;box-shadow:0 0 4px rgba(0,0,0,.6);}
+  .power-switch input:checked + .switch-track::before{transform:translateX(20px);background:#7CFC6E;}
+
+  .dex.off .screen{background:#0a0a0a;}
+  .dex.off .screen *{visibility:hidden;}
+  .dex.off .screen::after{
+    content:"●";
+    visibility:visible;
+    position:absolute;top:8px;right:10px;color:#5a1010;font-size:10px;
+  }
+
+  /* ===== CONTROLS ===== */
+  .controls{display:flex;align-items:center;justify-content:space-between;margin-top:22px;padding:0 6px;}
+  .dpad{position:relative;width:78px;height:78px;}
+  .dpad button{
+    position:absolute;background:var(--shell-darkest);border:none;color:var(--cream);
+    box-shadow:inset 0 -2px 0 rgba(0,0,0,.4), 0 2px 0 rgba(0,0,0,.3);
+    cursor:pointer;font-size:12px;line-height:0;
+  }
+  .dpad button:active{filter:brightness(1.3);}
+  .dpad .up{left:26px;top:0;width:26px;height:26px;border-radius:4px 4px 0 0;}
+  .dpad .down{left:26px;top:52px;width:26px;height:26px;border-radius:0 0 4px 4px;}
+  .dpad .left{left:0;top:26px;width:26px;height:26px;border-radius:4px 0 0 4px;}
+  .dpad .right{left:52px;top:26px;width:26px;height:26px;border-radius:0 4px 4px 0;}
+  .dpad .center{left:26px;top:26px;width:26px;height:26px;background:#1a1330;}
+
+  .abbtns{display:flex;gap:14px;align-items:center;}
+  .abbtns button{
+    width:44px;height:44px;border-radius:50%;
+    background:linear-gradient(160deg, var(--btn-red), var(--btn-red-dark));
+    border:none;color:#3a0a06;font-family:var(--px);font-size:12px;
+    box-shadow:0 4px 0 var(--btn-red-dark), inset 0 2px 0 rgba(255,255,255,.3);
+    cursor:pointer;
+  }
+  .abbtns button:active{box-shadow:0 1px 0 var(--btn-red-dark);transform:translateY(3px);}
+  .abbtns .hint{font-family:var(--px);font-size:7px;text-align:center;margin-top:4px;color:var(--cream);opacity:.8;}
+
+  .speaker{
+    display:flex;gap:5px;
+    filter:opacity(.5);
+  }
+  .speaker span{width:5px;height:24px;background:var(--shell-darkest);border-radius:3px;}
+  .speaker-wrap{display:flex;gap:5px;transform:rotate(20deg);}
+
+  .credit{text-align:center;font-family:var(--px);font-size:7px;color:var(--cream);opacity:.5;margin-top:18px;letter-spacing:1px;}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+
+<div class="dex" id="dex">
+  <div class="dex-top">
+    <div class="lens"><div></div></div>
+    <div class="lights"><span class="light red"></span><span class="light yellow"></span><span class="light green"></span></div>
+  </div>
+  <h1 class="brand">DINODEX</h1>
+  <div class="dex-progress-row">
+    <div class="dex-progress" id="dexProgress">DESCOBERTOS: 0/20</div>
+    <div class="dex-progress" id="achProgress">🏆 0/5</div>
+  </div>
+
+  <div class="panels-wrap">
+  <div class="boot-screen" id="bootScreen">
+    <div class="boot-lines" id="bootLines"></div>
+  </div>
+  <div class="panels">
+    <!-- LEFT PANEL: LIST -->
+    <div class="panel left">
+      <div class="screen-bezel">
+        <div class="screen list-screen">
+          <div class="search-row">
+            <input id="search" type="text" placeholder="BUSCAR DINOSSAURO..." aria-label="Buscar dinossauro">
+          </div>
+          <div class="filters" id="filters"></div>
+          <ul class="dino-list" id="dinoList" aria-label="Lista de dinossauros"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL: DETAIL -->
+    <div class="panel right">
+      <div class="screen-bezel">
+        <div class="screen detail-screen" id="detailScreen">
+          <div class="scanlines"></div>
+          <div class="static-noise" id="staticNoise"></div>
+          <div id="detailContent"></div>
+          <div class="scroll-hint" id="scrollHint">▼ ROLE PRA LER MAIS ▼</div>
+        </div>
+      </div>
+      <div class="power-row">
+        <span class="power-label">POWER</span>
+        <label class="power-switch">
+          <input type="checkbox" id="powerToggle" checked>
+          <span class="switch-track"></span>
+        </label>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="controls">
+    <div class="dpad">
+      <button class="up" id="dpadUp" aria-label="Anterior">▲</button>
+      <button class="down" id="dpadDown" aria-label="Próximo">▼</button>
+      <button class="left" aria-label="Esquerda">◀</button>
+      <button class="right" aria-label="Direita">▶</button>
+      <div class="center"></div>
+    </div>
+    <div class="speaker-wrap">
+      <span style="width:5px;height:10px;background:#4A3573;border-radius:3px;"></span>
+      <span style="width:5px;height:18px;background:#4A3573;border-radius:3px;"></span>
+      <span style="width:5px;height:26px;background:#4A3573;border-radius:3px;"></span>
+      <span style="width:5px;height:18px;background:#4A3573;border-radius:3px;"></span>
+      <span style="width:5px;height:10px;background:#4A3573;border-radius:3px;"></span>
+    </div>
+    <div>
+      <div class="abbtns">
+        <button id="btnB">B</button>
+        <button id="btnA">A</button>
+      </div>
+      <div class="hint">B LIMPA · A SORTEIA</div>
+    </div>
+  </div>
+</div>
+
+<div class="credit">DINODEX v1.0 — FEITO PARA GABBY</div>
+
+<script>
+/* =========================================================
+   DADOS — hoje é uma lista fixa local.
+   Para trocar por uma API real no futuro, troque a função
+   getAllDinos() por um fetch() e mantenha o mesmo formato
+   de objeto abaixo.
+   ========================================================= */
+const DINOS = [
+  {id:1, nome:"Tiranossauro", latim:"Tyrannosaurus rex", era:"Cretáceo", dieta:"Carnívoro", comprimento:12, peso:8000, regiao:"América do Norte", forma:"theropod",
+   desc:"Um dos maiores predadores terrestres que já existiram, com mordida capaz de esmagar ossos. Caçava outros grandes dinossauros e também se alimentava de carcaças.",
+   fato:"Seus bracinhos curtos tinham apenas dois dedos, mas eram surpreendentemente fortes.", perigo:9, velocidade:6,
+   altura:4, periodo:{inicio:68,fim:66}, formacao:"Formação Hell Creek", local:"Montana, EUA", mapa:{x:55,y:40},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Theropoda", familia:"Tyrannosauridae"},
+   descoberta:{por:"Barnum Brown", ano:1902}},
+  {id:2, nome:"Velociraptor", latim:"Velociraptor mongoliensis", era:"Cretáceo", dieta:"Carnívoro", comprimento:2, peso:15, regiao:"Ásia (Mongólia)", forma:"raptor",
+   desc:"Pequeno caçador ágil, provavelmente coberto de penas, que usava a garra em forma de foice na pata para dominar presas.",
+   fato:"Do tamanho de um peru grande — bem menor do que os filmes mostram.", perigo:7, velocidade:8,
+   altura:0.5, periodo:{inicio:75,fim:71}, formacao:"Formação Djadochta", local:"Deserto de Gobi, Mongólia", mapa:{x:245,y:35},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Theropoda", familia:"Dromaeosauridae"},
+   descoberta:{por:"Peter Kaisen (fóssil) / Henry F. Osborn (descrição)", ano:1924}},
+  {id:3, nome:"Tricerátops", latim:"Triceratops horridus", era:"Cretáceo", dieta:"Herbívoro", comprimento:9, peso:6000, regiao:"América do Norte", forma:"ceratopsian",
+   desc:"Reconhecido por seus três chifres e pelo grande escudo ósseo na cabeça, usados em disputas territoriais e defesa contra predadores.",
+   fato:"Um dos dinossauros mais comuns encontrados em fósseis do final do Cretáceo.", perigo:6, velocidade:5,
+   altura:3, periodo:{inicio:68,fim:66}, formacao:"Formação Hell Creek / Lance", local:"Wyoming/Montana, EUA", mapa:{x:58,y:42},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Ornithischia — Ceratopsia", familia:"Ceratopsidae"},
+   descoberta:{por:"John Bell Hatcher / Othniel C. Marsh", ano:1889}},
+  {id:4, nome:"Estegossauro", latim:"Stegosaurus stenops", era:"Jurássico", dieta:"Herbívoro", comprimento:9, peso:3800, regiao:"América do Norte", forma:"stego",
+   desc:"Famoso pelas placas triangulares ao longo das costas e pelos espinhos afiados na cauda (o 'thagomizer'), usados como defesa.",
+   fato:"Seu cérebro era do tamanho de uma noz apesar do corpo enorme.", perigo:5, velocidade:3,
+   altura:4, periodo:{inicio:155,fim:150}, formacao:"Formação Morrison", local:"Colorado, EUA", mapa:{x:60,y:48},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Ornithischia — Thyreophora", familia:"Stegosauridae"},
+   descoberta:{por:"Marshall Felch (fóssil) / Othniel C. Marsh", ano:1877}},
+  {id:5, nome:"Braquiossauro", latim:"Brachiosaurus altithorax", era:"Jurássico", dieta:"Herbívoro", comprimento:21, peso:35000, regiao:"América do Norte", forma:"sauropod",
+   desc:"Gigante de pescoço longo e pernas dianteiras maiores que as traseiras, o que lhe dava postura inclinada para cima, ideal para comer folhas altas.",
+   fato:"As narinas ficavam no alto da cabeça, formando uma pequena crista.", perigo:2, velocidade:3,
+   altura:13, periodo:{inicio:154,fim:150}, formacao:"Formação Morrison", local:"Colorado/Utah, EUA", mapa:{x:58,y:46},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Sauropoda", familia:"Brachiosauridae"},
+   descoberta:{por:"Elmer S. Riggs", ano:1900}},
+  {id:6, nome:"Espinossauro", latim:"Spinosaurus aegyptiacus", era:"Cretáceo", dieta:"Piscívoro", comprimento:15, peso:7000, regiao:"Norte da África", forma:"sail",
+   desc:"Provavelmente o maior dinossauro carnívoro conhecido, com uma vela nas costas e hábitos semiaquáticos, caçando peixes grandes em rios.",
+   fato:"Estudos recentes sugerem que ele nadava e mergulhava melhor que qualquer outro dinossauro conhecido.", perigo:9, velocidade:5,
+   altura:4, periodo:{inicio:99,fim:93}, formacao:"Formação Bahariya", local:"Oásis de Bahariya, Egito", mapa:{x:182,y:58},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Theropoda", familia:"Spinosauridae"},
+   descoberta:{por:"Richard Markgraf (fóssil) / Ernst Stromer (descrição)", ano:1915}},
+  {id:7, nome:"Anquilossauro", latim:"Ankylosaurus magniventris", era:"Cretáceo", dieta:"Herbívoro", comprimento:7, peso:4800, regiao:"América do Norte", forma:"ankylosaur",
+   desc:"Blindado da cabeça à cauda com placas ósseas, terminava a cauda em uma maça capaz de quebrar as pernas de predadores.",
+   fato:"Era tão bem protegido que poucos predadores conseguiam feri-lo.", perigo:6, velocidade:3,
+   altura:1.7, periodo:{inicio:68,fim:66}, formacao:"Formação Hell Creek", local:"Montana, EUA", mapa:{x:55,y:40},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Ornithischia — Thyreophora", familia:"Ankylosauridae"},
+   descoberta:{por:"Barnum Brown", ano:1908}},
+  {id:8, nome:"Parassaurolofo", latim:"Parasaurolophus walkeri", era:"Cretáceo", dieta:"Herbívoro", comprimento:10, peso:2500, regiao:"América do Norte", forma:"ornithopod",
+   desc:"Dinossauro de bico de pato com uma longa crista óssea curva na cabeça, provavelmente usada para produzir sons graves e se comunicar.",
+   fato:"A crista funcionava quase como um trombone natural.", perigo:2, velocidade:6,
+   altura:2.7, periodo:{inicio:76,fim:73}, formacao:"Formação Dinosaur Park", local:"Alberta, Canadá", mapa:{x:60,y:30},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Ornithischia — Ornithopoda", familia:"Hadrosauridae"},
+   descoberta:{por:"Levi Sternberg (fóssil) / William Parks (descrição)", ano:1922}},
+  {id:9, nome:"Alossauro", latim:"Allosaurus fragilis", era:"Jurássico", dieta:"Carnívoro", comprimento:9.7, peso:2300, regiao:"América do Norte", forma:"theropod",
+   desc:"Predador dominante do Jurássico tardio, com crânio leve e mandíbula que se abria em ângulo amplo para dar mordidas rápidas e profundas.",
+   fato:"Tinha pequenas cristas ósseas acima dos olhos, como 'sobrancelhas'.", perigo:8, velocidade:7,
+   altura:3, periodo:{inicio:155,fim:145}, formacao:"Formação Morrison", local:"Colorado/Utah, EUA", mapa:{x:58,y:46},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Theropoda", familia:"Allosauridae"},
+   descoberta:{por:"Othniel C. Marsh", ano:1877}},
+  {id:10, nome:"Diplodoco", latim:"Diplodocus carnegii", era:"Jurássico", dieta:"Herbívoro", comprimento:26, peso:16000, regiao:"América do Norte", forma:"sauropod",
+   desc:"Um dos dinossauros mais compridos já descobertos, com pescoço e cauda extremamente longos que ajudavam a equilibrar o corpo.",
+   fato:"A cauda podia ser usada como um chicote para afastar predadores.", perigo:2, velocidade:3,
+   altura:4.5, periodo:{inicio:154,fim:152}, formacao:"Formação Morrison", local:"Wyoming, EUA", mapa:{x:60,y:45},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Sauropoda", familia:"Diplodocidae"},
+   descoberta:{por:"Expedição financiada por Andrew Carnegie / John Bell Hatcher", ano:1901}},
+  {id:11, nome:"Iguanodonte", latim:"Iguanodon bernissartensis", era:"Cretáceo", dieta:"Herbívoro", comprimento:10, peso:3500, regiao:"Europa", forma:"ornithopod",
+   desc:"Um dos primeiros dinossauros descritos pela ciência, podia andar em duas ou quatro patas e tinha um esporão em formato de polegar.",
+   fato:"O esporão do polegar provavelmente era usado como arma de defesa.", perigo:3, velocidade:5,
+   altura:2.7, periodo:{inicio:140,fim:125}, formacao:"Camadas de Wealden / Argilas de Sainte-Barbe (Bernissart)", local:"Bernissart, Bélgica", mapa:{x:165,y:28},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Ornithischia — Ornithopoda", familia:"Iguanodontidae"},
+   descoberta:{por:"Mineiros de Bernissart / estudado por Louis Dollo", ano:1878}},
+  {id:12, nome:"Compsognato", latim:"Compsognathus longipes", era:"Jurássico", dieta:"Carnívoro", comprimento:1, peso:3, regiao:"Europa", forma:"small",
+   desc:"Um dos menores dinossauros carnívoros conhecidos, do tamanho de uma galinha, caçava lagartos e pequenos animais.",
+   fato:"Fósseis mostram que ele comia lagartos inteiros.", perigo:3, velocidade:8,
+   altura:0.3, periodo:{inicio:150,fim:145}, formacao:"Calcário de Solnhofen", local:"Baviera, Alemanha", mapa:{x:170,y:27},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Theropoda", familia:"Compsognathidae"},
+   descoberta:{por:"Joseph Oberndorfer (fóssil) / Johann A. Wagner (descrição)", ano:1859}},
+  {id:13, nome:"Paquicefalossauro", latim:"Pachycephalosaurus wyomingensis", era:"Cretáceo", dieta:"Onívoro", comprimento:4.5, peso:450, regiao:"América do Norte", forma:"dome",
+   desc:"Tinha o topo do crânio extremamente espesso, formando uma cúpula óssea provavelmente usada em disputas de cabeçadas entre machos.",
+   fato:"A cúpula podia ter mais de 20 cm de espessura de osso sólido.", perigo:4, velocidade:6,
+   altura:2, periodo:{inicio:70,fim:66}, formacao:"Formação Hell Creek / Lance", local:"Montana/Wyoming, EUA", mapa:{x:57,y:41},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Ornithischia — Marginocephalia", familia:"Pachycephalosauridae"},
+   descoberta:{por:"Barnum Brown & Erich M. Schlaikjer", ano:1943}},
+  {id:14, nome:"Carnotauro", latim:"Carnotaurus sastrei", era:"Cretáceo", dieta:"Carnívoro", comprimento:8, peso:1500, regiao:"América do Sul", forma:"theropod",
+   desc:"Predador de corpo leve e pernas longas, com dois pequenos chifres acima dos olhos e braços quase inúteis, ainda menores que os do T-rex.",
+   fato:"É considerado um dos dinossauros carnívoros mais rápidos já descobertos.", perigo:8, velocidade:9,
+   altura:3, periodo:{inicio:72,fim:69.9}, formacao:"Formação La Colonia", local:"Chubut, Argentina", mapa:{x:90,y:120},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Theropoda", familia:"Abelisauridae"},
+   descoberta:{por:"José Bonaparte", ano:1985}},
+  {id:15, nome:"Terizinossauro", latim:"Therizinosaurus cheloniformis", era:"Cretáceo", dieta:"Onívoro", comprimento:10, peso:5000, regiao:"Ásia (Mongólia)", forma:"claws",
+   desc:"Apesar de descender de dinossauros carnívoros, provavelmente se alimentava de plantas, usando garras enormes para puxar galhos.",
+   fato:"Suas garras estão entre as maiores já registradas em qualquer animal, com quase 1 metro de comprimento.", perigo:5, velocidade:4,
+   altura:5, periodo:{inicio:70,fim:66}, formacao:"Formação Nemegt", local:"Deserto de Gobi, Mongólia", mapa:{x:240,y:38},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Theropoda", familia:"Therizinosauridae"},
+   descoberta:{por:"Expedição soviético-mongol / Evgeny Maleev", ano:1954}},
+  {id:16, nome:"Giganotossauro", latim:"Giganotosaurus carolinii", era:"Cretáceo", dieta:"Carnívoro", comprimento:13, peso:8200, regiao:"América do Sul", forma:"theropod",
+   desc:"Um dos maiores terópodes conhecidos, possivelmente até maior que o T-rex, provavelmente caçava em grupo para abater presas enormes.",
+   fato:"Viveu bem antes do T-rex e não teve contato com ele.", perigo:9, velocidade:6,
+   altura:4, periodo:{inicio:99.6,fim:97}, formacao:"Formação Candeleros", local:"Neuquén, Argentina", mapa:{x:92,y:112},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Theropoda", familia:"Carcharodontosauridae"},
+   descoberta:{por:"Rubén Carolini (fóssil) / Rodolfo Coria & Leonardo Salgado (descrição)", ano:1995}},
+  {id:17, nome:"Deinoníco", latim:"Deinonychus antirrhopus", era:"Cretáceo", dieta:"Carnívoro", comprimento:3.4, peso:73, regiao:"América do Norte", forma:"raptor",
+   desc:"Caçador ágil com a icônica garra-foice na pata traseira, foi a inspiração científica para o tamanho dos 'velociraptors' nos filmes.",
+   fato:"Fósseis encontrados em grupo sugerem que caçava em bando.", perigo:8, velocidade:8,
+   altura:0.9, periodo:{inicio:115,fim:108}, formacao:"Formação Cloverly", local:"Montana/Wyoming, EUA", mapa:{x:58,y:38},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Theropoda", familia:"Dromaeosauridae"},
+   descoberta:{por:"John Ostrom", ano:1964}},
+  {id:18, nome:"Arqueoptérix", latim:"Archaeopteryx lithographica", era:"Jurássico", dieta:"Carnívoro", comprimento:0.5, peso:1, regiao:"Europa", forma:"small",
+   desc:"Um dos elos mais famosos entre dinossauros e aves, tinha penas bem desenvolvidas e provavelmente conseguia planar entre árvores.",
+   fato:"Foi descoberto poucos anos depois da publicação da teoria de Darwin, e ajudou a sustentá-la.", perigo:2, velocidade:7,
+   altura:0.3, periodo:{inicio:150,fim:148}, formacao:"Calcário de Solnhofen", local:"Baviera, Alemanha", mapa:{x:170,y:27},
+   classificacao:{classe:"Reptilia (Sauropsida) — ave basal", ordem:"Theropoda — Avialae", familia:"Archaeopterygidae"},
+   descoberta:{por:"Fóssil de pena descrito por Hermann von Meyer", ano:1861}},
+  {id:19, nome:"Brontossauro", latim:"Brontosaurus excelsus", era:"Jurássico", dieta:"Herbívoro", comprimento:22, peso:15000, regiao:"América do Norte", forma:"sauropod",
+   desc:"Gigante herbívoro de pescoço longo, seu nome significa 'lagarto trovão', em referência ao peso de seus passos.",
+   fato:"Por décadas foi considerado o mesmo animal que o Apatossauro, até estudos recentes separá-los novamente.", perigo:2, velocidade:3,
+   altura:4.5, periodo:{inicio:152,fim:151}, formacao:"Formação Morrison", local:"Wyoming, EUA", mapa:{x:62,y:44},
+   classificacao:{classe:"Reptilia (Sauropsida)", ordem:"Saurischia — Sauropoda", familia:"Diplodocidae"},
+   descoberta:{por:"Othniel C. Marsh", ano:1879}},
+  {id:20, nome:"Pteranodonte", latim:"Pteranodon longiceps", era:"Cretáceo", dieta:"Piscívoro", comprimento:1.8, peso:25, regiao:"América do Norte", forma:"pterosaur",
+   desc:"Réptil voador com envergadura de até 6 metros e uma longa crista óssea na cabeça, mergulhava para capturar peixes.",
+   fato:"Não é tecnicamente um dinossauro — é um pterossauro, um parente próximo que dominava os céus.", perigo:4, velocidade:7,
+   altura:1.8, periodo:{inicio:86,fim:84}, formacao:"Formação Niobrara (Membro Smoky Hill Chalk)", local:"Kansas, EUA", mapa:{x:65,y:48},
+   classificacao:{classe:"Reptilia (Sauropsida) — não é dinossauro", ordem:"Pterosauria — Pterodactyloidea", familia:"Pteranodontidae"},
+   descoberta:{por:"Othniel C. Marsh", ano:1876}},
+];
+
+const MAX_ALTURA = Math.max(...DINOS.map(d=>d.altura));
+const FONTES_PADRAO = [
+  "Museus de história natural e enciclopédias de paleontologia",
+  "Artigos científicos revisados por pares (ex.: Journal of Vertebrate Paleontology)",
+  "Paleobiology Database (PBDB)"
+];
+
+let DINO_CACHE = null;
+
+async function loadDinos(){
+  // =========================================================
+  // PONTO DE TROCA PARA API REAL:
+  // quando tiver uma API/fonte de dados de verdade, troque as
+  // duas linhas abaixo por algo como:
+  //
+  //   const res = await fetch('https://sua-api.com/dinossauros');
+  //   DINO_CACHE = await res.json();
+  //
+  // O resto do site continua funcionando igual, desde que cada
+  // item retornado tenha os mesmos campos usados em DINOS acima
+  // (id, nome, latim, era, dieta, comprimento, peso, regiao,
+  // forma, desc, fato, perigo, velocidade).
+  // =========================================================
+  DINO_CACHE = DINOS;
+  return DINO_CACHE;
+}
+
+function getAllDinos(){
+  return DINO_CACHE || DINOS;
+}
+
+/* ===== comportamento (para a seção "se você encontrasse um...") =====
+   Estimativas de divulgação científica, não fatos comprovados. */
+const COMPORTAMENTOS = {
+  1: "Caçador oportunista, também devora carcaças",
+  2: "Ágil e provavelmente caça em grupo",
+  3: "Defensivo — carga com os chifres se encurralado",
+  4: "Calmo, mas perigoso se atacar com a cauda",
+  5: "Pacífico, prefere fugir a enfrentar",
+  6: "Caçador semiaquático, pesca em rios",
+  7: "Defensivo, confia na própria blindagem",
+  8: "Gregário, vive em grandes grupos",
+  9: "Caçador de emboscada",
+  10: "Pacífico, usa a cauda como chicote defensivo",
+  11: "Cauteloso, foge em grupo ao perceber perigo",
+  12: "Ágil e curioso, caça em pequenos bandos",
+  13: "Territorial, disputa por cabeçadas",
+  14: "Perseguidor veloz de presas ágeis",
+  15: "Tranquilo, mas as garras intimidam predadores",
+  16: "Caçador de grandes presas, possivelmente em bando",
+  17: "Caça em grupo, com ataques coordenados",
+  18: "Esquivo, prefere planar para escapar",
+  19: "Gigante pacífico, movimento lento",
+  20: "Mergulhador veloz atrás de peixes",
+};
+
+/* ===== curiosidades gerais (fato do dia na tela inicial) ===== */
+const CURIOSIDADES = [
+  "O Stegosaurus viveu cerca de 80 milhões de anos antes do T. rex — mais perto do Allosaurus do que dele.",
+  "Nenhum ser humano jamais viveu ao mesmo tempo que um dinossauro não aviário.",
+  "As aves atuais são consideradas dinossauros terópodes que sobreviveram até hoje.",
+  "O nome 'dinossauro' significa 'lagarto terrível', criado pelo cientista Richard Owen em 1842.",
+  "Alguns dinossauros, como o Velociraptor, provavelmente tinham penas.",
+  "O maior ovo de dinossauro conhecido tinha cerca de 60 cm de comprimento.",
+  "Nem todo réptil pré-histórico gigante era um dinossauro — pterossauros e répteis marinhos eram parentes, não dinossauros.",
+  "O T. rex tinha um dos olfatos mais aguçados entre os dinossauros carnívoros.",
+  "Alguns saurópodes engoliam pedras (gastrólitos) para ajudar a triturar plantas no estômago.",
+  "Fósseis de dinossauros já foram encontrados em todos os continentes, incluindo a Antártida.",
+  "O período Cretáceo terminou há cerca de 66 milhões de anos, com o impacto de um asteroide.",
+  "O Spinosaurus é o único dinossauro conhecido adaptado para nadar e mergulhar.",
+  "Muitos dinossauros herbívoros trocavam de dentes constantemente ao longo da vida.",
+  "O Triceratops podia ter mais de mil dentes ao longo da vida, organizados em baterias dentárias.",
+  "A era dos dinossauros durou cerca de 165 milhões de anos — os humanos existem há menos de 1% desse tempo.",
+];
+
+function curiosidadeDoDia(){
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const dayOfYear = Math.floor((now - start) / 86400000);
+  return CURIOSIDADES[dayOfYear % CURIOSIDADES.length];
+}
+
+/* ===== ícones em silhueta (reaproveitados por "forma") ===== */
+const ICONS = {
+  theropod: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M8 58 L14 40 Q10 30 22 26 L34 8 Q40 2 48 6 L58 14 Q66 12 70 18 L64 22 Q72 24 74 30 L66 30 Q70 36 66 40 L58 38 Q54 46 44 46 L40 58 L34 58 L36 46 Q28 46 24 42 L20 58 Z"/>
+  </svg>`,
+  raptor: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M14 56 L18 42 Q14 34 24 30 L32 14 Q37 8 44 12 L52 18 Q60 16 63 22 L57 25 Q63 28 63 33 L55 32 Q52 40 43 40 L40 56 L35 56 L37 42 Q30 42 27 38 L24 56 Z"/>
+  </svg>`,
+  small: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M24 54 L27 44 Q23 38 30 34 L36 22 Q40 17 46 20 L52 25 Q58 24 60 29 L55 31 Q59 33 58 37 L52 36 Q50 42 43 42 L41 54 L37 54 L39 44 Q33 44 31 41 L29 54 Z"/>
+  </svg>`,
+  sauropod: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M6 52 Q10 30 26 16 Q30 8 36 12 Q40 15 36 20 Q48 24 58 34 Q70 30 78 36 Q84 40 80 44 Q88 46 88 52 L80 52 Q78 58 70 58 L68 52 L40 52 L38 58 L30 58 L32 52 Q18 52 14 46 Q8 48 6 52 Z"/>
+  </svg>`,
+  ceratopsian: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M10 56 L12 42 Q8 36 14 32 L18 20 L24 24 L28 16 L32 24 Q40 20 48 24 Q66 24 74 34 Q82 34 82 40 L74 42 Q76 48 68 50 L66 56 L60 56 L62 48 L26 48 L24 56 L18 56 L20 48 Q12 48 10 56 Z"/>
+  </svg>`,
+  stego: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M8 56 L10 44 Q6 38 12 34 L20 26 L24 32 L28 24 L34 32 L38 22 L44 32 L50 24 L54 34 Q66 32 70 40 Q78 38 78 44 L70 46 Q72 52 64 52 L62 56 L56 56 L58 50 L24 50 L22 56 L16 56 L18 50 Q10 50 8 56 Z"/>
+  </svg>`,
+  ankylosaur: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M8 44 Q8 32 20 30 L60 28 Q74 28 78 36 Q88 36 92 42 Q94 48 86 50 Q80 58 70 52 L26 52 Q16 58 10 50 Q4 48 8 44 Z"/>
+  </svg>`,
+  ornithopod: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M10 56 L14 40 Q10 32 20 28 L26 14 Q30 6 38 10 L34 18 Q44 16 50 22 L58 20 Q64 22 62 28 L54 30 Q52 38 42 38 L40 56 L34 56 L36 40 Q28 40 24 36 L20 56 Z"/>
+  </svg>`,
+  dome: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M14 56 L17 42 Q13 34 22 30 Q24 16 36 16 Q46 16 46 26 Q54 26 56 32 L50 34 Q48 40 40 40 L38 56 L33 56 L35 42 Q28 42 25 38 L22 56 Z"/>
+  </svg>`,
+  claws: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M20 56 L22 40 Q16 34 24 28 L30 14 Q34 8 40 12 L46 18 Q52 14 56 18 L50 22 Q56 24 52 28 L58 26 Q62 30 56 32 L46 32 Q44 40 36 40 L34 56 L28 56 L30 40 Q24 40 22 36 L22 56 Z"/>
+  </svg>`,
+  sail: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M8 58 L14 40 Q10 30 22 26 L30 6 L34 22 L40 4 L44 22 L50 8 L52 22 Q64 18 70 24 L64 28 Q72 28 74 34 L66 34 Q70 40 64 42 L56 40 Q52 48 42 48 L38 58 L32 58 L34 48 Q26 48 22 44 L18 58 Z"/>
+  </svg>`,
+  pterosaur: `<svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M50 30 L14 10 L20 26 L4 24 L26 36 L2 40 L28 42 Q30 50 38 50 L36 58 L44 58 L44 48 L50 46 L56 48 L56 58 L64 58 L62 50 Q70 50 72 42 L98 40 L74 36 L96 24 L80 26 L86 10 L50 30 Z"/>
+  </svg>`
+};
+
+/* ===== coleção (descobertos / favoritos) — salvos no navegador ===== */
+function loadSet(key){
+  try{ return new Set(JSON.parse(localStorage.getItem(key) || "[]")); }
+  catch(e){ return new Set(); }
+}
+function saveSet(key, set){
+  try{ localStorage.setItem(key, JSON.stringify([...set])); }
+  catch(e){ /* localStorage indisponível — segue sem salvar */ }
+}
+let discovered = loadSet('dinodex_discovered');
+let favorites = loadSet('dinodex_favorites');
+
+function updateProgress(){
+  const el = document.getElementById('dexProgress');
+  if(el) el.textContent = `DESCOBERTOS: ${discovered.size}/${DINOS.length}`;
+}
+
+/* ===== conquistas ===== */
+const ACHIEVEMENTS = [
+  {id:'first', label:'Primeira descoberta', test: () => discovered.size >= 1},
+  {id:'ten', label:'10 espécies encontradas', test: () => discovered.size >= 10},
+  {id:'carnivores', label:'Todos os carnívoros descobertos', test: () => DINOS.filter(d=>d.dieta==='Carnívoro').every(d=>discovered.has(d.id))},
+  {id:'jurassic', label:'Todas as espécies do Jurássico', test: () => DINOS.filter(d=>d.era==='Jurássico').every(d=>discovered.has(d.id))},
+  {id:'all', label:'Dex completa!', test: () => discovered.size >= DINOS.length},
+];
+let unlockedAchievements = loadSet('dinodex_achievements');
+
+function updateAchievementsCount(){
+  const el = document.getElementById('achProgress');
+  if(el) el.textContent = `🏆 ${unlockedAchievements.size}/${ACHIEVEMENTS.length}`;
+}
+
+function showAchievementToast(label){
+  const toast = document.createElement('div');
+  toast.className = 'achievement-toast';
+  toast.textContent = `🏆 CONQUISTA: ${label}`;
+  document.body.appendChild(toast);
+  beep();
+  requestAnimationFrame(()=> toast.classList.add('show'));
+  setTimeout(()=>{
+    toast.classList.remove('show');
+    setTimeout(()=> toast.remove(), 400);
+  }, 2600);
+}
+
+function checkAchievements(){
+  ACHIEVEMENTS.forEach(a=>{
+    if(!unlockedAchievements.has(a.id) && a.test()){
+      unlockedAchievements.add(a.id);
+      saveSet('dinodex_achievements', unlockedAchievements);
+      showAchievementToast(a.label);
+    }
+  });
+  updateAchievementsCount();
+}
+
+function dinoDoDia(){
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const dayOfYear = Math.floor((now - start) / 86400000);
+  return DINOS[dayOfYear % DINOS.length];
+}
+
+/* ===== estado ===== */
+let selectedId = null;
+let searchTerm = "";
+let activeEra = "Todas";
+let activeDiet = "Todas";
+let favOnly = false;
+
+const ERAS = ["Todas","Triássico","Jurássico","Cretáceo"];
+const DIETS = ["Todas","Carnívoro","Herbívoro","Onívoro","Piscívoro"];
+
+const listEl = document.getElementById('dinoList');
+const filtersEl = document.getElementById('filters');
+const searchEl = document.getElementById('search');
+const detailEl = document.getElementById('detailContent');
+const staticNoise = document.getElementById('staticNoise');
+const dexEl = document.getElementById('dex');
+const powerToggle = document.getElementById('powerToggle');
+
+function buildFilters(){
+  filtersEl.innerHTML = "";
+  const eraWrap = document.createElement('div');
+  eraWrap.style.display='flex'; eraWrap.style.flexWrap='wrap'; eraWrap.style.gap='6px';
+  ERAS.forEach(era=>{
+    const b = document.createElement('button');
+    b.className = 'chip' + (era===activeEra ? ' active' : '');
+    b.textContent = era;
+    b.addEventListener('click', ()=>{ tick(); activeEra = era; buildFilters(); renderList(); });
+    eraWrap.appendChild(b);
+  });
+  filtersEl.appendChild(eraWrap);
+
+  const dietWrap = document.createElement('div');
+  dietWrap.style.display='flex'; dietWrap.style.flexWrap='wrap'; dietWrap.style.gap='6px'; dietWrap.style.marginTop='4px';
+  DIETS.forEach(diet=>{
+    const b = document.createElement('button');
+    b.className = 'chip' + (diet===activeDiet ? ' active' : '');
+    b.textContent = diet;
+    b.addEventListener('click', ()=>{ tick(); activeDiet = diet; buildFilters(); renderList(); });
+    dietWrap.appendChild(b);
+  });
+  filtersEl.appendChild(dietWrap);
+
+  const specialRow = document.createElement('div');
+  specialRow.className = 'special-row';
+
+  const favBtn = document.createElement('button');
+  favBtn.className = 'chip' + (favOnly ? ' active' : '');
+  favBtn.textContent = '❤ FAVORITOS';
+  favBtn.addEventListener('click', ()=>{ tick(); favOnly = !favOnly; buildFilters(); renderList(); });
+  specialRow.appendChild(favBtn);
+
+  const dayBtn = document.createElement('button');
+  dayBtn.className = 'chip';
+  dayBtn.textContent = '★ DINO DO DIA';
+  dayBtn.addEventListener('click', ()=>{ tick(); selectDino(dinoDoDia().id); });
+  specialRow.appendChild(dayBtn);
+
+  filtersEl.appendChild(specialRow);
+}
+
+function filteredDinos(){
+  return getAllDinos().filter(d=>{
+    const matchesSearch = d.nome.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                           d.latim.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesEra = activeEra==="Todas" || d.era===activeEra;
+    const matchesDiet = activeDiet==="Todas" || d.dieta===activeDiet;
+    const matchesFav = !favOnly || favorites.has(d.id);
+    return matchesSearch && matchesEra && matchesDiet && matchesFav;
+  });
+}
+
+function renderList(){
+  const dinos = filteredDinos();
+  listEl.innerHTML = "";
+  if(dinos.length===0){
+    const li = document.createElement('li');
+    li.className = 'list-empty';
+    li.textContent = 'NENHUM DINOSSAURO ENCONTRADO';
+    listEl.appendChild(li);
+    return;
+  }
+  dinos.forEach(d=>{
+    const isDiscovered = discovered.has(d.id);
+    const li = document.createElement('li');
+    li.className = 'list-item'
+      + (d.id===selectedId ? ' selected' : '')
+      + (isDiscovered ? '' : ' undiscovered');
+    li.tabIndex = 0;
+    li.setAttribute('role','button');
+    const heart = favorites.has(d.id) ? '❤ ' : '';
+    const displayName = isDiscovered ? (heart + d.nome) : '???';
+    li.innerHTML = `<span class="list-num">Nº${String(d.id).padStart(3,'0')}</span>
+      <span class="list-icon">${ICONS[d.forma] || ICONS.theropod}</span>
+      <span class="list-name">${displayName}</span>`;
+    li.addEventListener('click', ()=>selectDino(d.id));
+    li.addEventListener('keydown', (e)=>{ if(e.key==='Enter' || e.key===' '){ e.preventDefault(); selectDino(d.id);} });
+    listEl.appendChild(li);
+  });
+}
+
+function statCells(value /* 0-10 */){
+  let html = '<div class="stat-bar">';
+  for(let i=1;i<=10;i++){
+    html += `<span class="stat-cell${i<=value?' filled':''}"></span>`;
+  }
+  html += '</div>';
+  return html;
+}
+
+function starRating(count, max=5){
+  let s = '';
+  for(let i=1;i<=max;i++) s += (i<=count ? '★' : '☆');
+  return s;
+}
+
+function mapSVG(d){
+  return `<svg viewBox="0 0 300 150" class="map-svg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mapa de ${d.local}">
+    <rect x="0" y="0" width="300" height="150" class="map-ocean"/>
+    <ellipse cx="70" cy="45" rx="46" ry="30" class="map-land"/>
+    <ellipse cx="95" cy="108" rx="24" ry="36" class="map-land"/>
+    <ellipse cx="168" cy="30" rx="20" ry="15" class="map-land"/>
+    <ellipse cx="177" cy="82" rx="28" ry="40" class="map-land"/>
+    <ellipse cx="240" cy="45" rx="56" ry="36" class="map-land"/>
+    <ellipse cx="270" cy="122" rx="20" ry="15" class="map-land"/>
+    <circle cx="${d.mapa.x}" cy="${d.mapa.y}" r="4" class="map-pin-pulse"/>
+    <circle cx="${d.mapa.x}" cy="${d.mapa.y}" r="3" class="map-pin"/>
+  </svg>`;
+}
+
+function timelineHTML(d){
+  const total = 252 - 66;
+  const segments = [
+    {name:'Triássico', start:252, end:201},
+    {name:'Jurássico', start:201, end:145},
+    {name:'Cretáceo', start:145, end:66},
+  ];
+  const segHtml = segments.map(s=>{
+    const w = (s.start - s.end) / total * 100;
+    return `<div class="tl-seg" style="width:${w}%">${s.name.toUpperCase()}</div>`;
+  }).join('');
+  const left = (252 - d.periodo.inicio) / total * 100;
+  const width = Math.max(1.5, (d.periodo.inicio - d.periodo.fim) / total * 100);
+  return `
+    <div class="timeline">
+      <div class="tl-track">${segHtml}<div class="tl-marker" style="left:${left}%;width:${width}%"></div></div>
+      <div class="tl-scale"><span>252 Mya</span><span>201 Mya</span><span>145 Mya</span><span>66 Mya</span></div>
+      <div class="section-caption">Viveu há ${d.periodo.inicio}–${d.periodo.fim} milhões de anos</div>
+    </div>`;
+}
+
+function classificacaoHTML(d){
+  const [genero, ...resto] = d.latim.split(' ');
+  const especie = resto.join(' ');
+  const linhas = [
+    ['Reino','Animalia'], ['Filo','Chordata'],
+    ['Classe', d.classificacao.classe], ['Ordem', d.classificacao.ordem],
+    ['Família', d.classificacao.familia], ['Gênero', genero], ['Espécie', especie],
+  ];
+  return `<ul class="tax-list">${linhas.map(([k,v])=>`<li><span>${k}</span><span>${v}</span></li>`).join('')}</ul>`;
+}
+
+function comparisonHTML(d){
+  const containerH = 100;
+  const dinoH = Math.max(4, (d.altura / MAX_ALTURA) * containerH);
+  const humanH = Math.max(4, (1.7 / MAX_ALTURA) * containerH);
+  return `
+    <div class="compare-wrap">
+      <div class="compare-col">
+        <div class="compare-bar" style="height:${dinoH}px"></div>
+        <div class="compare-label">${d.nome}<br>~${d.altura} m</div>
+      </div>
+      <div class="compare-col">
+        <div class="compare-bar human" style="height:${humanH}px"></div>
+        <div class="compare-label">Pessoa adulta<br>1,70 m</div>
+      </div>
+    </div>`;
+}
+
+function discoveryHTML(d){
+  return `
+    <div class="discovery-box">
+      <div data-track="fossil">📸 Descoberto por <strong>${d.descoberta.por}</strong>, em ${d.descoberta.ano}.</div>
+      <div data-track="formacao">🦴 Formação geológica: ${d.formacao}</div>
+      <div>📍 Local do achado: ${d.local}</div>
+    </div>`;
+}
+
+function sourcesHTML(){
+  return `<div class="sources-box"><ul>${FONTES_PADRAO.map(f=>`<li>${f}</li>`).join('')}</ul></div>`;
+}
+
+/* ===== registro de leitura (estilo "visto/registrado" da Pokédex) ===== */
+const TRACK_KEYS = ['alimentacao','peso','local','curiosidades','formacao','fossil'];
+const TRACK_LABELS = {
+  alimentacao:'Alimentação', peso:'Peso', local:'Local',
+  curiosidades:'Curiosidades', formacao:'Formação', fossil:'Fóssil',
+};
+function loadRegistro(){
+  try{ return JSON.parse(localStorage.getItem('dinodex_registro') || "{}"); }
+  catch(e){ return {}; }
+}
+function saveRegistro(){
+  try{ localStorage.setItem('dinodex_registro', JSON.stringify(registro)); }
+  catch(e){ /* localStorage indisponível — segue sem salvar */ }
+}
+let registro = loadRegistro();
+let trackObserver = null;
+
+function regPanelInner(d){
+  const done = new Set(registro[d.id] || []);
+  const percent = Math.round((done.size / TRACK_KEYS.length) * 100);
+  const filled = Math.round((done.size / TRACK_KEYS.length) * 10);
+  const checklist = TRACK_KEYS.map(k =>
+    `<span class="reg-item${done.has(k) ? ' done' : ''}">${done.has(k) ? '✓' : '○'} ${TRACK_LABELS[k]}</span>`
+  ).join('');
+  return `
+    <div class="reg-row"><span>Nº${String(d.id).padStart(3,'0')}</span><span>${percent===100 ? 'REGISTRADO' : 'REGISTRANDO...'}</span></div>
+    <div class="reg-bar">${makeBar(filled)} ${percent}%</div>
+    <div class="reg-checklist">${checklist}</div>
+  `;
+}
+
+function updateRegPanel(d){
+  const el = document.getElementById('regPanel');
+  if(el) el.innerHTML = regPanelInner(d);
+}
+
+function showRegistroCompleto(){
+  const toast = document.createElement('div');
+  toast.className = 'achievement-toast reg-toast';
+  toast.innerHTML = `100%<br>Registro concluído.`;
+  document.body.appendChild(toast);
+  beep();
+  requestAnimationFrame(()=> toast.classList.add('show'));
+  setTimeout(()=>{
+    toast.classList.remove('show');
+    setTimeout(()=> toast.remove(), 400);
+  }, 2600);
+}
+
+function setupTracking(d){
+  if(trackObserver) trackObserver.disconnect();
+  const root = detailEl.querySelector('.d-info');
+  if(!root) return;
+  trackObserver = new IntersectionObserver((entries)=>{
+    const list = registro[d.id] || (registro[d.id] = []);
+    const before = list.length;
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        const key = entry.target.getAttribute('data-track');
+        if(key && !list.includes(key)) list.push(key);
+      }
+    });
+    if(list.length !== before){
+      saveRegistro();
+      updateRegPanel(d);
+      if(before < TRACK_KEYS.length && list.length === TRACK_KEYS.length){
+        showRegistroCompleto();
+      }
+    }
+  }, {threshold:0.6});
+  detailEl.querySelectorAll('[data-track]').forEach(el => trackObserver.observe(el));
+
+  updateScrollHint();
+  root.addEventListener('scroll', updateScrollHint);
+}
+
+function updateScrollHint(){
+  const root = detailEl.querySelector('.d-info');
+  const hint = document.getElementById('scrollHint');
+  if(!root || !hint) return;
+  const hasMore = root.scrollHeight - root.scrollTop - root.clientHeight > 12;
+  hint.classList.toggle('show', hasMore);
+}
+
+function renderDetail(d){
+  const maxComp = Math.max(...DINOS.map(x=>x.comprimento));
+  const maxPeso = Math.max(...DINOS.map(x=>x.peso));
+  const compScore = Math.max(1, Math.round((d.comprimento/maxComp)*10));
+  const pesoScore = Math.max(1, Math.round((d.peso/maxPeso)*10));
+  const distanciaSegura = Math.max(1, Math.min(5, Math.round(d.perigo/2)));
+  const chanceEscapar = Math.max(1, Math.min(5, Math.round((10 - d.velocidade)/2)));
+  const velocidadeCorrida = Math.max(1, Math.min(5, Math.round(d.velocidade/2)));
+  const comportamento = COMPORTAMENTOS[d.id] || "Comportamento pouco conhecido";
+
+  detailEl.innerHTML = `
+    <div class="d-header">
+      <span>Nº${String(d.id).padStart(3,'0')}</span>
+      <button class="fav-btn" id="favBtn" aria-label="Favoritar ${d.nome}">${favorites.has(d.id) ? '❤' : '♡'}</button>
+    </div>
+    <div class="d-name">${d.nome}</div>
+    <div class="d-latin">${d.latim}</div>
+    <div class="tag-row">
+      <span class="tag" data-track="alimentacao">${d.dieta}</span>
+      <span class="tag">${d.era}</span>
+      <span class="tag">${d.regiao}</span>
+    </div>
+    <div class="reg-panel" id="regPanel">${regPanelInner(d)}</div>
+    <div class="d-body">
+      <div class="d-art">
+        <div class="d-art-icon">${ICONS[d.forma] || ICONS.theropod}</div>
+        <div class="d-art-caption">🖼️ reconstrução (silhueta)</div>
+      </div>
+      <div class="d-info">
+        <div class="stat"><span class="stat-label">TAMANHO</span>${statCells(compScore)}<span>${d.comprimento}m</span></div>
+        <div class="stat" data-track="peso"><span class="stat-label">PESO</span>${statCells(pesoScore)}<span>${d.peso}kg</span></div>
+        <div class="desc">${d.desc}</div>
+        <div class="fact" data-track="curiosidades">✦ ${d.fato}</div>
+
+        <div class="section" data-track="local">
+          <div class="section-title">📍 ONDE FOI ENCONTRADO</div>
+          ${mapSVG(d)}
+          <div class="section-caption">${d.local} (${d.regiao})</div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📅 LINHA DO TEMPO</div>
+          ${timelineHTML(d)}
+        </div>
+
+        <div class="section">
+          <div class="section-title">🦴 FORMAÇÃO & DESCOBERTA</div>
+          ${discoveryHTML(d)}
+        </div>
+
+        <div class="section">
+          <div class="section-title">🧬 CLASSIFICAÇÃO COMPLETA</div>
+          ${classificacaoHTML(d)}
+        </div>
+
+        <div class="section">
+          <div class="section-title">📏 COMPARADO A UMA PESSOA</div>
+          ${comparisonHTML(d)}
+        </div>
+
+        <div class="section encounter-box">
+          <div class="encounter-title">SE VOCÊ ENCONTRASSE UM...</div>
+          <div class="encounter-row"><span>Distância segura</span><span class="stars">${starRating(distanciaSegura)}</span></div>
+          <div class="encounter-row"><span>Chance de escapar</span><span class="stars">${starRating(chanceEscapar)}</span></div>
+          <div class="encounter-row"><span>Velocidade de corrida</span><span class="stars">${starRating(velocidadeCorrida)}</span></div>
+          <div class="encounter-row"><span>Comportamento</span><span>${comportamento}</span></div>
+          <div class="encounter-disclaimer">* estimativas pra diversão, inspiradas em reconstruções científicas — não são fatos comprovados.</div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📚 FONTES</div>
+          ${sourcesHTML()}
+        </div>
+      </div>
+    </div>
+  `;
+  document.getElementById('favBtn').addEventListener('click', ()=>{
+    chirp();
+    if(favorites.has(d.id)) favorites.delete(d.id); else favorites.add(d.id);
+    saveSet('dinodex_favorites', favorites);
+    renderDetail(d);
+    renderList();
+  });
+  setupTracking(d);
+}
+
+function bootMessage(){
+  const curiosidade = curiosidadeDoDia();
+  detailEl.innerHTML = `
+    <div class="boot-wrap">
+      <div class="boot-msg">DINODEX v1.0<br>SELECIONE UM<br>DINOSSAURO ►</div>
+      <div class="daily-fact">
+        <div class="daily-fact-title">🦴 VOCÊ SABIA?</div>
+        <div class="daily-fact-text">${curiosidade}</div>
+      </div>
+    </div>
+  `;
+}
+
+async function scanAnimation(d){
+  staticNoise.classList.add('on');
+  await sleep(120);
+  staticNoise.classList.remove('on');
+
+  detailEl.innerHTML = `
+    <div class="scan-box">
+      <div class="scan-title">SCANNING...</div>
+      <div class="scan-bar" id="scanBar">${makeBar(0)}</div>
+    </div>`;
+  const barEl = document.getElementById('scanBar');
+  for(let i=1;i<=10;i++){
+    barEl.textContent = makeBar(i);
+    await sleep(35);
+  }
+  tick();
+
+  detailEl.innerHTML = `
+    <div class="scan-box">
+      <div class="scan-id">IDENTIFICADO</div>
+      <div class="scan-num">Nº${String(d.id).padStart(3,'0')}</div>
+      <div class="scan-name">${d.nome.toUpperCase()}</div>
+    </div>`;
+  beep();
+  await sleep(450);
+  renderDetail(d);
+}
+
+async function selectDino(id){
+  selectedId = id;
+  const d = getAllDinos().find(x=>x.id===id);
+  if(!d) return;
+  const isNew = !discovered.has(id);
+  discovered.add(id);
+  if(isNew) saveSet('dinodex_discovered', discovered);
+  renderList();
+  updateProgress();
+  checkAchievements();
+  await scanAnimation(d);
+}
+
+/* ===== controles ===== */
+searchEl.addEventListener('input', (e)=>{ searchTerm = e.target.value; tick(); renderList(); });
+
+document.getElementById('btnA').addEventListener('click', ()=>{
+  const dinos = filteredDinos();
+  if(dinos.length===0) return;
+  const pick = dinos[Math.floor(Math.random()*dinos.length)];
+  selectDino(pick.id);
+});
+
+document.getElementById('btnB').addEventListener('click', ()=>{
+  searchTerm=""; activeEra="Todas"; activeDiet="Todas";
+  searchEl.value="";
+  buildFilters();
+  renderList();
+});
+
+function moveSelection(dir){
+  tick();
+  const dinos = filteredDinos();
+  if(dinos.length===0) return;
+  let idx = dinos.findIndex(d=>d.id===selectedId);
+  if(idx===-1){ idx = 0; }
+  else{ idx = (idx + dir + dinos.length) % dinos.length; }
+  selectDino(dinos[idx].id);
+}
+document.getElementById('dpadUp').addEventListener('click', ()=>moveSelection(-1));
+document.getElementById('dpadDown').addEventListener('click', ()=>moveSelection(1));
+
+powerToggle.addEventListener('change', ()=>{
+  dexEl.classList.toggle('off', !powerToggle.checked);
+});
+
+/* ===== boot sequence ===== */
+function sleep(ms){ return new Promise(r=>setTimeout(r, ms)); }
+
+function makeBar(filled){
+  return '█'.repeat(filled) + '░'.repeat(10 - filled);
+}
+
+function beep(){
+  try{
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'square';
+    osc.frequency.value = 880;
+    gain.gain.value = 0.04;
+    osc.connect(gain).connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 0.12);
+  }catch(e){ /* áudio bloqueado pelo navegador — segue sem som */ }
+}
+
+function tick(){
+  try{
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'square';
+    osc.frequency.value = 520;
+    gain.gain.value = 0.025;
+    osc.connect(gain).connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 0.035);
+  }catch(e){ /* áudio bloqueado pelo navegador */ }
+}
+
+function chirp(){
+  try{
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'triangle';
+    osc.frequency.setValueAtTime(660, ctx.currentTime);
+    osc.frequency.exponentialRampToValueAtTime(1200, ctx.currentTime + 0.08);
+    gain.gain.value = 0.04;
+    osc.connect(gain).connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 0.1);
+  }catch(e){ /* áudio bloqueado pelo navegador */ }
+}
+
+async function bootSequence(){
+  const bootLines = document.getElementById('bootLines');
+  bootLines.innerHTML = '<div class="boot-title">DINODEX v1.0</div>';
+  await sleep(250);
+
+  const stages = ["Inicializando...", "Carregando banco de fósseis...", "Sincronizando dados..."];
+  for(const stage of stages){
+    const row = document.createElement('div');
+    row.className = 'boot-row';
+    row.innerHTML = `<div class="boot-label">${stage}</div><div class="boot-bar">${makeBar(0)}</div>`;
+    bootLines.appendChild(row);
+    const barEl = row.querySelector('.boot-bar');
+    for(let i=1;i<=10;i++){
+      barEl.textContent = makeBar(i);
+      await sleep(45);
+    }
+    await sleep(90);
+  }
+
+  const ready = document.createElement('div');
+  ready.className = 'boot-ready';
+  ready.textContent = 'Pronto!';
+  bootLines.appendChild(ready);
+  beep();
+  await sleep(500);
+  document.getElementById('bootScreen').classList.add('hidden');
+}
+
+/* ===== inicialização ===== */
+async function init(){
+  buildFilters();
+  updateProgress();
+  updateAchievementsCount();
+  const boot = bootSequence();
+  await loadDinos();
+  await boot;
+  renderList();
+  bootMessage();
+}
+init();
+</script>
+</body>
+</html>
