@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comparador de dinossauros — DinoDex</title>
+<meta name="description" content="Compare dois dinossauros do seu DinoDex lado a lado: comprimento, altura, peso, dieta e período em que viveram.">
+<meta name="theme-color" content="#12141c">
+<link rel="canonical" href="https://gabbydino.github.io/dinodex/compare.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Comparador de dinossauros — DinoDex">
+<meta property="og:description" content="Compare dois dinossauros lado a lado: tamanho, peso, dieta e período.">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="strata-bg" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M8 58 L14 40 Q10 30 22 26 L34 8 Q40 2 48 6 L58 14 Q66 12 70 18 L64 22 Q72 24 74 30 L66 30 Q70 36 66 40 L58 38 Q54 46 44 46 L40 58 L34 58 L36 46 Q28 46 24 42 L20 58 Z"/></svg>
+      </span>
+      DinoDex
+    </a>
+    <div class="header-stats">
+      <span id="dexProgress" class="stat-pill">Descobertos: 0/23</span>
+      <span id="achProgress" class="stat-pill">🏆 0/5</span>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">
+        <span class="theme-icon">☾</span><span class="theme-label">Noite Jurássica</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="detail-wrap">
+  <a class="back-link" href="index.html">← Voltar ao catálogo</a>
+
+  <section class="compare-intro">
+    <p class="hero-eyebrow">Ferramenta de campo</p>
+    <h1 class="compare-title">Comparador de dinossauros</h1>
+    <p class="hero-sub">Escolha duas espécies já descobertas no seu catálogo e veja lado a lado quem é maior, mais pesado e de que época cada uma veio.</p>
+  </section>
+
+  <div id="compareContent">
+    <div class="skeleton"><span class="spin"></span> Carregando comparador…</div>
+  </div>
+</main>
+
+<script type="module" src="js/compare.js"></script>
+</body>
+</html>
