@@ -2,7 +2,7 @@ import {
   loadDinos, ICONS, discovered, favorites, toggleFavorite,
   updateProgress, updateAchievementsCount, checkAchievements,
   curiosidadeDoDia, dinoDoDia, tick, chirp, registerServiceWorker,
-  initTheme
+  initTheme, grupoLabel, paisesDoLocal
 } from './common.js';
 
 const ERA_COLOR = { 'Triássico':'var(--era-triassico)', 'Jurássico':'var(--era-jurassico)', 'Cretáceo':'var(--era-cretaceo)' };
@@ -178,7 +178,9 @@ function renderGrid(){
       <div class="card-tags">
         <span class="tag-pill">${isDiscovered ? d.era : '—'}</span>
         <span class="tag-pill">${isDiscovered ? d.dieta : '—'}</span>
+        <span class="tag-pill">${isDiscovered ? grupoLabel(d) : '—'}</span>
       </div>
+      <div class="card-view-btn">${isDiscovered ? 'Ver ficha →' : 'Descubra pra ver a ficha'}</div>
     `;
     card.querySelector('.card-fav').addEventListener('click', (e)=>{
       e.preventDefault(); e.stopPropagation();
@@ -194,6 +196,34 @@ function renderGrid(){
   });
 }
 
+function renderStats(){
+  const statsEl = document.getElementById('statsGrid');
+  if(!statsEl) return;
+  const paises = new Set();
+  let totalCuriosidades = 0;
+  DINOS.forEach(d=>{
+    paisesDoLocal(d.local).forEach(p => paises.add(p));
+    totalCuriosidades += 1 + (d.curiosidades ? d.curiosidades.length : 0); // "fato" + curiosidades extras
+  });
+  const periodos = new Set(DINOS.map(d=>d.era));
+
+  const cards = [
+    {icon:'🦖', num:DINOS.length, label:'Espécies cadastradas'},
+    {icon:'🌍', num:paises.size, label:'Países com fósseis'},
+    {icon:'🦴', num:periodos.size, label:'Períodos representados'},
+    {icon:'📚', num:totalCuriosidades, label:'Curiosidades catalogadas'},
+  ];
+  statsEl.innerHTML = cards.map(c => `
+    <div class="stat-card">
+      <span class="stat-card-icon" aria-hidden="true">${c.icon}</span>
+      <div>
+        <div class="stat-card-num">${c.num}</div>
+        <div class="stat-card-label">${c.label}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
 async function init(){
   registerServiceWorker();
   initTheme();
@@ -203,6 +233,7 @@ async function init(){
   if(eyebrowEl) eyebrowEl.textContent = `Catálogo de campo · ${DINOS.length} espécies`;
   buildFilters();
   buildEraTimeline();
+  renderStats();
   updateProgress(DINOS.length);
   updateAchievementsCount();
   checkAchievements(DINOS);

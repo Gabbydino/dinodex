@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Comparador de dinossauros — DinoDex</title>
-<meta name="description" content="Compare dois dinossauros do seu DinoDex lado a lado: comprimento, altura, peso, dieta e período em que viveram.">
+<title id="pageTitle">Ficha do dinossauro — DinoDex</title>
+<meta name="description" id="pageDescription" content="Ficha completa de um dinossauro: classificação, mapa de descoberta, linha do tempo, comparação de tamanho e curiosidades.">
 <meta name="theme-color" content="#12141c">
-<link rel="canonical" href="https://gabbydino.github.io/dinodex/compare.html">
+<link rel="canonical" id="pageCanonical" href="https://gabbydino.github.io/dinodex/dino.html">
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Comparador de dinossauros — DinoDex">
-<meta property="og:description" content="Compare dois dinossauros lado a lado: tamanho, peso, dieta e período.">
+<meta property="og:type" content="article">
+<meta property="og:title" id="ogTitle" content="Ficha do dinossauro — DinoDex">
+<meta property="og:description" id="ogDescription" content="Ficha completa de um dinossauro no catálogo DinoDex.">
 <meta property="og:locale" content="pt_BR">
 
 <link rel="manifest" href="manifest.json">
@@ -34,11 +34,12 @@
       DinoDex
     </a>
     <nav class="header-nav">
+      <a href="compare.html">⚖<span class="header-nav-label"> Comparar</span></a>
       <a href="evolucao.html">🧬<span class="header-nav-label"> Evolução</span></a>
     </nav>
     <div class="header-stats">
       <span id="dexProgress" class="stat-pill">Descobertos: 0/50</span>
-      <span id="achProgress" class="stat-pill">🏆 0/5</span>
+      <span id="achProgress" class="stat-pill">🏆 0/22</span>
       <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">
         <span class="theme-icon">☾</span><span class="theme-label">Noite Jurássica</span>
       </button>
@@ -48,19 +49,12 @@
 
 <main class="detail-wrap">
   <a class="back-link" href="index.html">← Voltar ao catálogo</a>
-
-  <section class="compare-intro">
-    <p class="hero-eyebrow">Ferramenta de campo</p>
-    <h1 class="compare-title">Comparador de dinossauros</h1>
-    <p class="hero-sub">Escolha duas espécies já descobertas no seu catálogo e veja lado a lado quem é maior, mais pesado e de que época cada uma veio.</p>
-  </section>
-
-  <div id="compareContent">
-    <div class="skeleton"><span class="spin"></span> Carregando comparador…</div>
+  <div id="detailContent">
+    <div class="skeleton"><span class="spin"></span> Carregando ficha…</div>
   </div>
 </main>
 
-<script type="module" src="js/compare.js"></script>
+<script type="module" src="js/detail.js"></script>
 <footer class="site-footer">
   <div class="footer-top">
     <div class="footer-brand">
