@@ -158,6 +158,10 @@ export function buildAchievements(dinos){
   const porEra = (era) => dinos.filter(d=>d.era===era);
   const porTipo = (tipo) => dinos.filter(d=>d.tipo===tipo);
   const porRegiao = (parte) => dinos.filter(d=>d.regiao && d.regiao.includes(parte));
+  const porGrupo = (grupo) => dinos.filter(d=>grupoLabel(d)===grupo);
+  const porLocal = (parte) => dinos.filter(d=>d.local && d.local.includes(parte));
+  const descobertosAntesDe = (ano) => dinos.filter(d=>d.descoberta && d.descoberta.ano < ano);
+  const descobertosDepoisDe = (ano) => dinos.filter(d=>d.descoberta && d.descoberta.ano >= ano);
   const todosDescobertos = (lista) => lista.length > 0 && lista.every(d=>discovered.has(d.id));
 
   return [
@@ -165,6 +169,8 @@ export function buildAchievements(dinos){
     {id:'first', label:'Primeira descoberta', desc:'Descubra sua primeira espécie', test: () => discovered.size >= 1},
     {id:'ten', label:'10 espécies encontradas', desc:'Descubra 10 espécies', test: () => discovered.size >= 10},
     {id:'twentyfive', label:'25 espécies encontradas', desc:'Descubra 25 espécies', test: () => discovered.size >= 25},
+    {id:'fifty', label:'50 espécies encontradas', desc:'Descubra 50 espécies', test: () => discovered.size >= 50},
+    {id:'seventyfive', label:'75 espécies encontradas', desc:'Descubra 75 espécies', test: () => discovered.size >= 75},
     {id:'all', label:'Dex completa!', desc:'Descubra todas as espécies do catálogo', test: () => discovered.size >= dinos.length && dinos.length > 0},
 
     // por dieta
@@ -178,11 +184,18 @@ export function buildAchievements(dinos){
     {id:'jurassico', label:'Todas as espécies do Jurássico', desc:'Descubra todas as espécies do Jurássico', test: () => todosDescobertos(porEra('Jurássico'))},
     {id:'cretaceo', label:'Todas as espécies do Cretáceo', desc:'Descubra todas as espécies do Cretáceo', test: () => todosDescobertos(porEra('Cretáceo'))},
 
-    // por tipo/grupo
+    // por tipo/grupo amplo
     {id:'teropodes', label:'Clube dos terópodes', desc:'Descubra todos os terópodes', test: () => todosDescobertos(porTipo('Terópode'))},
     {id:'sauropodes', label:'Gigantes gentis', desc:'Descubra todos os saurópodes', test: () => todosDescobertos(porTipo('Saurópode'))},
     {id:'voadores', label:'Mestres dos céus', desc:'Descubra todos os répteis voadores', test: () => todosDescobertos(porTipo('Voador'))},
     {id:'marinhos', label:'Terror dos oceanos', desc:'Descubra todos os répteis marinhos', test: () => todosDescobertos(porTipo('Marinho'))},
+
+    // por grupo taxonômico específico
+    {id:'ceratopsia', label:'Chifres e fraldas', desc:'Descubra todos os ceratopsianos', test: () => todosDescobertos(porGrupo('Ceratopsia'))},
+    {id:'thyreophora', label:'Muralha viva', desc:'Descubra todos os dinossauros blindados', test: () => todosDescobertos(porGrupo('Thyreophora'))},
+    {id:'ornithopoda', label:'Bicos de pato', desc:'Descubra todos os ornitópodes', test: () => todosDescobertos(porGrupo('Ornithopoda'))},
+    {id:'marginocephalia', label:'Cabeças-duras', desc:'Descubra todos os paquicefalossauros', test: () => todosDescobertos(porGrupo('Marginocephalia'))},
+    {id:'miniaturas', label:'Clube dos pequenininhos', desc:'Descubra todas as espécies em miniatura do catálogo', test: () => todosDescobertos(dinos.filter(d=>d.forma==='small'))},
 
     // por região
     {id:'america_norte', label:'Explorador da América do Norte', desc:'Descubra todas as espécies dessa região', test: () => todosDescobertos(porRegiao('América do Norte'))},
@@ -190,10 +203,16 @@ export function buildAchievements(dinos){
     {id:'europa', label:'Explorador da Europa', desc:'Descubra todas as espécies dessa região', test: () => todosDescobertos(porRegiao('Europa'))},
     {id:'africa', label:'Explorador da África', desc:'Descubra todas as espécies dessa região', test: () => todosDescobertos(porRegiao('África'))},
     {id:'asia', label:'Explorador da Ásia', desc:'Descubra todas as espécies dessa região', test: () => todosDescobertos(porRegiao('Ásia'))},
+    {id:'brasil', label:'Made in Brazil', desc:'Descubra a espécie encontrada no Brasil', test: () => todosDescobertos(porLocal('Brasil'))},
+
+    // história da paleontologia
+    {id:'seculo19', label:'Era de ouro da paleontologia', desc:'Descubra todas as espécies descritas antes de 1900', test: () => todosDescobertos(descobertosAntesDe(1900))},
+    {id:'seculo21', label:'Descobertas recentes', desc:'Descubra todas as espécies descritas a partir do ano 2000', test: () => todosDescobertos(descobertosDepoisDe(2000))},
 
     // coleção pessoal
     {id:'fav5', label:'Colecionador', desc:'Favorite 5 espécies', test: () => favorites.size >= 5},
     {id:'fav10', label:'Apaixonado por dinossauros', desc:'Favorite 10 espécies', test: () => favorites.size >= 10},
+    {id:'fav20', label:'Colecionador lendário', desc:'Favorite 20 espécies', test: () => favorites.size >= 20},
   ];
 }
 export let unlockedAchievements = loadSet('dinodex_achievements');
