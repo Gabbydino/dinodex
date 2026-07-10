@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conquistas — DinoDex</title>
+<meta name="description" content="Veja todas as conquistas do DinoDex, quais você já desbloqueou e o que falta para completar cada uma.">
+<meta name="theme-color" content="#12141c">
+<link rel="canonical" href="https://gabbydino.github.io/dinodex/conquistas.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Conquistas — DinoDex">
+<meta property="og:description" content="Todas as conquistas do DinoDex, desbloqueadas e por desbloquear.">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="strata-bg" aria-hidden="true"></div>
+<div class="topo-bg" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M8 58 L14 40 Q10 30 22 26 L34 8 Q40 2 48 6 L58 14 Q66 12 70 18 L64 22 Q72 24 74 30 L66 30 Q70 36 66 40 L58 38 Q54 46 44 46 L40 58 L34 58 L36 46 Q28 46 24 42 L20 58 Z"/></svg>
+      </span>
+      DinoDex
+    </a>
+    <nav class="header-nav">
+      <a href="compare.html">⚖<span class="header-nav-label"> Comparar</span></a>
+      <a href="evolucao.html">🧬<span class="header-nav-label"> Evolução</span></a>
+      <a href="conquistas.html">🏆<span class="header-nav-label"> Conquistas</span></a>
+    </nav>
+    <div class="header-stats">
+      <span id="dexProgress" class="stat-pill">Descobertos: 0/102</span>
+      <span id="achProgress" class="stat-pill">🏆 0/33</span>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">
+        <span class="theme-icon">☾</span><span class="theme-label">Noite Jurássica</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="detail-wrap">
+  <a class="back-link" href="index.html">← Voltar ao catálogo</a>
+
+  <section class="compare-intro">
+    <p class="hero-eyebrow">Registro de campo</p>
+    <h1 class="compare-title">Conquistas</h1>
+    <p class="hero-sub">Cada conquista é desbloqueada automaticamente enquanto você explora o catálogo — descobrindo espécies, favoritando fichas ou completando grupos inteiros de dinossauros.</p>
+  </section>
+
+  <div class="ach-summary" id="achSummary">
+    <div class="ach-summary-num">–<span class="ach-summary-total">/33</span></div>
+    <div class="ach-summary-label">carregando…</div>
+  </div>
+
+  <div id="achList">
+    <div class="skeleton"><span class="spin"></span> Carregando conquistas…</div>
+  </div>
+</main>
+
+<script type="module" src="js/conquistas.js"></script>
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M8 58 L14 40 Q10 30 22 26 L34 8 Q40 2 48 6 L58 14 Q66 12 70 18 L64 22 Q72 24 74 30 L66 30 Q70 36 66 40 L58 38 Q54 46 44 46 L40 58 L34 58 L36 46 Q28 46 24 42 L20 58 Z"/></svg>
+        </span>
+        DinoDex
+      </a>
+      <p class="footer-tagline">Enciclopédia digital de dinossauros em português — fichas ilustradas, mapas de descoberta, linha do tempo e curiosidades para explorar milhões de anos de história.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <p class="footer-col-title">Explorar</p>
+        <a href="index.html">Catálogo</a>
+        <a href="compare.html">Comparar</a>
+        <a href="evolucao.html">Linha evolutiva</a>
+        <a href="conquistas.html">Conquistas</a>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">Projeto</p>
+        <a href="https://github.com/Gabbydino/dinodex" target="_blank" rel="noopener">Código no GitHub</a>
+        <span>Uso educacional — todos os direitos reservados a Gabby</span>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">Fontes</p>
+        <span>Museus de história natural</span>
+        <span>Artigos revisados por pares</span>
+        <span>Paleobiology Database (PBDB)</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 DinoDex — feito por Gabby</span>
+    <span>DinoDex v3.0</span>
+  </div>
+</footer>
+</body>
+</html>
