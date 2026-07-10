@@ -1998,5 +1998,845 @@
       "Foi um dos primeiros dinossauros para os quais se encontraram ovos claramente atribuídos à espécie.",
       "Convivia na mesma região e época que o Velociraptor, ambos encontrados na Formação Djadochta."
     ]
+  },
+  {
+    "id": 51,
+    "nome": "Hipsilofodonte",
+    "latim": "Hypsilophodon foxii",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 2.3,
+    "peso": 20,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Pequeno ornitópode ágil e bípede, um dos dinossauros herbívoros mais rápidos de sua época, com pernas longas adaptadas para corrida.",
+    "fato": "Por muito tempo os cientistas acreditaram, erroneamente, que ele vivia em árvores — hoje se sabe que era um corredor terrestre.",
+    "perigo": 2,
+    "velocidade": 8,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 130,
+      "fim": 125
+    },
+    "formacao": "Formação Wealden",
+    "local": "Ilha de Wight, Inglaterra",
+    "mapa": {
+      "x": 163,
+      "y": 26
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda (basal)",
+      "familia": "Hypsilophodontidae"
+    },
+    "descoberta": {
+      "por": "Thomas Henry Huxley",
+      "ano": 1870
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Foi um dos primeiros dinossauros a ter esqueletos quase completos descobertos, ainda no século XIX.",
+      "Seus dentes eram eficientes para cortar vegetação rasteira, diferente do bico mais achatado de hadrossaurídeos posteriores."
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Driossauro",
+    "latim": "Dryosaurus altus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 3.5,
+    "peso": 90,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Ornitópode leve e veloz, com pernas longas e cauda rígida usada para equilíbrio durante a corrida.",
+    "fato": "Fósseis muito semelhantes foram encontrados tanto nos EUA quanto na Tanzânia, sugerindo ampla distribuição do grupo.",
+    "perigo": 2,
+    "velocidade": 8,
+    "altura": 1,
+    "periodo": {
+      "inicio": 155,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 45
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda (basal)",
+      "familia": "Dryosauridae"
+    },
+    "descoberta": {
+      "por": "Othniel Charles Marsh",
+      "ano": 1878
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Provavelmente vivia em grupos, usando a velocidade como principal defesa contra predadores como o Alossauro.",
+      "Filhotes tinham proporções corporais diferentes dos adultos, com pernas relativamente mais curtas."
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Tenontossauro",
+    "latim": "Tenontosaurus tilletti",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 6.5,
+    "peso": 1000,
+    "regiao": "América do Norte",
+    "forma": "ornithopod",
+    "desc": "Ornitópode de porte médio com uma cauda excepcionalmente longa, frequentemente encontrado em sítios fósseis junto a dentes de Deinoníco.",
+    "fato": "É uma das melhores evidências fósseis de caça em grupo entre dinossauros — vários esqueletos foram achados junto a múltiplos Deinonícos.",
+    "perigo": 3,
+    "velocidade": 5,
+    "altura": 2,
+    "periodo": {
+      "inicio": 115,
+      "fim": 108
+    },
+    "formacao": "Formação Cloverly",
+    "local": "Montana, EUA",
+    "mapa": {
+      "x": 54,
+      "y": 39
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Tenontosauridae"
+    },
+    "descoberta": {
+      "por": "Barnum Brown",
+      "ano": 1903
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Sua cauda podia representar quase metade do comprimento total do corpo.",
+      "Foi formalmente descrito décadas depois de descoberto, apenas em 1970, pelo paleontólogo John Ostrom."
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Uranossauro",
+    "latim": "Ouranosaurus nigeriensis",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 7,
+    "peso": 2000,
+    "regiao": "África",
+    "forma": "sail",
+    "desc": "Parente do Iguanodonte com longas espinhas neurais formando uma crista baixa ao longo das costas, possivelmente sustentando uma vela de pele.",
+    "fato": "A vela nas costas pode ter servido para regular a temperatura corporal ou para exibição visual.",
+    "perigo": 3,
+    "velocidade": 5,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 112,
+      "fim": 108
+    },
+    "formacao": "Formação Elrhaz",
+    "local": "Níger",
+    "mapa": {
+      "x": 172,
+      "y": 77
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Iguanodontidae"
+    },
+    "descoberta": {
+      "por": "Philippe Taquet",
+      "ano": 1976
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Tinha um polegar em formato de espinho, semelhante ao do Iguanodonte, provavelmente usado como defesa.",
+      "Viveu na mesma região e época do Sucomimo, um dos maiores predadores piscívoros já descobertos."
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Leelinassaura",
+    "latim": "Leaellynasaura amicagraphica",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 1,
+    "peso": 10,
+    "regiao": "Oceania",
+    "forma": "small",
+    "desc": "Pequeno ornitópode que vivia perto do Círculo Polar Antártico da época, com olhos proporcionalmente grandes adaptados à escuridão prolongada.",
+    "fato": "Foi batizado em homenagem a Leaellyn, filha dos paleontólogos que a descobriram.",
+    "perigo": 1,
+    "velocidade": 6,
+    "altura": 0.3,
+    "periodo": {
+      "inicio": 118,
+      "fim": 110
+    },
+    "formacao": "Formação Eumeralla",
+    "local": "Vitória, Austrália",
+    "mapa": {
+      "x": 268,
+      "y": 124
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda (basal)",
+      "familia": "Elasmariidae"
+    },
+    "descoberta": {
+      "por": "Thomas Rich e Patricia Vickers-Rich",
+      "ano": 1989
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Vivia numa região que, na época, ficava dentro do Círculo Polar Antártico, com meses de escuridão contínua.",
+      "Os olhos grandes sugerem adaptação a condições de pouca luz, algo raro entre dinossauros conhecidos."
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "Apatossauro",
+    "latim": "Apatosaurus ajax",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 23,
+    "peso": 22000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Saurópode robusto de pescoço grosso e cauda longa em forma de chicote, um dos mais conhecidos do período Jurássico.",
+    "fato": "Foi confundido por décadas com o gênero Brontossauro, até estudos recentes reconhecerem os dois como distintos novamente.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 5,
+    "periodo": {
+      "inicio": 152,
+      "fim": 151
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Diplodocidae"
+    },
+    "descoberta": {
+      "por": "Othniel Charles Marsh",
+      "ano": 1877
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Sua cauda em chicote provavelmente podia ser estalada a velocidades capazes de gerar um estampido sônico.",
+      "Apesar do pescoço longo, estudos sugerem que ele se alimentava mais perto do chão do que se imaginava antigamente."
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Argentinossauro",
+    "latim": "Argentinosaurus huinculensis",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 35,
+    "peso": 70000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Um dos maiores animais terrestres já descobertos, com vértebras do tamanho de uma pessoa adulta.",
+    "fato": "Foi descoberto por acaso por um fazendeiro, que inicialmente pensou ter encontrado um tronco de árvore petrificado.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 7,
+    "periodo": {
+      "inicio": 97,
+      "fim": 93.5
+    },
+    "formacao": "Formação Huincul",
+    "local": "Neuquén, Argentina",
+    "mapa": {
+      "x": 87,
+      "y": 118
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Guillermo Heredia",
+      "ano": 1987
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Estimativas de peso variam bastante entre estudos, já que nenhum esqueleto completo foi encontrado até hoje.",
+      "Uma única vértebra da espécie pode pesar mais que um carro pequeno."
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Patagotitã",
+    "latim": "Patagotitan mayorum",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 37,
+    "peso": 69000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Um dos dinossauros mais compridos e pesados já descobertos, conhecido a partir de mais de 200 ossos de pelo menos seis indivíduos.",
+    "fato": "Os ossos foram encontrados por um trabalhador rural na Patagônia argentina em 2012, levando a uma das maiores escavações da história da paleontologia.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 6,
+    "periodo": {
+      "inicio": 101,
+      "fim": 94
+    },
+    "formacao": "Formação Cerro Barcino",
+    "local": "Chubut, Argentina",
+    "mapa": {
+      "x": 85,
+      "y": 128
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "José Luis Carballido e Diego Pol",
+      "ano": 2017
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Ter vários indivíduos do mesmo sítio ajudou os cientistas a estimar seu tamanho com mais confiança do que outros titanossauros gigantes.",
+      "Uma réplica do esqueleto é tão grande que sua cabeça ultrapassa a porta de entrada do museu onde está exposta em Buenos Aires."
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Dreadnoughtus",
+    "latim": "Dreadnoughtus schrani",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 26,
+    "peso": 59000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Um dos titanossauros gigantes com o esqueleto mais completo já encontrado, o que permitiu estimativas de peso incomumente precisas.",
+    "fato": "Seu nome significa 'que não teme nada', numa referência ao seu tamanho descomunal e à falta de predadores capazes de ameaçá-lo quando adulto.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 6,
+    "periodo": {
+      "inicio": 84,
+      "fim": 66
+    },
+    "formacao": "Formação Cerro Fortaleza",
+    "local": "Santa Cruz, Argentina",
+    "mapa": {
+      "x": 83,
+      "y": 136
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Kenneth Lacovara",
+      "ano": 2005
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Cerca de 70% do esqueleto foi recuperado, uma proporção excepcionalmente alta para um saurópode desse tamanho.",
+      "Estudos sugerem que ele ainda estava crescendo no momento da morte, podendo ter ficado ainda maior."
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Alamossauro",
+    "latim": "Alamosaurus sanjuanensis",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 21,
+    "peso": 30000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "O último grande saurópode conhecido da América do Norte, reaparecendo no continente milhões de anos depois de outros saurópodes terem desaparecido da região.",
+    "fato": "Viveu até pouco antes do fim do período Cretáceo, sendo contemporâneo do T. rex e do Tricerátops.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 5.5,
+    "periodo": {
+      "inicio": 70,
+      "fim": 66
+    },
+    "formacao": "Formação Ojo Alamo",
+    "local": "Novo México, EUA",
+    "mapa": {
+      "x": 52,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Titanosauria (Saltasauridae)"
+    },
+    "descoberta": {
+      "por": "Charles Gilmore",
+      "ano": 1922
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Sua presença sugere que saurópodes migraram de volta para a América do Norte vindos da América do Sul.",
+      "É o maior dinossauro conhecido a ter vivido na América do Norte pouco antes da extinção em massa do fim do Cretáceo."
+    ]
+  },
+  {
+    "id": 61,
+    "nome": "Saltassauro",
+    "latim": "Saltasaurus loricatus",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 12.5,
+    "peso": 7000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Titanossauro relativamente pequeno para os padrões do grupo, com a pele coberta por placas ósseas — algo raro entre saurópodes.",
+    "fato": "Foi o primeiro titanossauro identificado com armadura óssea na pele, mudando a forma como os cientistas imaginavam esses animais.",
+    "perigo": 3,
+    "velocidade": 3,
+    "altura": 3,
+    "periodo": {
+      "inicio": 70,
+      "fim": 66
+    },
+    "formacao": "Formação Lecho",
+    "local": "Salta, Argentina",
+    "mapa": {
+      "x": 90,
+      "y": 110
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Saltasauridae"
+    },
+    "descoberta": {
+      "por": "José Bonaparte e Jaime Powell",
+      "ano": 1980
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Deu nome à família Saltasauridae, um grupo de titanossauros geralmente menores e blindados.",
+      "As placas ósseas na pele podiam variar de poucos milímetros a vários centímetros de diâmetro."
+    ]
+  },
+  {
+    "id": 62,
+    "nome": "Camarassauro",
+    "latim": "Camarasaurus supremus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 18,
+    "peso": 20000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Um dos saurópodes mais comuns e mais bem representados em fósseis do Jurássico norte-americano, com pescoço relativamente curto para o grupo.",
+    "fato": "Seu crânio é um dos poucos crânios completos de saurópode conhecidos, ajudando a entender a anatomia da cabeça desses animais.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 4.5,
+    "periodo": {
+      "inicio": 155,
+      "fim": 145
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 57,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Camarasauridae"
+    },
+    "descoberta": {
+      "por": "Edward Drinker Cope",
+      "ano": 1877
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Seu nome significa 'lagarto de câmaras', em referência às cavidades ocas em suas vértebras que reduziam o peso do esqueleto.",
+      "Era provavelmente uma presa comum do Alossauro, que convivia na mesma região e época."
+    ]
+  },
+  {
+    "id": 63,
+    "nome": "Europassauro",
+    "latim": "Europasaurus holgeri",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 6,
+    "peso": 800,
+    "regiao": "Europa",
+    "forma": "sauropod",
+    "desc": "Saurópode incomumente pequeno, resultado de nanismo insular — viveu isolado em uma ilha, onde recursos limitados favoreceram um tamanho corporal reduzido.",
+    "fato": "Apesar de ser um saurópode, media aproximadamente o mesmo que um cavalo grande, uma fração do tamanho de parentes continentais.",
+    "perigo": 1,
+    "velocidade": 4,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 154,
+      "fim": 154
+    },
+    "formacao": "Formação Süntel",
+    "local": "Baixa Saxônia, Alemanha",
+    "mapa": {
+      "x": 169,
+      "y": 23
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Camarasauromorpha (família incerta)"
+    },
+    "descoberta": {
+      "por": "Holger Lüdtke",
+      "ano": 2006
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos melhores exemplos conhecidos de nanismo insular entre dinossauros.",
+      "Centenas de ossos de diferentes idades foram encontrados no mesmo sítio, permitindo estudar seu crescimento."
+    ]
+  },
+  {
+    "id": 64,
+    "nome": "Girafatitã",
+    "latim": "Giraffatitan brancai",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 23,
+    "peso": 30000,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Parente próximo do Braquiossauro, com pescoço extremamente longo e pernas dianteiras mais altas que as traseiras, alcançando a copa das árvores.",
+    "fato": "Por décadas foi classificado como uma espécie de Brachiosaurus, até ganhar gênero próprio em 1991.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 12,
+    "periodo": {
+      "inicio": 152,
+      "fim": 145
+    },
+    "formacao": "Formação Tendaguru",
+    "local": "Tanzânia",
+    "mapa": {
+      "x": 196,
+      "y": 92
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Brachiosauridae"
+    },
+    "descoberta": {
+      "por": "Expedição alemã (Werner Janensch)",
+      "ano": 1909
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Um dos esqueletos montados a partir dessa expedição está entre os maiores esqueletos de dinossauro já montados em um museu.",
+      "As narinas ficavam no alto da cabeça, assim como em seu parente Braquiossauro."
+    ]
+  },
+  {
+    "id": 65,
+    "nome": "Amargassauro",
+    "latim": "Amargasaurus cazaui",
+    "era": "Cretáceo",
+    "dieta": "Herbívoro",
+    "comprimento": 10,
+    "peso": 4000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Saurópode incomum com duas fileiras paralelas de longos espinhos ósseos ao longo do pescoço, possivelmente sustentando velas de pele.",
+    "fato": "Os espinhos podiam ultrapassar 60 cm de altura, tornando-o um dos saurópodes visualmente mais distintos já descobertos.",
+    "perigo": 3,
+    "velocidade": 3,
+    "altura": 3,
+    "periodo": {
+      "inicio": 125,
+      "fim": 120
+    },
+    "formacao": "Formação La Amarga",
+    "local": "Neuquén, Argentina",
+    "mapa": {
+      "x": 87,
+      "y": 119
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Dicraeosauridae"
+    },
+    "descoberta": {
+      "por": "José Bonaparte e Leonardo Salgado",
+      "ano": 1991
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "A função exata dos espinhos ainda é debatida: defesa, exibição visual ou termorregulação são hipóteses consideradas.",
+      "Era bem menor que a maioria dos outros saurópodes, com pescoço proporcionalmente mais curto e rígido."
+    ]
+  },
+  {
+    "id": 66,
+    "nome": "Mamenquissauro",
+    "latim": "Mamenchisaurus hochuanensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 26,
+    "peso": 25000,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Detentor de um dos pescoços mais longos já registrados entre os dinossauros, podendo representar quase metade do comprimento total do corpo.",
+    "fato": "Seu pescoço tinha mais vértebras que o de qualquer outro saurópode conhecido, algumas espécies chegando a 19 vértebras cervicais.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 6,
+    "periodo": {
+      "inicio": 160,
+      "fim": 155
+    },
+    "formacao": "Formação Shangshaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 220,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Mamenchisauridae"
+    },
+    "descoberta": {
+      "por": "Descoberto durante obras de estrada",
+      "ano": 1952
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Foi nomeado em 1954 pelo paleontólogo chinês C. C. Young (Yang Zhongjian), um dos pioneiros da paleontologia na China.",
+      "Estudos sugerem que o pescoço, apesar do comprimento, tinha mobilidade limitada e era mantido majoritariamente na horizontal."
+    ]
+  },
+  {
+    "id": 67,
+    "nome": "Xunossauro",
+    "latim": "Shunosaurus lii",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 10,
+    "peso": 3500,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Saurópode relativamente pequeno e primitivo, notável por ter uma maça óssea na ponta da cauda, característica rara entre saurópodes.",
+    "fato": "A maça na cauda é um recurso de defesa mais associado a anquilossauros, tornando o Xunossauro um caso curioso de evolução convergente.",
+    "perigo": 3,
+    "velocidade": 3,
+    "altura": 3,
+    "periodo": {
+      "inicio": 170,
+      "fim": 160
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 219,
+      "y": 49
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Dong Zhiming",
+      "ano": 1983
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Mais de 20 esqueletos foram encontrados no mesmo sítio fóssil, um dos conjuntos mais completos de saurópodes já reunidos.",
+      "É um dos saurópodes mais antigos e mais completos conhecidos da Ásia."
+    ]
+  },
+  {
+    "id": 68,
+    "nome": "Mussauro",
+    "latim": "Mussaurus patagonicus",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 6,
+    "peso": 1500,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Um dos primeiros parentes próximos dos verdadeiros saurópodes, inicialmente descrito a partir de filhotes minúsculos que deram origem ao seu nome.",
+    "fato": "Seu nome significa 'lagarto rato', por causa dos filhotes com apenas alguns centímetros — mas os adultos chegavam a pesar mais de uma tonelada.",
+    "perigo": 2,
+    "velocidade": 4,
+    "altura": 2,
+    "periodo": {
+      "inicio": 227,
+      "fim": 205
+    },
+    "formacao": "Formação Laguna Colorada",
+    "local": "Patagônia, Argentina",
+    "mapa": {
+      "x": 82,
+      "y": 134
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "José Bonaparte e Martín Vince",
+      "ano": 1979
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Ovos e filhotes fossilizados encontrados juntos sugerem que vivia em grupos e talvez cuidasse dos filhotes.",
+      "É um dos elos que ajudam a entender como os saurópodes gigantes evoluíram a partir de ancestrais bem menores."
+    ]
+  },
+  {
+    "id": 69,
+    "nome": "Riojassauro",
+    "latim": "Riojasaurus incertus",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 10,
+    "peso": 1000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Um dos primeiros grandes herbívoros de pescoço longo, ainda com características mais primitivas que os saurópodes gigantes que viriam depois.",
+    "fato": "Apesar do tamanho considerável, seus ossos ainda eram relativamente maciços, diferente dos ossos ocos e leves dos saurópodes posteriores.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 3,
+    "periodo": {
+      "inicio": 221,
+      "fim": 205
+    },
+    "formacao": "Formação Los Colorados",
+    "local": "La Rioja, Argentina",
+    "mapa": {
+      "x": 89,
+      "y": 115
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Riojasauridae"
+    },
+    "descoberta": {
+      "por": "José Bonaparte",
+      "ano": 1969
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Está entre os maiores animais terrestres de todo o período Triássico.",
+      "Provavelmente ainda conseguia se apoiar ocasionalmente em duas patas, diferente dos saurópodes totalmente quadrúpedes posteriores."
+    ]
+  },
+  {
+    "id": 70,
+    "nome": "Omeissauro",
+    "latim": "Omeisaurus tianfuensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 20,
+    "peso": 9000,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Saurópode chinês de pescoço muito longo e cabeça pequena, parente próximo do Mamenquissauro.",
+    "fato": "Seu pescoço podia ter até 17 vértebras, um número incomum mesmo entre saurópodes de pescoço longo.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 5,
+    "periodo": {
+      "inicio": 168,
+      "fim": 161
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 221,
+      "y": 47
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Mamenchisauridae"
+    },
+    "descoberta": {
+      "por": "Yang Zhongjian (C. C. Young)",
+      "ano": 1939
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Foi um dos primeiros grandes saurópodes descobertos e descritos na China, marcando o início da paleontologia de dinossauros no país.",
+      "Algumas espécies do gênero tinham uma pequena maça óssea na ponta da cauda, parecida com a do Xunossauro."
+    ]
+  },
+  {
+    "id": 71,
+    "nome": "Vulcanodon",
+    "latim": "Vulcanodon karibaensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 6.5,
+    "peso": 1500,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Um dos primeiros saurópodes verdadeiros conhecidos, representando um estágio de transição entre parentes menores e os gigantes que viriam depois.",
+    "fato": "Foi encontrado próximo a uma represa na época de sua construção, o que inspirou parte do seu nome, ligado à região de Kariba.",
+    "perigo": 2,
+    "velocidade": 4,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 201,
+      "fim": 190
+    },
+    "formacao": "Formação Batoka",
+    "local": "Zimbábue",
+    "mapa": {
+      "x": 184,
+      "y": 108
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Vulcanodontidae"
+    },
+    "descoberta": {
+      "por": "Mike Raath",
+      "ano": 1969
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos saurópodes mais antigos conhecidos, ajudando a marcar quando o grupo começou a atingir tamanhos maiores.",
+      "Apesar de já ter patas colunares como os saurópodes gigantes, ainda era relativamente pequeno para o grupo."
+    ]
   }
 ]
