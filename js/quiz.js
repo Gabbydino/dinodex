@@ -252,12 +252,22 @@ function renderResultado(){
 }
 
 async function init(){
-  registerServiceWorker();
-  initTheme();
-  const dinos = await loadDinos();
-  updateProgress(dinos.length);
-  checkAchievements(dinos);
-  updateAchievementsCount();
-  renderInicio(dinos.length);
+  try{
+    registerServiceWorker();
+    initTheme();
+    const dinos = await loadDinos();
+    updateProgress(dinos.length);
+    checkAchievements(dinos);
+    updateAchievementsCount();
+    renderInicio(dinos.length);
+  }catch(err){
+    console.error('Erro ao iniciar o quiz:', err);
+    quizArea.innerHTML = `
+      <div class="quiz-start">
+        <p>⚠️ Não consegui carregar o quiz.</p>
+        <p style="font-family:var(--font-mono); font-size:12px; color:var(--paper-dim);">${err.message || err}</p>
+      </div>
+    `;
+  }
 }
 init();
