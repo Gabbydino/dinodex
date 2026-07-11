@@ -1,106 +1,153 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Linha evolutiva — DinoDex</title>
-<meta name="description" content="Veja como os grupos de dinossauros do seu catálogo mudaram ao longo de milhões de anos, do Triássico até as aves modernas.">
-<meta name="theme-color" content="#12141c">
-<link rel="canonical" href="https://gabbydino.github.io/dinodex/evolucao.html">
+import {
+  loadDinos, ICONS, discovered, updateProgress, updateAchievementsCount,
+  checkAchievements, registerServiceWorker, initTheme
+} from './common.js';
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Linha evolutiva — DinoDex">
-<meta property="og:description" content="Como os grupos de dinossauros do catálogo mudaram ao longo do tempo.">
-<meta property="og:locale" content="pt_BR">
+const ERA_COLOR = { 'Triássico':'var(--era-triassico)', 'Jurássico':'var(--era-jurassico)', 'Cretáceo':'var(--era-cretaceo)' };
 
-<link rel="manifest" href="manifest.json">
-<link rel="icon" href="icons/icon-192.png" type="image/png">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
+const contentEl = document.getElementById('evoContent');
+let DINOS = [];
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-<div class="strata-bg" aria-hidden="true"></div>
-<div class="topo-bg" aria-hidden="true"></div>
+/* ===== Linhagens curadas =====
+   Cada nó "ref" aponta para o id de uma espécie real do dinos.json.
+   Nós sem "ref" (como "Aves modernas") são pontos de chegada
+   ilustrativos que não existem no catálogo. */
+const LINEAGES = [
+  {
+    icon: '🐦',
+    title: 'Terópodes rumo às aves',
+    blurb: 'O ramo mais estudado: pequenos terópodes ágeis foram, ao longo de dezenas de milhões de anos, ficando mais leves e emplumados — até que um grupo deles se tornou as aves de hoje.',
+    nodes: [
+      { ref: 21 },
+      { ref: 12 },
+      { ref: 18 },
+      { end: true, icon: '🐦', label: 'Aves modernas', note: 'Vivas hoje — não fazem parte do catálogo de fósseis.' },
+    ],
+  },
+  {
+    icon: '🦖',
+    title: 'Grandes predadores terópodes',
+    blurb: 'Um ramo separado de terópodes, sem ligação direta com as aves, seguiu na direção oposta: corpos cada vez maiores e mordidas cada vez mais poderosas.',
+    nodes: [{ ref: 9 }, { ref: 16 }, { ref: 6 }, { ref: 1 }],
+  },
+  {
+    icon: '🌿',
+    title: 'Saurópodes gigantes',
+    blurb: 'Começaram pequenos e bípedes no Triássico. Ao longo do Jurássico, cresceram até virar os maiores animais que já pisaram na Terra.',
+    nodes: [{ ref: 22 }, { ref: 19 }, { ref: 10 }, { ref: 5 }],
+  },
+  {
+    icon: '🛡️',
+    title: 'Blindados (Thyreophora)',
+    blurb: 'Um grupo de herbívoros investiu em couraça e defesas passivas em vez de velocidade para escapar de predadores.',
+    nodes: [{ ref: 4 }, { ref: 7 }],
+  },
+  {
+    icon: '🦆',
+    title: 'Bicos-de-pato (Ornitópodes)',
+    blurb: 'Herbívoros de bando, com bicos córneos e fileiras de dentes preparadas para mastigar plantas duras.',
+    nodes: [{ ref: 11 }, { ref: 8 }],
+  },
+];
 
-<header class="site-header">
-  <div class="header-inner">
-    <a class="brand" href="index.html">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M8 58 L14 40 Q10 30 22 26 L34 8 Q40 2 48 6 L58 14 Q66 12 70 18 L64 22 Q72 24 74 30 L66 30 Q70 36 66 40 L58 38 Q54 46 44 46 L40 58 L34 58 L36 46 Q28 46 24 42 L20 58 Z"/></svg>
-      </span>
-      DinoDex
-    </a>
-    <nav class="header-nav">
-      <a href="compare.html">⚖<span class="header-nav-label"> Comparar</span></a>
-      <a href="evolucao.html">🧬<span class="header-nav-label"> Evolução</span></a>
-      <a href="conquistas.html">🏆<span class="header-nav-label"> Conquistas</span></a>
-    </nav>
-    <div class="header-stats">
-      <span id="dexProgress" class="stat-pill">Descobertos: 0/102</span>
-      <span id="achProgress" class="stat-pill">🏆 0/33</span>
-      <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">
-        <span class="theme-icon">☾</span><span class="theme-label">Noite Jurássica</span>
-      </button>
-    </div>
-  </div>
-</header>
+/* Espécies que não formam uma linha reta no catálogo, mas valem uma nota. */
+const SIDENOTES = [
+  {
+    icon: '🥊',
+    title: 'Primos com armas diferentes',
+    text: 'Tricerátops e Paquicefalossauro vêm do mesmo grande grupo (Marginocephalia), mas cada um evoluiu uma arma própria para disputas: chifres enormes de um lado, uma cúpula craniana reforçada do outro.',
+    refs: [3, 13],
+  },
+  {
+    icon: '☝️',
+    title: 'Contemporâneos, mas não dinossauros',
+    text: 'Pteranodonte (um pterossauro voador) e Mosassauro (um réptil marinho) viveram ao lado dos dinossauros e são parentes distantes deles — mas tecnicamente não pertencem ao grupo dos dinossauros.',
+    refs: [20, 23],
+  },
+];
 
-<main class="detail-wrap">
-  <a class="back-link" href="index.html">← Voltar ao catálogo</a>
+function findById(id){ return DINOS.find(d => d.id === id); }
 
-  <section class="compare-intro">
-    <p class="hero-eyebrow">Ferramenta de campo</p>
-    <h1 class="compare-title">Linha evolutiva</h1>
-    <p class="hero-sub">Veja como alguns grupos de dinossauros do seu catálogo mudaram ao longo de milhões de anos — de ancestrais pequenos e ágeis até gigantes, blindados e, num dos ramos, as aves que voam sobre nós hoje.</p>
-    <p class="evo-disclaimer">📖 Simplificação didática: a árvore genealógica real dos dinossauros é muito mais ramificada do que estas linhas retas. Aqui, cada seta representa uma <strong>tendência evolutiva ao longo do tempo</strong> dentro de um grupo, não uma relação direta de "pai para filho" espécie por espécie.</p>
-  </section>
+function isDiscovered(id){ return discovered.has(id); }
 
-  <div id="evoContent">
-    <div class="skeleton"><span class="spin"></span> Carregando linha evolutiva…</div>
-  </div>
-</main>
-
-<script type="module" src="js/evolucao.js"></script>
-<footer class="site-footer">
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M8 58 L14 40 Q10 30 22 26 L34 8 Q40 2 48 6 L58 14 Q66 12 70 18 L64 22 Q72 24 74 30 L66 30 Q70 36 66 40 L58 38 Q54 46 44 46 L40 58 L34 58 L36 46 Q28 46 24 42 L20 58 Z"/></svg>
-        </span>
-        DinoDex
-      </a>
-      <p class="footer-tagline">Enciclopédia digital de dinossauros em português — fichas ilustradas, mapas de descoberta, linha do tempo e curiosidades para explorar milhões de anos de história.</p>
-    </div>
-    <div class="footer-links">
-      <div class="footer-col">
-        <p class="footer-col-title">Explorar</p>
-        <a href="index.html">Catálogo</a>
-        <a href="compare.html">Comparar</a>
-        <a href="evolucao.html">Linha evolutiva</a>
-        <a href="conquistas.html">Conquistas</a>
+function refNodeHTML(d){
+  const found = isDiscovered(d.id);
+  return `
+    <a class="evo-node${found ? '' : ' evo-node-locked'}" href="dino.html?id=${d.id}" style="--era-color:${ERA_COLOR[d.era] || 'var(--gold)'}">
+      <div class="evo-node-icon">${ICONS[d.forma] || ICONS.theropod}</div>
+      <div class="evo-node-text">
+        <div class="evo-node-name">${d.nome}${found ? ' <span class="evo-node-check" title="No seu catálogo">✓</span>' : ''}</div>
+        <div class="evo-node-meta">${d.era} · ${d.periodo.inicio}–${d.periodo.fim} Mya</div>
       </div>
-      <div class="footer-col">
-        <p class="footer-col-title">Projeto</p>
-        <a href="https://github.com/Gabbydino/dinodex" target="_blank" rel="noopener">Código no GitHub</a>
-        <span>Uso educacional — todos os direitos reservados a Gabby</span>
+    </a>`;
+}
+
+function endNodeHTML(node){
+  return `
+    <div class="evo-node evo-node-end">
+      <div class="evo-node-icon">${node.icon}</div>
+      <div class="evo-node-text">
+        <div class="evo-node-name">${node.label}</div>
+        <div class="evo-node-meta">${node.note}</div>
       </div>
-      <div class="footer-col">
-        <p class="footer-col-title">Fontes</p>
-        <span>Museus de história natural</span>
-        <span>Artigos revisados por pares</span>
-        <span>Paleobiology Database (PBDB)</span>
+    </div>`;
+}
+
+function lineageHTML(lineage){
+  const nodesHTML = lineage.nodes.map((n, i) => {
+    const nodeHTML = n.end ? endNodeHTML(n) : (findById(n.ref) ? refNodeHTML(findById(n.ref)) : '');
+    const arrow = i < lineage.nodes.length - 1 ? `<div class="evo-arrow" aria-hidden="true">↓</div>` : '';
+    return nodeHTML + arrow;
+  }).join('');
+
+  return `
+    <article class="evo-lineage">
+      <div class="evo-lineage-head">
+        <span class="evo-lineage-icon">${lineage.icon}</span>
+        <h2 class="evo-lineage-title">${lineage.title}</h2>
       </div>
+      <p class="evo-lineage-blurb">${lineage.blurb}</p>
+      <div class="evo-chain">${nodesHTML}</div>
+    </article>`;
+}
+
+function sidenoteHTML(note){
+  const chips = note.refs.map(id => {
+    const d = findById(id);
+    return d ? `<a class="tag-pill evo-sidenote-chip" href="dino.html?id=${d.id}">${d.nome}</a>` : '';
+  }).join('');
+  return `
+    <div class="evo-sidenote">
+      <span class="evo-sidenote-icon">${note.icon}</span>
+      <div>
+        <div class="evo-sidenote-title">${note.title}</div>
+        <p class="evo-sidenote-text">${note.text}</p>
+        <div class="evo-sidenote-chips">${chips}</div>
+      </div>
+    </div>`;
+}
+
+function render(){
+  contentEl.innerHTML = `
+    <div class="evo-lineages">
+      ${LINEAGES.map(lineageHTML).join('')}
     </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2026 DinoDex — feito por Gabby</span>
-    <span>DinoDex v3.0</span>
-  </div>
-</footer>
-</body>
-</html>
+    <div class="evo-sidenotes-wrap">
+      <p class="section-eyebrow">Outros parentescos curiosos</p>
+      ${SIDENOTES.map(sidenoteHTML).join('')}
+    </div>
+  `;
+}
+
+async function init(){
+  registerServiceWorker();
+  initTheme();
+  DINOS = await loadDinos();
+
+  updateProgress(DINOS.length);
+  updateAchievementsCount();
+  checkAchievements(DINOS);
+
+  render();
+}
+init();
