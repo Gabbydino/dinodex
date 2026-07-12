@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre — DinoDex</title>
+<meta name="description" content="Conheça o DinoDex: o que é, como os dados são compilados, e o compromisso do projeto com informações científicas confiáveis sobre dinossauros.">
+<meta name="theme-color" content="#12141c">
+<link rel="canonical" href="https://gabbydino.github.io/dinodex/sobre.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sobre — DinoDex">
+<meta property="og:description" content="O que é o DinoDex, como os dados são obtidos e o compromisso do projeto com informação científica confiável.">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="strata-bg" aria-hidden="true"></div>
+<div class="topo-bg" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="20 22 64 48" xmlns="http://www.w3.org/2000/svg"><path d="M27,49 C25,40 32,32 44,29 L62,27 C71,27 78,33 78,42 L78,49 C78,54 73,57 68,57 L66,64 L61,57 L57,64 L53,57 L49,64 L45,57 L37,57 C31,57 27,54 27,49 Z" fill="currentColor"/><circle cx="41" cy="40" r="5.2" fill="var(--gold)"/></svg>
+      </span>
+      DinoDex
+    </a>
+    <nav class="header-nav">
+      <a href="compare.html">⚖<span class="header-nav-label"> Comparar</span></a>
+      <a href="evolucao.html">🧬<span class="header-nav-label"> Evolução</span></a>
+      <a href="conquistas.html">🏆<span class="header-nav-label"> Conquistas</span></a>
+      <a href="quiz.html">❓<span class="header-nav-label"> Quiz</span></a>
+    </nav>
+    <div class="header-stats">
+      <span id="dexProgress" class="stat-pill">Descobertos: 0/102</span>
+      <span id="achProgress" class="stat-pill">🏆 0/33</span>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">
+        <span class="theme-icon">☾</span><span class="theme-label">Noite Jurássica</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="detail-wrap">
+  <a class="back-link" href="index.html">← Voltar ao catálogo</a>
+
+  <section class="sobre-hero">
+    <div class="sobre-seal" aria-hidden="true">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="48" fill="#12141c"/>
+        <circle cx="50" cy="50" r="44.5" fill="none" stroke="#c9962b" stroke-width="2.2"/>
+        <circle cx="50" cy="50" r="39" fill="none" stroke="#c9962b" stroke-width="0.8" opacity="0.55"/>
+        <path d="M27,49 C25,40 32,32 44,29 L62,27 C71,27 78,33 78,42 L78,49 C78,54 73,57 68,57 L66,64 L61,57 L57,64 L53,57 L49,64 L45,57 L37,57 C31,57 27,54 27,49 Z" fill="#e0b45a"/>
+        <circle cx="41" cy="40" r="5.2" fill="#12141c"/>
+      </svg>
+    </div>
+    <p class="hero-eyebrow">Sobre o projeto</p>
+    <h1 class="compare-title">O DinoDex</h1>
+    <p class="hero-sub">Um catálogo de campo digital, feito pra ser tão divertido de explorar quanto útil pra aprender de verdade sobre dinossauros.</p>
+  </section>
+
+  <div class="sobre-content">
+    <section class="sobre-block">
+      <h2>O que é o DinoDex</h2>
+      <p>O DinoDex é uma enciclopédia digital de dinossauros em português, com formato inspirado em catálogos de campo e fichas de museu. Cada espécie tem uma ficha própria com classificação científica, período em que viveu, distribuição geográfica, comparação de tamanho e curiosidades — além de mecânicas leves de coleção, como favoritos, descobertas e conquistas, pra tornar a exploração mais gostosa.</p>
+      <p>Hoje o catálogo reúne <strong>102 espécies</strong> e continua crescendo aos poucos, em lotes organizados por grupo taxonômico.</p>
+    </section>
+
+    <section class="sobre-block">
+      <h2>Objetivo do projeto</h2>
+      <p>A ideia por trás do DinoDex é simples: juntar duas coisas que raramente andam juntas — um catálogo <em>divertido</em> de explorar e um catálogo <em>confiável</em> de consultar. A parte de "jogo" (a interface estilo Pokédex, o quiz, as conquistas) existe pra atrair curiosidade. A parte de conteúdo existe pra recompensar essa curiosidade com informação real sobre paleontologia.</p>
+      <p>É um projeto pessoal, feito e mantido por <strong>Gabby</strong>, sem fins comerciais.</p>
+    </section>
+
+    <section class="sobre-block">
+      <h2>Como os dados são obtidos</h2>
+      <p>As fichas do DinoDex são compiladas a partir de conhecimento geral de paleontologia — características físicas, período, local de descoberta, classificação taxonômica e curiosidades de cada espécie. Sempre que uma informação está sujeita a debate científico real (por exemplo, quando a família taxonômica de um gênero ainda não tem consenso entre pesquisadores), isso é sinalizado diretamente na ficha, em vez de apresentar uma resposta única como se fosse definitiva.</p>
+      <p>Alguns números — como período em milhões de anos, peso e velocidade estimados — são <strong>aproximações</strong> baseadas em reconstruções científicas, não medições exatas. Isso também vale especialmente pra seção "Se você encontrasse um...", que é uma forma lúdica de apresentar esses dados, não uma fonte técnica.</p>
+    </section>
+
+    <section class="sobre-block">
+      <h2>Compromisso com informações científicas</h2>
+      <p>O DinoDex se esforça pra ser preciso, mas <strong>não é uma fonte acadêmica</strong>. É uma porta de entrada — ótima pra despertar curiosidade, ruim pra citar em um trabalho científico. Pra pesquisa séria, estudo aprofundado ou uso educacional formal, o caminho certo é consultar diretamente museus de história natural, publicações revisadas por pares e bancos de dados paleontológicos especializados.</p>
+      <p>Se você notar algum erro factual em alguma ficha, isso é sempre bem-vindo como correção — o projeto está em constante revisão.</p>
+    </section>
+
+    <section class="sobre-block">
+      <h2>Créditos e fontes</h2>
+      <p>Referências gerais usadas na construção do catálogo:</p>
+      <ul class="sobre-list">
+        <li>Museus de história natural (acervos e materiais educativos públicos)</li>
+        <li>Artigos científicos revisados por pares sobre paleontologia</li>
+        <li>Paleobiology Database (PBDB)</li>
+      </ul>
+      <p>Desenvolvimento: Gabby, com apoio de assistentes de IA para código, dados e conteúdo. Código-fonte aberto no <a href="https://github.com/Gabbydino/dinodex" target="_blank" rel="noopener">GitHub</a>.</p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="20 22 64 48" xmlns="http://www.w3.org/2000/svg"><path d="M27,49 C25,40 32,32 44,29 L62,27 C71,27 78,33 78,42 L78,49 C78,54 73,57 68,57 L66,64 L61,57 L57,64 L53,57 L49,64 L45,57 L37,57 C31,57 27,54 27,49 Z" fill="currentColor"/><circle cx="41" cy="40" r="5.2" fill="var(--gold)"/></svg>
+        </span>
+        DinoDex
+      </a>
+      <p class="footer-tagline">Enciclopédia digital de dinossauros em português — fichas ilustradas, mapas de descoberta, linha do tempo e curiosidades para explorar milhões de anos de história.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <p class="footer-col-title">Explorar</p>
+        <a href="index.html">Catálogo</a>
+        <a href="compare.html">Comparar</a>
+        <a href="evolucao.html">Linha evolutiva</a>
+        <a href="conquistas.html">Conquistas</a>
+        <a href="quiz.html">Quiz</a>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">Projeto</p>
+        <a href="sobre.html">Sobre o DinoDex</a>
+        <a href="https://github.com/Gabbydino/dinodex" target="_blank" rel="noopener">Código no GitHub</a>
+        <span>Uso educacional — todos os direitos reservados a Gabby</span>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">Fontes</p>
+        <span>Museus de história natural</span>
+        <span>Artigos revisados por pares</span>
+        <span>Paleobiology Database (PBDB)</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 DinoDex — feito por Gabby</span>
+    <span>DinoDex v4.0</span>
+  </div>
+</footer>
+
+<script type="module">
+import { loadDinos, updateProgress, updateAchievementsCount, checkAchievements, registerServiceWorker, initTheme } from './js/common.js';
+(async function(){
+  registerServiceWorker();
+  initTheme();
+  const dinos = await loadDinos();
+  updateProgress(dinos.length);
+  checkAchievements(dinos);
+  updateAchievementsCount();
+})();
+</script>
+</body>
+</html>
