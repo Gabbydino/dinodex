@@ -9,13 +9,16 @@
    nova publicada no GitHub Pages. O cache só entra em ação
    quando o dispositivo está offline. Isso evita o bug de ficar
    preso numa versão antiga/quebrada guardada no cache. */
-const CACHE_NAME = 'dinodex-v4';
+const CACHE_NAME = 'dinodex-v5';
 const APP_SHELL = [
   './',
   './index.html',
   './dino.html',
   './compare.html',
   './evolucao.html',
+  './conquistas.html',
+  './quiz.html',
+  './sobre.html',
   './manifest.json',
   './css/styles.css',
   './js/common.js',
@@ -23,9 +26,13 @@ const APP_SHELL = [
   './js/detail.js',
   './js/compare.js',
   './js/evolucao.js',
+  './js/conquistas.js',
+  './js/quiz.js',
   './data/dinos.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
+  './icons/icon-maskable-512.png',
+  './icons/favicon.svg',
 ];
 
 self.addEventListener('install', (event) => {
