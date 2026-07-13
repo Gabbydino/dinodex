@@ -2,13 +2,14 @@ import {
   loadDinos, ICONS, discovered, favorites, toggleFavorite,
   updateProgress, updateAchievementsCount, checkAchievements,
   curiosidadeDoDia, dinoDoDia, tick, chirp, registerServiceWorker,
-  initTheme, grupoLabel, paisesDoLocal
+  initTheme, grupoLabel, paisesDoLocal, continenteDoDino
 } from './common.js';
 
 const ERA_COLOR = { 'Triássico':'var(--era-triassico)', 'Jurássico':'var(--era-jurassico)', 'Cretáceo':'var(--era-cretaceo)' };
 const ERAS = ["Todas","Triássico","Jurássico","Cretáceo"];
 const DIETS = ["Todas","Carnívoro","Herbívoro","Onívoro","Piscívoro"];
 const TIPOS = ["Todos","Terópode","Saurópode","Voador","Marinho"];
+const CONTINENTES = ["Todos","América do Norte","América do Sul","Europa","África","Ásia","Oceania","Antártida"];
 const ERA_ORDER = [
   {name:'Triássico', start:252, end:201},
   {name:'Jurássico', start:201, end:145},
@@ -20,6 +21,7 @@ let searchTerm = "";
 let activeEra = "Todas";
 let activeDiet = "Todas";
 let activeTipo = "Todos";
+let activeContinente = "Todos";
 let favOnly = false;
 
 const gridEl = document.getElementById('dinoGrid');
@@ -67,6 +69,18 @@ function buildFilters(){
   });
   filtersEl.appendChild(tipoGroup);
 
+  const continenteGroup = document.createElement('div');
+  continenteGroup.className = 'filter-group';
+  continenteGroup.innerHTML = `<span class="filter-group-label">Continente</span>`;
+  CONTINENTES.forEach(continente=>{
+    const b = document.createElement('button');
+    b.className = 'chip' + (continente===activeContinente ? ' active' : '');
+    b.textContent = continente;
+    b.addEventListener('click', ()=>{ tick(); activeContinente = continente; buildFilters(); renderGrid(); });
+    continenteGroup.appendChild(b);
+  });
+  filtersEl.appendChild(continenteGroup);
+
   const specialGroup = document.createElement('div');
   specialGroup.className = 'filter-group';
 
@@ -98,7 +112,7 @@ function buildFilters(){
   resetBtn.textContent = '✕ Limpar filtros';
   resetBtn.addEventListener('click', ()=>{
     tick();
-    searchTerm=""; activeEra="Todas"; activeDiet="Todas"; activeTipo="Todos"; favOnly=false;
+    searchTerm=""; activeEra="Todas"; activeDiet="Todas"; activeTipo="Todos"; activeContinente="Todos"; favOnly=false;
     searchEl.value="";
     buildFilters(); renderGrid();
   });
@@ -145,8 +159,9 @@ function filteredDinos(){
     const matchesEra = activeEra==="Todas" || d.era===activeEra;
     const matchesDiet = activeDiet==="Todas" || d.dieta===activeDiet;
     const matchesTipo = activeTipo==="Todos" || d.tipo===activeTipo;
+    const matchesContinente = activeContinente==="Todos" || continenteDoDino(d)===activeContinente;
     const matchesFav = !favOnly || favorites.has(d.id);
-    return matchesSearch && matchesEra && matchesDiet && matchesTipo && matchesFav;
+    return matchesSearch && matchesEra && matchesDiet && matchesTipo && matchesContinente && matchesFav;
   });
 }
 
