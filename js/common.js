@@ -420,6 +420,19 @@ export function grupoLabel(d){
   return ordem || '—';
 }
 
+/* ===== continente normalizado (usado no filtro de continente) ===== */
+export function continenteDoDino(d){
+  const r = d.regiao || '';
+  if(r.includes('Ásia')) return 'Ásia';
+  if(r.includes('África')) return 'África';
+  if(r.includes('América do Norte')) return 'América do Norte';
+  if(r.includes('América do Sul')) return 'América do Sul';
+  if(r.includes('Europa')) return 'Europa';
+  if(r.includes('Oceania')) return 'Oceania';
+  if(r.includes('Antártida')) return 'Antártida';
+  return r || 'Desconhecido';
+}
+
 /* ===== países extraídos do campo "local" (usado nas estatísticas) ===== */
 export function paisesDoLocal(local){
   if(!local) return [];
