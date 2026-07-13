@@ -171,6 +171,9 @@ export function buildAchievements(dinos){
     {id:'twentyfive', cat:'Marcos', label:'25 espécies encontradas', desc:'Descubra 25 espécies', test: () => discovered.size >= 25},
     {id:'fifty', cat:'Marcos', label:'50 espécies encontradas', desc:'Descubra 50 espécies', test: () => discovered.size >= 50},
     {id:'seventyfive', cat:'Marcos', label:'75 espécies encontradas', desc:'Descubra 75 espécies', test: () => discovered.size >= 75},
+    {id:'hundred', cat:'Marcos', label:'100 espécies encontradas', desc:'Descubra 100 espécies', test: () => discovered.size >= 100},
+    {id:'hundredfifty', cat:'Marcos', label:'150 espécies encontradas', desc:'Descubra 150 espécies', test: () => discovered.size >= 150},
+    {id:'twohundred', cat:'Marcos', label:'200 espécies encontradas', desc:'Descubra 200 espécies', test: () => discovered.size >= 200},
     {id:'all', cat:'Marcos', label:'Dex completa!', desc:'Descubra todas as espécies do catálogo', test: () => discovered.size >= dinos.length && dinos.length > 0},
 
     // por dieta
