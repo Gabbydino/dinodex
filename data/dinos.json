@@ -37,6 +37,18 @@
     "curiosidades": [
       "O T-rex tinha uma das mordidas mais fortes já estimadas entre os animais terrestres, capaz de triturar ossos.",
       "Pesquisas indicam que seu olfato era comparável ao de aves de rapina modernas, ajudando a farejar carcaças a longa distância."
+    ],
+    "significado": "Lagarto tirano rei — do grego tyrannos (\"tirano\") e sauros (\"lagarto\"), combinado com o latim rex (\"rei\").",
+    "epoca": "Cretáceo Superior (Maastrichtiano)",
+    "descricaoCientifica": {
+      "por": "Henry Fairfield Osborn",
+      "ano": 1905
+    },
+    "resumoCientifico": "Tyrannosaurus rex é o tiranossaurídeo mais estudado, com dezenas de espécimes conhecidos, incluindo esqueletos parcialmente completos como o famoso \"Sue\" e o \"Gus\" (vendido em leilão recentemente). Osborn descreveu a espécie em 1905 a partir de material coletado por Barnum Brown, e desde então ela se tornou o padrão de comparação para os demais grandes terópodes do Cretáceo Superior norte-americano. Pesquisas recentes (2022) levantaram a hipótese de que \"T. rex\" possa representar um complexo de mais de uma espécie, uma questão ainda em debate ativo entre paleontólogos.",
+    "fontes": [
+      "Wikipedia — Tyrannosaurus (en.wikipedia.org/wiki/Tyrannosaurus)",
+      "Osborn, H.F. (1905). Bulletin of the American Museum of Natural History, v. 21",
+      "Merriam-Webster — Tyrannosaurus rex"
     ]
   },
   {
@@ -70,13 +82,24 @@
       "familia": "Dromaeosauridae"
     },
     "descoberta": {
-      "por": "Peter Kaisen (fóssil) / Henry F. Osborn (descrição)",
-      "ano": 1924
+      "por": "Peter Kaisen",
+      "ano": 1923
     },
     "tipo": "Terópode",
     "curiosidades": [
       "Ao contrário dos filmes, o Velociraptor provavelmente era coberto de penas, mais parecido com uma ave grande do que com um réptil escamoso.",
       "Um famoso fóssil mostra um Velociraptor e um Protoceratops fossilizados em pleno combate."
+    ],
+    "significado": "Ladrão veloz — do latim velox (\"veloz\") e raptor (\"ladrão\" ou \"saqueador\"), em referência ao hábito predador e à agilidade do animal.",
+    "epoca": "Cretáceo Superior (Campaniano)",
+    "descricaoCientifica": {
+      "por": "Henry Fairfield Osborn",
+      "ano": 1924
+    },
+    "resumoCientifico": "O primeiro fóssil de Velociraptor foi encontrado em 11 de agosto de 1923, durante uma expedição do Museu Americano de História Natural às Flaming Cliffs, no deserto de Gobi — um crânio esmagado, porém completo, associado a uma garra. Henry Fairfield Osborn descreveu o gênero em 1924. Décadas depois, em 1971, um espécime conhecido como \"Dinossauros em Combate\" — um Velociraptor fossilizado em pleno confronto com um Protoceratops — se tornou uma das evidências mais diretas já encontradas de comportamento predador em dinossauros não avianos.",
+    "fontes": [
+      "Wikipedia — Velociraptor (en.wikipedia.org/wiki/Velociraptor)",
+      "Osborn, H.F. (1924). American Museum Novitates"
     ]
   },
   {
@@ -110,13 +133,24 @@
       "familia": "Ceratopsidae"
     },
     "descoberta": {
-      "por": "John Bell Hatcher / Othniel C. Marsh",
-      "ano": 1889
+      "por": "John Bell Hatcher",
+      "ano": 1888
     },
     "tipo": null,
     "curiosidades": [
       "O escudo ósseo na cabeça do Tricerátops podia ter mais de 2 metros de largura.",
       "Estudos de crescimento sugerem que os chifres mudavam de formato conforme o animal envelhecia."
+    ],
+    "significado": "Rosto de três chifres — do grego tri (\"três\"), keras (\"chifre\") e ops (\"rosto\"). O epíteto horridus vem do latim e significa \"áspero/rugoso\", referindo-se à textura do crânio do espécime original.",
+    "epoca": "Cretáceo Superior (Maastrichtiano)",
+    "descricaoCientifica": {
+      "por": "Othniel Charles Marsh",
+      "ano": 1889
+    },
+    "resumoCientifico": "O primeiro material atribuído a Triceratops — um par de chifres — foi encontrado em 1887 e inicialmente confundido com chifres de bisão fóssil. Só quando John Bell Hatcher recuperou um crânio praticamente completo em 1888 é que Othniel Charles Marsh reconheceu se tratar de um novo gênero de dinossauro com chifres, batizando-o em 1889. Embora seja um dos dinossauros mais representados em coleções de museus — com dezenas de crânios coletados só entre 1889 e 1891 — nenhum esqueleto completo do gênero jamais foi encontrado.",
+    "fontes": [
+      "Wikipedia — Triceratops (en.wikipedia.org/wiki/Triceratops)",
+      "Museu Nacional de Dinossauros (National Dinosaur Museum, Austrália)"
     ]
   },
   {
@@ -150,13 +184,24 @@
       "familia": "Stegosauridae"
     },
     "descoberta": {
-      "por": "Marshall Felch (fóssil) / Othniel C. Marsh",
+      "por": "Arthur Lakes",
       "ano": 1877
     },
     "tipo": null,
     "curiosidades": [
       "As placas nas costas podem ter servido tanto para defesa quanto para regular a temperatura do corpo.",
       "Ele conviveu com o Alossauro, um dos seus principais predadores."
+    ],
+    "significado": "Lagarto de telhado/coberto — do grego stegos (\"teto\" ou \"cobertura\") e sauros (\"lagarto\"), porque Marsh acreditava inicialmente que as placas dorsais ficavam deitadas sobre as costas, como telhas de um telhado.",
+    "epoca": "Jurássico Superior (Kimmeridgiano–Titoniano)",
+    "descricaoCientifica": {
+      "por": "Othniel Charles Marsh",
+      "ano": 1877
+    },
+    "resumoCientifico": "Os primeiros ossos de Stegosaurus foram coletados por Arthur Lakes ao norte de Morrison, Colorado, em 1877, e descritos no mesmo ano por Othniel Charles Marsh, durante a chamada \"Guerra dos Ossos\" entre Marsh e Edward Drinker Cope. A reconstrução original de Marsh estava incorreta — ele imaginava as placas dorsais deitadas horizontalmente, como telhas — e só reconstruções posteriores estabeleceram a postura ereta e alternada das placas que conhecemos hoje. A espécie mais bem documentada do gênero, S. stenops, é conhecida a partir de mais de 50 esqueletos parciais.",
+    "fontes": [
+      "Wikipedia — Stegosaurus (en.wikipedia.org/wiki/Stegosaurus)",
+      "Etymonline — Stegosaurus"
     ]
   },
   {
@@ -190,13 +235,24 @@
       "familia": "Brachiosauridae"
     },
     "descoberta": {
-      "por": "Elmer S. Riggs",
+      "por": "Elmer S. Riggs (equipe de campo, achado por H. W. Menke)",
       "ano": 1900
     },
     "tipo": "Saurópode",
     "curiosidades": [
       "Apesar do tamanho, provavelmente não conseguia levantar a cabeça muito acima do nível do coração por muito tempo.",
       "Seus dentes em formato de cinzel eram trocados constantemente ao longo da vida."
+    ],
+    "significado": "Lagarto braço — do grego brachion (\"braço\") e sauros (\"lagarto\"), por causa dos membros dianteiros incomumente longos. O epíteto altithorax significa \"tórax alto/profundo\", do latim altus e do grego thorax.",
+    "epoca": "Jurássico Superior (Kimmeridgiano)",
+    "descricaoCientifica": {
+      "por": "Elmer S. Riggs",
+      "ano": 1903
+    },
+    "resumoCientifico": "O esqueleto que deu origem ao gênero foi encontrado em 4 de julho de 1900 por H. W. Menke, assistente de campo de Elmer Riggs, próximo a Fruita, Colorado. Riggs notou que os membros dianteiros eram desproporcionalmente mais longos que os traseiros — o oposto do padrão comum entre saurópodes — e batizou o animal em 1903, declarando-o \"o maior dinossauro conhecido\" na época. O material continua sendo um dos esqueletos mais completos do gênero já encontrados na América do Norte.",
+    "fontes": [
+      "Wikipedia — Brachiosaurus (en.wikipedia.org/wiki/Brachiosaurus)",
+      "Riggs, E.S. (1903). Field Columbian Museum"
     ]
   },
   {
@@ -230,13 +286,24 @@
       "familia": "Spinosauridae"
     },
     "descoberta": {
-      "por": "Richard Markgraf (fóssil) / Ernst Stromer (descrição)",
-      "ano": 1915
+      "por": "Richard Markgraf",
+      "ano": 1912
     },
     "tipo": "Terópode",
     "curiosidades": [
       "Tinha ossos densos, parecidos com os de animais aquáticos modernos, o que ajudava a flutuar e mergulhar.",
       "A vela nas costas pode ter servido para exibição visual além de regulação térmica."
+    ],
+    "significado": "Lagarto espinho egípcio — do latim spina (\"espinho\"), do grego sauros (\"lagarto\") e do latim aegyptiacus (\"egípcio\"), em referência aos longos espinhos neurais nas vértebras e ao local de descoberta.",
+    "epoca": "Cretáceo Superior (Cenomaniano)",
+    "descricaoCientifica": {
+      "por": "Ernst Stromer",
+      "ano": 1915
+    },
+    "resumoCientifico": "O material original de Spinosaurus foi recuperado em 1912 pelo colecionador austro-húngaro Richard Markgraf na Formação Bahariya, no Egito, e descrito em 1915 pelo paleontólogo alemão Ernst Stromer. Em abril de 1944, o holótipo foi destruído num bombardeio aliado a Munique — por décadas, tudo o que se sabia sobre a espécie vinha apenas das anotações, fotografias e desenhos originais de Stromer. Só a partir de um esqueleto parcial descrito em 2014 (e revisões posteriores) os cientistas revisaram significativamente a reconstrução do animal, hoje entendido como semiaquático.",
+    "fontes": [
+      "Wikipedia — Spinosaurus (en.wikipedia.org/wiki/Spinosaurus)",
+      "FossilEra — Spinosaurus: The Sail-Backed River Hunter"
     ]
   },
   {
@@ -270,13 +337,24 @@
       "familia": "Ankylosauridae"
     },
     "descoberta": {
-      "por": "Barnum Brown",
-      "ano": 1908
+      "por": "Peter Kaisen (equipe de Barnum Brown)",
+      "ano": 1906
     },
     "tipo": null,
     "curiosidades": [
       "A cauda em forma de maça podia pesar até 30 kg e era usada como arma de defesa.",
       "Mesmo o T-rex provavelmente evitava atacar um Anquilossauro adulto de frente."
+    ],
+    "significado": "Lagarto fundido/rígido — do grego ankylos (\"curvo\" ou \"fundido\", como no termo médico anquilose) e sauros (\"lagarto\"). O epíteto magniventris significa \"de grande ventre\", do latim magnus + venter.",
+    "epoca": "Cretáceo Superior (Maastrichtiano)",
+    "descricaoCientifica": {
+      "por": "Barnum Brown",
+      "ano": 1908
+    },
+    "resumoCientifico": "O espécime-tipo foi encontrado em 1906 pelo coletor Peter Kaisen, durante uma expedição do Museu Americano de História Natural liderada por Barnum Brown à Formação Hell Creek, em Montana. Brown descreveu formalmente o gênero em 1908, sem explicar o motivo exato da escolha do nome — hoje se entende como referência à fusão característica dos ossos do crânio e do corpo. Apesar de ser considerado o membro arquetípico dos anquilossaurídeos, nenhum esqueleto completo de Ankylosaurus jamais foi encontrado.",
+    "fontes": [
+      "Wikipedia — Ankylosaurus (en.wikipedia.org/wiki/Ankylosaurus)",
+      "Brown, B. (1908). Bulletin of the American Museum of Natural History, v. 24"
     ]
   },
   {
@@ -310,13 +388,24 @@
       "familia": "Hadrosauridae"
     },
     "descoberta": {
-      "por": "Levi Sternberg (fóssil) / William Parks (descrição)",
-      "ano": 1922
+      "por": "Equipe de campo da Universidade de Toronto",
+      "ano": 1920
     },
     "tipo": null,
     "curiosidades": [
       "A crista oca funcionava como uma câmara de ressonância, amplificando os sons que o animal emitia.",
       "Cada indivíduo pode ter tido uma crista de tamanho ligeiramente diferente, alterando o som produzido."
+    ],
+    "significado": "Lagarto quase crestado — do grego para (\"perto de\" ou \"semelhante a\"), sauros (\"lagarto\") e lophos (\"crista\"), numa referência ao gênero Saurolophus, que Parks acreditava (erroneamente) ser um parente próximo.",
+    "epoca": "Cretáceo Superior (Campaniano)",
+    "descricaoCientifica": {
+      "por": "William Parks",
+      "ano": 1922
+    },
+    "resumoCientifico": "O espécime-tipo foi encontrado em 1920 por uma equipe de campo da Universidade de Toronto perto de Sand Creek, no rio Red Deer, em Alberta. William Parks descreveu a espécie em 1922, batizando-a em homenagem a Sir Byron Edmund Walker, fundador do Royal Ontario Museum. Parasaurolophus é um dos hadrossaurídeos mais raros em termos de espécimes conhecidos, mas seu crista craniana tubular — hoje entendida como uma câmara de ressonância para produzir sons graves — o tornou um dos dinossauros mais reconhecíveis e retratados em mídia popular.",
+    "fontes": [
+      "Wikipedia — Parasaurolophus (en.wikipedia.org/wiki/Parasaurolophus)",
+      "Philip J. Currie Dinosaur Museum — The Real Parasaurolophus"
     ]
   },
   {
@@ -350,13 +439,24 @@
       "familia": "Allosauridae"
     },
     "descoberta": {
-      "por": "Othniel C. Marsh",
+      "por": "Ferdinand Hayden (achado inicial, 1869); material-tipo coletado por Benjamin Mudge e Samuel Williston",
       "ano": 1877
     },
     "tipo": "Terópode",
     "curiosidades": [
       "Fósseis foram encontrados em grande quantidade na Formação Morrison, tornando-o um dos terópodes mais estudados do Jurássico.",
       "Provavelmente caçava presas muito maiores que ele, possivelmente em grupo."
+    ],
+    "significado": "Lagarto diferente — do grego allos (\"diferente\" ou \"estranho\") e sauros (\"lagarto\"), porque suas vértebras pareciam distintas das de qualquer outro dinossauro conhecido na época.",
+    "epoca": "Jurássico Superior (Kimmeridgiano–Titoniano)",
+    "descricaoCientifica": {
+      "por": "Othniel Charles Marsh",
+      "ano": 1877
+    },
+    "resumoCientifico": "Fragmentos hoje atribuídos a Allosaurus foram coletados já em 1869 por Ferdinand Hayden, mas só interpretados como um novo gênero de dinossauro quando Othniel Charles Marsh descreveu o material coletado por seus colecionadores Benjamin Mudge e Samuel Williston, em 1877. É um dos terópodes mais abundantes da Formação Morrison, com material de pelo menos sessenta indivíduos já identificado — o que faz dele um dos dinossauros carnívoros mais bem compreendidos anatomicamente, apesar da confusão taxonômica que cercou o gênero durante boa parte do século XX.",
+    "fontes": [
+      "Wikipedia — Allosaurus (en.wikipedia.org/wiki/Allosaurus)",
+      "LiveScience — Allosaurus: Facts About the 'Different Lizard'"
     ]
   },
   {
@@ -390,13 +490,24 @@
       "familia": "Diplodocidae"
     },
     "descoberta": {
-      "por": "Expedição financiada por Andrew Carnegie / John Bell Hatcher",
-      "ano": 1901
+      "por": "Benjamin Mudge e Samuel Wendell Williston",
+      "ano": 1877
     },
     "tipo": "Saurópode",
     "curiosidades": [
       "O pescoço tinha até 15 vértebras, permitindo alcançar vegetação em uma grande área sem se mover muito.",
       "Estudos sugerem que engolia pedras (gastrólitos) para ajudar a digerir plantas fibrosas."
+    ],
+    "significado": "Viga dupla — do grego diploos (\"duplo\") e dokos (\"viga\"), em referência aos ossos em forma de chevron duplo na parte inferior da cauda, considerados únicos no momento da descrição.",
+    "epoca": "Jurássico Superior (Kimmeridgiano–Titoniano)",
+    "descricaoCientifica": {
+      "por": "Othniel Charles Marsh",
+      "ano": 1878
+    },
+    "resumoCientifico": "Os primeiros ossos foram coletados em 1877 perto de Cañon City, Colorado, por Benjamin Mudge e Samuel Wendell Williston, e o gênero foi nomeado por Othniel Charles Marsh em 1878. Embora seja um dos fósseis mais comuns da Formação Morrison, o crânio de Diplodocus é surpreendentemente raro no registro fóssil. A espécie D. carnegii — não a espécie-tipo, mas a mais famosa — deve seu nome ao industrial Andrew Carnegie, que financiou réplicas do esqueleto doadas a museus de vários países, tornando o gênero um dos dinossauros mais exibidos no mundo.",
+    "fontes": [
+      "Wikipedia — Diplodocus (en.wikipedia.org/wiki/Diplodocus)",
+      "LiveScience — Diplodocus: Facts About the Longest Dinosaur"
     ]
   },
   {
