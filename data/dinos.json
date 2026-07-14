@@ -8078,5 +8078,2685 @@
       "Ajuda a documentar a evolução dos tiranossauroides na Ásia antes do surgimento de gigantes como o Tarbossauro.",
       "Era bem mais leve e ágil que os tiranossaurídeos que evoluiriam dele milhões de anos depois."
     ]
+  },
+  {
+    "id": 203,
+    "nome": "Tecodontossauro",
+    "latim": "Thecodontosaurus antiquus",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 2,
+    "peso": 15,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Um dos primeiros dinossauros já nomeados pela ciência, sauropodomorfo primitivo pequeno e ágil.",
+    "fato": "Foi nomeado em 1836, seis anos antes da própria palavra 'dinossauro' ser criada por Richard Owen.",
+    "perigo": 2,
+    "velocidade": 6,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 205,
+      "fim": 201
+    },
+    "formacao": "Diversas (Formação Magnesian Conglomerate)",
+    "local": "Bristol, Inglaterra",
+    "mapa": {
+      "x": 160,
+      "y": 26
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Henry Riley e Samuel Stutchbury",
+      "ano": 1834
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos quatro primeiros dinossauros já nomeados na história, junto com Megalossauro, Iguanodonte e Hilaeossauro.",
+      "Seus fósseis foram encontrados dentro de fendas de rocha calcária, preenchidas há milhões de anos."
+    ]
+  },
+  {
+    "id": 204,
+    "nome": "Tawa",
+    "latim": "Tawa hallae",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 2,
+    "peso": 15,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Terópode primitivo importante para entender como os primeiros dinossauros carnívoros se espalharam pela Pangeia.",
+    "fato": "Ajudou a reforçar a hipótese de que os dinossauros se originaram na América do Sul e se espalharam rapidamente para outros continentes.",
+    "perigo": 3,
+    "velocidade": 7,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 213,
+      "fim": 210
+    },
+    "formacao": "Formação Chinle",
+    "local": "Novo México, EUA",
+    "mapa": {
+      "x": 52,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Sterling Nesbitt e equipe",
+      "ano": 2009
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Foi nomeado em homenagem a Tawa, uma divindade Hopi associada ao sol.",
+      "Vários indivíduos de idades diferentes foram encontrados juntos, ajudando a estudar seu crescimento."
+    ]
+  },
+  {
+    "id": 205,
+    "nome": "Efraasia",
+    "latim": "Efraasia minor",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 3.5,
+    "peso": 100,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Sauropodomorfo primitivo alemão, ainda bípede, parente distante e mais antigo do Plateossauro.",
+    "fato": "Foi batizado em homenagem a Eberhard Fraas, paleontólogo alemão pioneiro no estudo de fósseis triássicos.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 0.8,
+    "periodo": {
+      "inicio": 210,
+      "fim": 205
+    },
+    "formacao": "Grupo Stubensandstein",
+    "local": "Alemanha",
+    "mapa": {
+      "x": 169,
+      "y": 24
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Friedrich von Huene",
+      "ano": 1908
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Já foi classificado como uma espécie jovem de outros sauropodomorfos alemães antes de ganhar identidade própria.",
+      "Ajuda a documentar a transição de sauropodomorfos bípedes para as formas quadrúpedes maiores que viriam depois."
+    ]
+  },
+  {
+    "id": 206,
+    "nome": "Lilienstérnus",
+    "latim": "Liliensternus liliensterni",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 5.2,
+    "peso": 125,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "Um dos maiores terópodes conhecidos do Triássico europeu, predador ágil de porte médio.",
+    "fato": "Foi batizado em homenagem a Hugo Rühle von Lilienstern, o médico e paleontólogo amador que descobriu o fóssil.",
+    "perigo": 5,
+    "velocidade": 7,
+    "altura": 1.5,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Grupo Knollenmergel",
+    "local": "Alemanha",
+    "mapa": {
+      "x": 170,
+      "y": 23
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Coelophysidae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Hugo Rühle von Lilienstern",
+      "ano": 1934
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos terópodes mais completos conhecidos do Triássico europeu.",
+      "Provavelmente caçava sauropodomorfos primitivos como a Efraasia, que viviam na mesma região."
+    ]
+  },
+  {
+    "id": 207,
+    "nome": "Procompsognato",
+    "latim": "Procompsognathus triassicus",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1.2,
+    "peso": 3,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Pequeno terópode ágil, um dos primeiros dinossauros carnívoros conhecidos da Europa.",
+    "fato": "Seu nome sugere parentesco com o Compsognato, mas viveu dezenas de milhões de anos antes e não é considerado um parente próximo.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Grupo Stubensandstein",
+    "local": "Alemanha",
+    "mapa": {
+      "x": 169,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Eberhard Fraas",
+      "ano": 1913
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É conhecido a partir de material fragmentário, deixando boa parte de sua anatomia ainda incerta.",
+      "Viveu na mesma região que vários outros pequenos répteis triássicos da Alemanha."
+    ]
+  },
+  {
+    "id": 208,
+    "nome": "Panfágia",
+    "latim": "Panphagia protos",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 1.3,
+    "peso": 8,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Um dos sauropodomorfos mais antigos e primitivos conhecidos, com dieta provavelmente ainda variada, não totalmente herbívora.",
+    "fato": "Seu nome significa 'que come tudo', em referência à dieta onívora sugerida pelos dentes variados.",
+    "perigo": 1,
+    "velocidade": 5,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 231,
+      "fim": 229
+    },
+    "formacao": "Formação Ischigualasto",
+    "local": "San Juan, Argentina",
+    "mapa": {
+      "x": 86,
+      "y": 117
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Ricardo Martínez e Oscar Alcober",
+      "ano": 2009
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos sauropodomorfos mais antigos conhecidos, próximo ao início da divisão entre terópodes e sauropodomorfos.",
+      "Viveu na mesma formação que o Eoraptor e o Herrerassauro, alguns dos dinossauros mais antigos já descobertos."
+    ]
+  },
+  {
+    "id": 209,
+    "nome": "Eodrômeu",
+    "latim": "Eodromaeus murphi",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1.2,
+    "peso": 6,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Um dos terópodes mais antigos e primitivos conhecidos, encontrado na mesma formação que o Eoraptor.",
+    "fato": "Seu nome significa 'corredor do amanhecer', em referência à sua posição próxima da origem dos dinossauros terópodes.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 231,
+      "fim": 229
+    },
+    "formacao": "Formação Ischigualasto",
+    "local": "San Juan, Argentina",
+    "mapa": {
+      "x": 87,
+      "y": 117
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Paul Sereno e equipe",
+      "ano": 2011
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Foi descrito quase 20 anos depois do Eoraptor, mesmo tendo sido encontrado na mesma região.",
+      "Ajuda a mostrar como terópodes e sauropodomorfos primitivos coexistiam desde o início da história dos dinossauros."
+    ]
+  },
+  {
+    "id": 210,
+    "nome": "Zupaissauro",
+    "latim": "Zupaysaurus rougieri",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 4,
+    "peso": 125,
+    "regiao": "América do Sul",
+    "forma": "theropod",
+    "desc": "Um dos terópodes triássicos mais completos da América do Sul, com uma pequena crista dupla sobre o focinho.",
+    "fato": "Seu nome faz referência a 'Zupay', uma entidade associada ao mal na mitologia de povos indígenas andinos.",
+    "perigo": 5,
+    "velocidade": 7,
+    "altura": 1.3,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Formação Los Colorados",
+    "local": "La Rioja, Argentina",
+    "mapa": {
+      "x": 89,
+      "y": 115
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Andrea Arcucci e Rodolfo Coria",
+      "ano": 2003
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Sua crista dupla lembra vagamente a do Dilofossauro, embora não sejam parentes próximos.",
+      "É um dos maiores predadores conhecidos do Triássico Superior sul-americano."
+    ]
+  },
+  {
+    "id": 211,
+    "nome": "Demonossauro",
+    "latim": "Daemonosaurus chauliodus",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1.5,
+    "peso": 10,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Terópode primitivo com dentes proporcionalmente longos e projetados para frente, aparência distinta entre parentes da época.",
+    "fato": "Seu nome de espécie significa 'dentes salientes', em referência aos dentes frontais incomuns.",
+    "perigo": 3,
+    "velocidade": 6,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 205,
+      "fim": 201
+    },
+    "formacao": "Formação Chinle",
+    "local": "Novo México, EUA",
+    "mapa": {
+      "x": 51,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Hans-Dieter Sues e equipe",
+      "ano": 2011
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Sua posição na árvore genealógica dos terópodes ainda gera debate entre especialistas.",
+      "É um dos últimos terópodes triássicos conhecidos antes da transição para o Jurássico."
+    ]
+  },
+  {
+    "id": 212,
+    "nome": "Sanjuanossauro",
+    "latim": "Sanjuansaurus gordilloi",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 3.5,
+    "peso": 100,
+    "regiao": "América do Sul",
+    "forma": "theropod",
+    "desc": "Herrerassaurídeo robusto, parente próximo do Herrerassauro, um dos predadores maiores do início da história dos dinossauros.",
+    "fato": "Foi batizado em homenagem à província argentina de San Juan, onde vários dos dinossauros mais antigos do mundo foram encontrados.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 1,
+    "periodo": {
+      "inicio": 231,
+      "fim": 229
+    },
+    "formacao": "Formação Ischigualasto",
+    "local": "San Juan, Argentina",
+    "mapa": {
+      "x": 86,
+      "y": 118
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Herrerasauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Oscar Alcober e Ricardo Martínez",
+      "ano": 2010
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Viveu na mesma formação que o Eoraptor, o Herrerassauro e o Eodrômeu — uma das regiões mais ricas do mundo para dinossauros triássicos.",
+      "Era um dos maiores predadores conhecidos de sua época e região."
+    ]
+  },
+  {
+    "id": 213,
+    "nome": "Cromogissauro",
+    "latim": "Chromogisaurus novasi",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 2,
+    "peso": 20,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Sauropodomorfo primitivo argentino, com dentição ainda sugerindo dieta variada, não totalmente herbívora.",
+    "fato": "Foi encontrado na Formação Ischigualasto, uma das regiões com maior concentração de dinossauros triássicos do mundo.",
+    "perigo": 1,
+    "velocidade": 5,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 225,
+      "fim": 221
+    },
+    "formacao": "Formação Ischigualasto",
+    "local": "San Juan, Argentina",
+    "mapa": {
+      "x": 85,
+      "y": 116
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Ricardo Martínez e equipe",
+      "ano": 2010
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Ajuda a documentar a diversidade inicial dos sauropodomorfos antes de evoluírem para os gigantes quadrúpedes.",
+      "Seu nome homenageia Fernando Novas, importante paleontólogo argentino."
+    ]
+  },
+  {
+    "id": 214,
+    "nome": "Buriolestes",
+    "latim": "Buriolestes schultzi",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1.5,
+    "peso": 10,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Um dos sauropodomorfos mais antigos conhecidos, encontrado no Brasil, ainda predominantemente carnívoro — mostrando que a dieta herbívora do grupo veio depois.",
+    "fato": "Apesar de pertencer ao grupo que geraria os maiores herbívoros da história, o Buriolestes provavelmente se alimentava principalmente de pequenos animais.",
+    "perigo": 3,
+    "velocidade": 6,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 233,
+      "fim": 231
+    },
+    "formacao": "Formação Santa Maria",
+    "local": "Rio Grande do Sul, Brasil",
+    "mapa": {
+      "x": 88,
+      "y": 131
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Sérgio Cabreira e equipe",
+      "ano": 2016
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos fósseis mais importantes para entender que os primeiros sauropodomorfos eram carnívoros, não herbívoros.",
+      "Foi batizado em homenagem ao Sítio Buriol, no Rio Grande do Sul, onde foi encontrado."
+    ]
+  },
+  {
+    "id": 215,
+    "nome": "Bagualossauro",
+    "latim": "Bagualosaurus agudoensis",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 2,
+    "peso": 30,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Sauropodomorfo primitivo brasileiro, com dentição intermediária entre parentes carnívoros e herbívoros mais avançados.",
+    "fato": "Foi encontrado na mesma região do Rio Grande do Sul que revelou vários outros dos dinossauros mais antigos do mundo.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 233,
+      "fim": 225
+    },
+    "formacao": "Formação Santa Maria",
+    "local": "Rio Grande do Sul, Brasil",
+    "mapa": {
+      "x": 87,
+      "y": 132
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Rodrigo Müller e equipe",
+      "ano": 2018
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Ajuda a documentar a transição gradual dos sauropodomorfos de uma dieta carnívora para uma dieta cada vez mais herbívora.",
+      "É um dos vários dinossauros triássicos importantes descobertos no Brasil nas últimas décadas."
+    ]
+  },
+  {
+    "id": 216,
+    "nome": "Macrocollum",
+    "latim": "Macrocollum itaquii",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 3.5,
+    "peso": 100,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Sauropodomorfo primitivo brasileiro com pescoço já relativamente longo, um dos primeiros sinais dessa tendência que levaria aos saurópodes gigantes.",
+    "fato": "Seu nome significa 'pescoço grande', em referência ao pescoço proporcionalmente alongado para um dinossauro tão antigo.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 0.7,
+    "periodo": {
+      "inicio": 225,
+      "fim": 221
+    },
+    "formacao": "Formação Santa Maria",
+    "local": "Rio Grande do Sul, Brasil",
+    "mapa": {
+      "x": 86,
+      "y": 131
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Rodrigo Müller e equipe",
+      "ano": 2018
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É considerado um dos primeiros sauropodomorfos totalmente herbívoros conhecidos.",
+      "Três esqueletos parciais foram encontrados juntos, sugerindo que podia viver em grupo."
+    ]
+  },
+  {
+    "id": 217,
+    "nome": "Unaissauro",
+    "latim": "Unaysaurus tolentinoi",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 2.5,
+    "peso": 70,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Sauropodomorfo primitivo brasileiro, parente próximo do Plateossauro europeu, sugerindo conexão entre as faunas triássicas dos dois continentes.",
+    "fato": "Sua semelhança com o Plateossauro alemão ajuda a mostrar como a Pangeia unida permitia que dinossauros parecidos vivessem em continentes hoje muito distantes.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 0.8,
+    "periodo": {
+      "inicio": 225,
+      "fim": 221
+    },
+    "formacao": "Formação Caturrita",
+    "local": "Rio Grande do Sul, Brasil",
+    "mapa": {
+      "x": 87,
+      "y": 131
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Plateosauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Jorge Ferigolo e Max Langer",
+      "ano": 2006
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos dinossauros que melhor evidenciam a proximidade entre as faunas da América do Sul e da Europa durante o Triássico.",
+      "Seu nome faz referência ao rio Unaí, próximo ao local da descoberta."
+    ]
+  },
+  {
+    "id": 218,
+    "nome": "Pampadromeu",
+    "latim": "Pampadromaeus barberenai",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 1.5,
+    "peso": 10,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Pequeno sauropodomorfo primitivo brasileiro, ágil e provavelmente onívoro.",
+    "fato": "Seu nome combina 'pampa', o bioma característico do sul do Brasil, com 'dromeus', que significa corredor.",
+    "perigo": 1,
+    "velocidade": 6,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 233,
+      "fim": 231
+    },
+    "formacao": "Formação Santa Maria",
+    "local": "Rio Grande do Sul, Brasil",
+    "mapa": {
+      "x": 88,
+      "y": 132
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Sérgio Cabreira e equipe",
+      "ano": 2011
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É mais um entre vários dinossauros triássicos importantes descobertos no Rio Grande do Sul.",
+      "Ajuda a mostrar a diversidade de pequenos sauropodomorfos que existia bem no início da história do grupo."
+    ]
+  },
+  {
+    "id": 219,
+    "nome": "Asilissauro",
+    "latim": "Asilisaurus kongwe",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 1.7,
+    "peso": 30,
+    "regiao": "África",
+    "forma": "small",
+    "desc": "Não é um dinossauro verdadeiro — é um dinossauromorfo, um parente muito próximo que ajuda a entender como os primeiros dinossauros surgiram.",
+    "fato": "É um dos dinossauromorfos mais antigos conhecidos, mostrando que parentes muito próximos dos dinossauros já existiam antes dos primeiros dinossauros verdadeiros.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 245,
+      "fim": 241
+    },
+    "formacao": "Formação Manda",
+    "local": "Tanzânia",
+    "mapa": {
+      "x": 197,
+      "y": 91
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Dinosauromorpha (não é Dinosauria)",
+      "familia": "Silesauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Sterling Nesbitt e equipe",
+      "ano": 2010
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Sua descoberta empurrou a origem da linhagem dos dinossauros para ainda mais cedo no Triássico.",
+      "Convivia com répteis muito mais comuns que os dinossauros verdadeiros, que ainda eram um grupo raro na época."
+    ]
+  },
+  {
+    "id": 220,
+    "nome": "Silessauro",
+    "latim": "Silesaurus opolensis",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 2.3,
+    "peso": 15,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Não é um dinossauro verdadeiro — é um dinossauromorfo europeu, um dos parentes mais próximos e mais bem estudados dos primeiros dinossauros.",
+    "fato": "Tinha uma estrutura parecida com um bico na ponta do focinho, possivelmente usada para se alimentar de insetos ou vegetação rasteira.",
+    "perigo": 2,
+    "velocidade": 6,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 237,
+      "fim": 227
+    },
+    "formacao": "Formação Keuper",
+    "local": "Polônia",
+    "mapa": {
+      "x": 175,
+      "y": 21
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Dinosauromorpha (não é Dinosauria)",
+      "familia": "Silesauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Jerzy Dzik",
+      "ano": 2003
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Deu nome à família Silesauridae, um grupo inteiro de dinossauromorfos próximos da origem dos dinossauros.",
+      "É um dos dinossauromorfos mais completos e mais estudados já encontrados."
+    ]
+  },
+  {
+    "id": 221,
+    "nome": "Lewisuchus",
+    "latim": "Lewisuchus admixtus",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1,
+    "peso": 5,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Não é um dinossauro verdadeiro — é um dinossauromorfo pequeno e primitivo, entre os parentes mais próximos conhecidos da origem dos dinossauros.",
+    "fato": "Foi encontrado na mesma formação argentina que o Marassuco, outro dinossauromorfo importante para entender a origem do grupo.",
+    "perigo": 1,
+    "velocidade": 6,
+    "altura": 0.2,
+    "periodo": {
+      "inicio": 236,
+      "fim": 234
+    },
+    "formacao": "Formação Chañares",
+    "local": "La Rioja, Argentina",
+    "mapa": {
+      "x": 90,
+      "y": 114
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Dinosauromorpha (não é Dinosauria)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por José Bonaparte",
+      "ano": 1975
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Sua classificação já foi revisada várias vezes, incluindo debate sobre se seria o mesmo animal que outro gênero próximo, o Pseudolagosuchus.",
+      "Ajuda, junto ao Marassuco, a reconstruir como seria o ancestral mais próximo de todos os dinossauros verdadeiros."
+    ]
+  },
+  {
+    "id": 222,
+    "nome": "Camposauro",
+    "latim": "Camposaurus arizonensis",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 2,
+    "peso": 15,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Um dos primeiros terópodes conhecidos da América do Norte, conhecido a partir de material fragmentário.",
+    "fato": "É um dos dinossauros mais antigos já encontrados no atual território dos Estados Unidos.",
+    "perigo": 3,
+    "velocidade": 6,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 220,
+      "fim": 213
+    },
+    "formacao": "Formação Chinle",
+    "local": "Arizona, EUA",
+    "mapa": {
+      "x": 51,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Ned Colbert e equipe",
+      "ano": 1998
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É conhecido a partir de pouquíssimo material, deixando boa parte de sua anatomia incerta.",
+      "Foi batizado em homenagem a Camp Butte, formação rochosa perto de onde foi encontrado."
+    ]
+  },
+  {
+    "id": 223,
+    "nome": "Gojirassauro",
+    "latim": "Gojirasaurus quayi",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 5.5,
+    "peso": 150,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Um dos maiores terópodes conhecidos do Triássico, predador de porte considerável para uma época em que a maioria dos dinossauros ainda era pequena.",
+    "fato": "Foi batizado em homenagem a Godzilla, o famoso monstro do cinema japonês.",
+    "perigo": 6,
+    "velocidade": 6,
+    "altura": 1.5,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Formação Chinle",
+    "local": "Novo México, EUA",
+    "mapa": {
+      "x": 53,
+      "y": 47
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Kenneth Carpenter",
+      "ano": 1997
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Se as estimativas de tamanho se confirmarem, seria um dos maiores predadores terrestres de toda a era Triássica.",
+      "É conhecido a partir de material fragmentário, o que deixa margem de incerteza sobre seu tamanho exato."
+    ]
+  },
+  {
+    "id": 224,
+    "nome": "Caseossauro",
+    "latim": "Caseosaurus crosbyensis",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 3,
+    "peso": 80,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Dinossauro primitivo de afinidade herrerassaurídea, conhecido a partir de material fragmentário do sul dos Estados Unidos.",
+    "fato": "Foi batizado em homenagem a Ermine Cowles Case, importante paleontólogo pioneiro no estudo de répteis do Triássico americano.",
+    "perigo": 4,
+    "velocidade": 6,
+    "altura": 0.9,
+    "periodo": {
+      "inicio": 221,
+      "fim": 205
+    },
+    "formacao": "Formação Dockum",
+    "local": "Texas, EUA",
+    "mapa": {
+      "x": 55,
+      "y": 49
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Herrerasauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Adrian Hunt e equipe",
+      "ano": 1998
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Sua classificação exata é debatida, já que o material conhecido é bastante incompleto.",
+      "É um dos poucos representantes conhecidos de dinossauros herrerassaurídeos na América do Norte."
+    ]
+  },
+  {
+    "id": 225,
+    "nome": "Ornitolestes",
+    "latim": "Ornitholestes hermanni",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 2,
+    "peso": 12,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Pequeno terópode ágil, possivelmente com uma pequena crista sobre o nariz, predador de presas pequenas.",
+    "fato": "Seu nome significa 'ladrão de aves', embora não haja evidência direta de que caçasse aves — o nome reflete apenas seu tamanho e agilidade.",
+    "perigo": 3,
+    "velocidade": 8,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 57,
+      "y": 43
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Coelurosauria)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Henry Fairfield Osborn",
+      "ano": 1903
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Foi um dos primeiros pequenos terópodes coelurossauros bem descritos da América do Norte.",
+      "Provavelmente se alimentava de lagartos, mamíferos primitivos e talvez ovos de outros dinossauros."
+    ]
+  },
+  {
+    "id": 226,
+    "nome": "Marshossauro",
+    "latim": "Marshosaurus bicentesimus",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 4.5,
+    "peso": 400,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Terópode de porte médio da Formação Morrison, menos conhecido que parentes como o Alossauro, mas parte do mesmo ecossistema.",
+    "fato": "Foi batizado em homenagem a Othniel Charles Marsh, um dos paleontólogos mais influentes da 'Guerra dos Ossos'.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 1.5,
+    "periodo": {
+      "inicio": 155,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Utah, EUA",
+    "mapa": {
+      "x": 55,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por James Madsen",
+      "ano": 1976
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É conhecido a partir de material fragmentário, tornando muitos detalhes de sua anatomia incertos.",
+      "Dividia o ecossistema da Formação Morrison com o Alossauro, o Ceratossauro e o Torvossauro."
+    ]
+  },
+  {
+    "id": 227,
+    "nome": "Estocessauro",
+    "latim": "Stokesosaurus clevelandi",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 3,
+    "peso": 150,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Um dos primeiros tiranossauroides conhecidos da América do Norte, muito menor que os gigantes que essa linhagem geraria dezenas de milhões de anos depois.",
+    "fato": "Ajuda a mostrar que a linhagem dos tiranossauroides já estava presente na América do Norte bem antes do T. rex existir.",
+    "perigo": 5,
+    "velocidade": 7,
+    "altura": 1.2,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Utah, EUA",
+    "mapa": {
+      "x": 54,
+      "y": 45
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Tyrannosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por James Madsen",
+      "ano": 1974
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos tiranossauroides mais antigos conhecidos da América do Norte.",
+      "Seu tamanho pequeno contrasta com os tiranossaurídeos gigantes que a linhagem geraria no Cretáceo."
+    ]
+  },
+  {
+    "id": 228,
+    "nome": "Celuro",
+    "latim": "Coelurus fragilis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 2.4,
+    "peso": 15,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Pequeno terópode de ossos leves e frágeis, deu nome ao grande grupo dos celurossauros, que inclui desde pequenos predadores até aves modernas.",
+    "fato": "Seu nome significa 'cauda oca', em referência aos ossos leves e pneumáticos da cauda.",
+    "perigo": 2,
+    "velocidade": 8,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 56,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Coelurosauria)",
+      "familia": "Coeluridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Othniel Charles Marsh",
+      "ano": 1879
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Deu nome ao grupo Coelurosauria, que hoje inclui até as aves modernas.",
+      "É conhecido a partir de material bastante incompleto, apesar de sua importância histórica para a nomenclatura."
+    ]
+  },
+  {
+    "id": 229,
+    "nome": "Elafrossauro",
+    "latim": "Elaphrosaurus bambergi",
+    "era": "Jurássico",
+    "dieta": "Onívoro",
+    "comprimento": 6,
+    "peso": 200,
+    "regiao": "África",
+    "forma": "theropod",
+    "desc": "Terópode incomum, esguio e de pernas longas, possivelmente sem dentes na fase adulta — um caso raro entre os ceratossauros.",
+    "fato": "Sua anatomia leve e a possível ausência de dentes sugerem uma dieta bem diferente da maioria dos terópodes de porte similar.",
+    "perigo": 4,
+    "velocidade": 8,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 154,
+      "fim": 150
+    },
+    "formacao": "Formação Tendaguru",
+    "local": "Tanzânia",
+    "mapa": {
+      "x": 196,
+      "y": 92
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Ceratosauria)",
+      "familia": "Noasauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Expedição alemã, descrito por Werner Janensch",
+      "ano": 1920
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Parentes próximos e mais tardios sugerem que essa linhagem evoluiu para se tornar cada vez menos carnívora ao longo do tempo.",
+      "Foi encontrado na mesma expedição alemã que revelou o Girafatitã e o Kentrossauro."
+    ]
+  },
+  {
+    "id": 230,
+    "nome": "Poequilopleuron",
+    "latim": "Poekilopleuron bucklandii",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 7,
+    "peso": 1000,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "Grande terópode francês, parente do Megalossauro, conhecido desde o século XIX mas com o material original perdido.",
+    "fato": "O esqueleto original foi destruído durante bombardeios na Segunda Guerra Mundial — hoje só restam desenhos e descrições antigas.",
+    "perigo": 7,
+    "velocidade": 6,
+    "altura": 2.3,
+    "periodo": {
+      "inicio": 168,
+      "fim": 166
+    },
+    "formacao": "Formação Calcaire de Caen",
+    "local": "Normandia, França",
+    "mapa": {
+      "x": 158,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Megalosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Jacques Amand Eudes-Deslongchamps",
+      "ano": 1838
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos vários fósseis históricos importantes perdidos em bombardeios durante conflitos do século XX, junto ao Espinossauro original.",
+      "Foi um dos primeiros grandes terópodes descritos na Europa continental."
+    ]
+  },
+  {
+    "id": 231,
+    "nome": "Duriavenator",
+    "latim": "Duriavenator hesperis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 6,
+    "peso": 800,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "Megalossaurídeo britânico, já foi classificado como uma espécie do próprio Megalossauro antes de ganhar gênero próprio.",
+    "fato": "Seu nome significa 'caçador de Dorset', região da Inglaterra onde foi encontrado.",
+    "perigo": 6,
+    "velocidade": 6,
+    "altura": 2,
+    "periodo": {
+      "inicio": 168,
+      "fim": 166
+    },
+    "formacao": "Formação Inferior Oolite",
+    "local": "Dorset, Inglaterra",
+    "mapa": {
+      "x": 161,
+      "y": 27
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Megalosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Roger Benson",
+      "ano": 2008
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Ajudou a esclarecer que várias espécies antes atribuídas ao Megalossauro na verdade pertenciam a gêneros diferentes.",
+      "É um dos megalossaurídeos mais bem estudados da Inglaterra."
+    ]
+  },
+  {
+    "id": 232,
+    "nome": "Magnossauro",
+    "latim": "Magnosaurus nethercombensis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 5,
+    "peso": 500,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "Terópode britânico de classificação historicamente confusa, hoje considerado um megalossaurídeo distinto.",
+    "fato": "Por décadas foi confundido e reclassificado várias vezes junto com o Megalossauro, antes de estudos mais recentes o separarem.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 168,
+      "fim": 166
+    },
+    "formacao": "Formação Inferior Oolite",
+    "local": "Inglaterra",
+    "mapa": {
+      "x": 162,
+      "y": 26
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Megalosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Friedrich von Huene",
+      "ano": 1923
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um exemplo clássico de como fósseis fragmentários podem gerar décadas de confusão taxonômica.",
+      "Viveu na mesma época e região que o Duriavenator."
+    ]
+  },
+  {
+    "id": 233,
+    "nome": "Xuanhanossauro",
+    "latim": "Xuanhanosaurus qilixiaensis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 6,
+    "peso": 700,
+    "regiao": "Ásia",
+    "forma": "theropod",
+    "desc": "Terópode chinês de classificação incerta, conhecido a partir de material parcial incluindo membros anteriores robustos.",
+    "fato": "Seus braços relativamente robustos intrigam os paleontólogos, já que a maioria dos terópodes tinha braços proporcionalmente menores.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 2,
+    "periodo": {
+      "inicio": 168,
+      "fim": 161
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 217,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Dong Zhiming",
+      "ano": 1984
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos terópodes menos compreendidos do Jurássico Médio chinês, devido ao material incompleto.",
+      "Viveu na mesma região que vários saurópodes primitivos, como o Xunossauro."
+    ]
+  },
+  {
+    "id": 234,
+    "nome": "Yangchuanossauro",
+    "latim": "Yangchuanosaurus shangyouensis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 8.5,
+    "peso": 3000,
+    "regiao": "Ásia",
+    "forma": "theropod",
+    "desc": "Um dos maiores terópodes conhecidos da Ásia no Jurássico, parente dos alossaurídeos, predador dominante em seu ecossistema.",
+    "fato": "É um dos terópodes mais completos e mais exibidos em museus chineses, praticamente o 'Alossauro chinês'.",
+    "perigo": 7,
+    "velocidade": 6,
+    "altura": 2.8,
+    "periodo": {
+      "inicio": 161,
+      "fim": 155
+    },
+    "formacao": "Formação Shangshaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 218,
+      "y": 47
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Allosauroidea)",
+      "familia": "Metriacanthosauridae"
+    },
+    "descoberta": {
+      "por": "Descoberto durante construção de represa, descrito por Dong Zhiming",
+      "ano": 1978
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Foi descoberto durante a construção de uma represa, interrompendo temporariamente as obras.",
+      "Convivia com o Tuojiangossauro e o Omeissauro na mesma região."
+    ]
+  },
+  {
+    "id": 235,
+    "nome": "Gassauro",
+    "latim": "Gasosaurus constructus",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 4,
+    "peso": 400,
+    "regiao": "Ásia",
+    "forma": "theropod",
+    "desc": "Terópode chinês de porte médio, descoberto durante a construção de uma fábrica de processamento de gás.",
+    "fato": "Seu nome e epíteto de espécie fazem referência direta ao contexto inusitado de sua descoberta, durante uma obra de construção civil.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 1.6,
+    "periodo": {
+      "inicio": 168,
+      "fim": 161
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 219,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Allosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Dong Zhiming e Tang Zilu",
+      "ano": 1985
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos vários dinossauros descobertos por acaso durante obras de construção na China.",
+      "Ajuda a preencher o registro fóssil de terópodes do Jurássico Médio, período pouco representado no mundo todo."
+    ]
+  },
+  {
+    "id": 236,
+    "nome": "Lourinhanossauro",
+    "latim": "Lourinhanosaurus antunesi",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 5,
+    "peso": 700,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "Terópode português de porte médio, encontrado junto a um grande depósito de ovos fossilizados.",
+    "fato": "Foi encontrado próximo a dezenas de ovos fossilizados, alguns com embriões preservados, um achado raro para terópodes desse período.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 152,
+      "fim": 150
+    },
+    "formacao": "Formação Lourinhã",
+    "local": "Portugal",
+    "mapa": {
+      "x": 156,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Allosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Octávio Mateus",
+      "ano": 1998
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Portugal é uma das regiões europeias mais ricas em fósseis de dinossauros do Jurássico.",
+      "Os ovos associados ajudaram a entender aspectos da reprodução de terópodes de porte médio."
+    ]
+  },
+  {
+    "id": 237,
+    "nome": "Saurofagônax",
+    "latim": "Saurophaganax maximus",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 13,
+    "peso": 4000,
+    "regiao": "América do Norte",
+    "forma": "theropod",
+    "desc": "Um dos maiores terópodes do Jurássico já descobertos, parente próximo e maior que o Alossauro clássico.",
+    "fato": "Seu nome significa 'senhor que come lagartos', numa referência direta ao seu tamanho e posição no topo da cadeia alimentar.",
+    "perigo": 8,
+    "velocidade": 6,
+    "altura": 3,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Oklahoma, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 49
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Allosauroidea)",
+      "familia": "Allosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Dan Chure",
+      "ano": 1995
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Alguns pesquisadores o consideram apenas uma espécie grande de Alossauro, não um gênero totalmente separado — debate ainda em aberto.",
+      "Se for uma espécie válida, seria um dos maiores predadores terrestres de todo o período Jurássico."
+    ]
+  },
+  {
+    "id": 238,
+    "nome": "Galeâmopo",
+    "latim": "Galeamopus pabsti",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 25,
+    "peso": 15000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Saurópode diplodocídeo, parente próximo do Diplodoco, separado como gênero distinto apenas em estudos mais recentes.",
+    "fato": "Por muito tempo, seu material foi classificado como pertencente ao próprio gênero Diplodocus.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 6,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 57,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Diplodocidae"
+    },
+    "descoberta": {
+      "por": "Descrito por Emanuel Tschopp e Octávio Mateus",
+      "ano": 2015
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Faz parte de um estudo estatístico amplo que reorganizou a classificação de vários diplodocídeos da Formação Morrison.",
+      "Ajuda a mostrar como saurópodes muito parecidos podem, na verdade, pertencer a gêneros diferentes."
+    ]
+  },
+  {
+    "id": 239,
+    "nome": "Kaatedocus",
+    "latim": "Kaatedocus siberi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 12,
+    "peso": 4000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Diplodocídeo de porte relativamente pequeno para o grupo, com crânio bem preservado — um achado raro entre saurópodes.",
+    "fato": "Seu crânio quase completo ajudou a esclarecer detalhes da anatomia craniana dos diplodocídeos, geralmente conhecidos só pelo corpo.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 4,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 56,
+      "y": 43
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Diplodocidae"
+    },
+    "descoberta": {
+      "por": "Descrito por Emanuel Tschopp e Octávio Mateus",
+      "ano": 2013
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Seu nome combina uma palavra dos povos indígenas Crow, que significa 'pequeno', com 'docus', de Diplodocus.",
+      "É um dos poucos diplodocídeos com crânio conhecido em bom estado de preservação."
+    ]
+  },
+  {
+    "id": 240,
+    "nome": "Suuwassea",
+    "latim": "Suuwassea emilieae",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 15,
+    "peso": 6000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Saurópode de porte médio, parente distante dos diplodocídeos, com algumas características que lembram o Amargassauro sul-americano.",
+    "fato": "Seu nome vem de uma palavra em língua Crow que significa 'trovão do outono antigo', numa referência poética a saurópodes em geral.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 4.5,
+    "periodo": {
+      "inicio": 154,
+      "fim": 150
+    },
+    "formacao": "Formação Morrison",
+    "local": "Montana, EUA",
+    "mapa": {
+      "x": 54,
+      "y": 39
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Dicraeosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Jerald Harris e Peter Dodson",
+      "ano": 2004
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos poucos dicreossaurídeos conhecidos da América do Norte — a maioria dos parentes do grupo vem da América do Sul e África.",
+      "Ajuda a mostrar que saurópodes de pescoço mais curto também existiam na Formação Morrison, ao lado dos gigantes de pescoço longo."
+    ]
+  },
+  {
+    "id": 241,
+    "nome": "Anficélias",
+    "latim": "Amphicoelias altus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 25,
+    "peso": 10000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Saurópode diplodocídeo conhecido principalmente por seu papel numa das maiores controvérsias da paleontologia: uma vértebra descrita no século XIX, hoje perdida, que sugeriria um parente gigantesco.",
+    "fato": "Uma espécie relacionada, descrita a partir de uma única vértebra hoje perdida, teria sido um dos maiores animais terrestres já existentes — mas sem o fóssil original, isso nunca pôde ser confirmado.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 5,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 45
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Diplodocidae"
+    },
+    "descoberta": {
+      "por": "Descrito por Edward Drinker Cope",
+      "ano": 1878
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "A vértebra perdida do parente gigante, se as medidas originais estiverem corretas, sugeriria um animal maior que qualquer saurópode confirmado até hoje — mas isso segue sendo um mistério não resolvido.",
+      "É um exemplo de como a perda de fósseis históricos pode deixar questões científicas permanentemente em aberto."
+    ]
+  },
+  {
+    "id": 242,
+    "nome": "Haplocantossauro",
+    "latim": "Haplocanthosaurus priscus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 21,
+    "peso": 15000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Saurópode primitivo, mais próximo da base da árvore genealógica dos saurópodes do que os diplodocídeos e braquiossaurídeos mais conhecidos da mesma formação.",
+    "fato": "Suas vértebras têm uma estrutura interna mais simples que a de saurópodes mais avançados, o que inspirou seu nome.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 5,
+    "periodo": {
+      "inicio": 155,
+      "fim": 150
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 57,
+      "y": 45
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Haplocanthosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por John Bell Hatcher",
+      "ano": 1903
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos saurópodes mais primitivos conhecidos da Formação Morrison, dividindo o ambiente com parentes muito mais avançados.",
+      "Sua posição exata na árvore genealógica dos saurópodes ainda gera discussão entre especialistas."
+    ]
+  },
+  {
+    "id": 243,
+    "nome": "Braquitraquelopã",
+    "latim": "Brachytrachelopan mesai",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 10,
+    "peso": 3000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Saurópode incomum com o pescoço mais curto já registrado entre todos os saurópodes conhecidos, uma característica rara no grupo.",
+    "fato": "Seu nome significa literalmente 'pescoço curto de Pan', numa referência bem-humorada ao deus grego Pan e à característica mais marcante do animal.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 157,
+      "fim": 152
+    },
+    "formacao": "Formação Cañadón Asfalto",
+    "local": "Chubut, Argentina",
+    "mapa": {
+      "x": 85,
+      "y": 130
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Dicraeosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Oliver Rauhut e equipe",
+      "ano": 2005
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É o saurópode com o pescoço proporcionalmente mais curto já descrito, contrariando a imagem clássica do grupo.",
+      "Provavelmente se alimentava de vegetação baixa, diferente da maioria dos parentes que comiam folhas altas."
+    ]
+  },
+  {
+    "id": 244,
+    "nome": "Cetiossauro",
+    "latim": "Cetiosaurus oxoniensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 16,
+    "peso": 11000,
+    "regiao": "Europa",
+    "forma": "sauropod",
+    "desc": "Um dos primeiros saurópodes já nomeados na história da ciência, antes mesmo de os cientistas entenderem bem como esses animais se pareciam.",
+    "fato": "Foi inicialmente confundido com um réptil marinho gigante — seu nome significa 'lagarto baleia', reflexo dessa primeira interpretação equivocada.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4,
+    "periodo": {
+      "inicio": 168,
+      "fim": 166
+    },
+    "formacao": "Formação Oxford Clay",
+    "local": "Oxfordshire, Inglaterra",
+    "mapa": {
+      "x": 162,
+      "y": 26
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Cetiosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Richard Owen",
+      "ano": 1841
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Foi um dos animais que ajudaram Richard Owen a formular o conceito de 'Dinosauria' em 1842.",
+      "É o fóssil-símbolo oficial da cidade de Oxford, na Inglaterra."
+    ]
+  },
+  {
+    "id": 245,
+    "nome": "Patagossauro",
+    "latim": "Patagosaurus fariasi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 18,
+    "peso": 8000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Um dos primeiros saurópodes conhecidos da América do Sul, contemporâneo dos primeiros terópodes importantes da região, como o Piatnitzkissauro.",
+    "fato": "Ajuda a documentar a fauna do Jurássico Médio argentino, um período com poucos fósseis bem preservados em qualquer parte do mundo.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4.5,
+    "periodo": {
+      "inicio": 166,
+      "fim": 161
+    },
+    "formacao": "Formação Cañadón Asfalto",
+    "local": "Chubut, Argentina",
+    "mapa": {
+      "x": 84,
+      "y": 129
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Cetiosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por José Bonaparte",
+      "ano": 1979
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Viveu na mesma formação argentina que o Piatnitzkissauro, um dos terópodes mais completos do Jurássico Médio sul-americano.",
+      "É um dos saurópodes mais antigos e completos conhecidos da América do Sul."
+    ]
+  },
+  {
+    "id": 246,
+    "nome": "Volkheimeria",
+    "latim": "Volkheimeria chubutensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 14,
+    "peso": 6000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Saurópode primitivo argentino, conhecido a partir de material parcial, contemporâneo do Patagossauro.",
+    "fato": "Foi batizado em homenagem a Wolfgang Volkheimer, geólogo que contribuiu para o estudo da região onde foi encontrado.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4,
+    "periodo": {
+      "inicio": 166,
+      "fim": 161
+    },
+    "formacao": "Formação Cañadón Asfalto",
+    "local": "Chubut, Argentina",
+    "mapa": {
+      "x": 85,
+      "y": 130
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por José Bonaparte",
+      "ano": 1979
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos saurópodes menos completos conhecidos da mesma formação que o Patagossauro.",
+      "Ajuda a mostrar a diversidade de saurópodes já presente no início do Jurássico Médio sul-americano."
+    ]
+  },
+  {
+    "id": 247,
+    "nome": "Datossauro",
+    "latim": "Datousaurus bashanensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 15,
+    "peso": 8000,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Saurópode chinês de porte médio, um dos vários encontrados na rica região fossilífera de Sichuan.",
+    "fato": "Foi um dos primeiros saurópodes bem documentados dessa região da China a serem descritos cientificamente.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4.2,
+    "periodo": {
+      "inicio": 168,
+      "fim": 161
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 218,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Dong Zhiming e equipe",
+      "ano": 1984
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Convivia com o Xunossauro e vários terópodes chineses do Jurássico Médio.",
+      "Ajuda a documentar a grande diversidade de saurópodes que existia na China durante esse período."
+    ]
+  },
+  {
+    "id": 248,
+    "nome": "Klamelissauro",
+    "latim": "Klamelisaurus gobiensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 17,
+    "peso": 9000,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Saurópode chinês de pescoço longo, conhecido a partir de material razoavelmente completo do noroeste da China.",
+    "fato": "Apesar do nome de espécie fazer referência ao deserto de Gobi, foi encontrado numa região distinta, mais a oeste.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 5,
+    "periodo": {
+      "inicio": 166,
+      "fim": 161
+    },
+    "formacao": "Formação Shishugou",
+    "local": "Xinjiang, China",
+    "mapa": {
+      "x": 222,
+      "y": 41
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Mamenchisauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Zhao Xijin",
+      "ano": 1993
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Pode ser um parente próximo do Mamenquissauro, ambos com pescoços proporcionalmente muito longos.",
+      "Viveu na mesma formação que o Monolofossauro e o Guanlongo."
+    ]
+  },
+  {
+    "id": 249,
+    "nome": "Belussauro",
+    "latim": "Bellusaurus sui",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 5,
+    "peso": 1000,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Pequeno saurópode chinês, conhecido a partir de múltiplos indivíduos jovens encontrados juntos.",
+    "fato": "Todos os espécimes conhecidos são de indivíduos jovens, deixando incerto o tamanho real de um adulto totalmente crescido.",
+    "perigo": 1,
+    "velocidade": 3,
+    "altura": 2,
+    "periodo": {
+      "inicio": 161,
+      "fim": 155
+    },
+    "formacao": "Formação Shishugou",
+    "local": "Xinjiang, China",
+    "mapa": {
+      "x": 223,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Dong Zhiming",
+      "ano": 1990
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Vários indivíduos jovens encontrados juntos sugerem que podia viver em grupos, mesmo ainda imaturo.",
+      "Seu tamanho adulto real é uma das grandes incógnitas sobre a espécie."
+    ]
+  },
+  {
+    "id": 250,
+    "nome": "Abrossauro",
+    "latim": "Abrosaurus dongpoi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 4000,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Saurópode chinês com um dos crânios mais completos e bem preservados conhecidos entre saurópodes do Jurássico Médio.",
+    "fato": "Seu crânio bem preservado é uma raridade — a maioria dos saurópodes é conhecida só pelo corpo, já que o crânio se separa facilmente após a morte.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 3.5,
+    "periodo": {
+      "inicio": 168,
+      "fim": 161
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 219,
+      "y": 49
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Camarasauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Ouyang Hui",
+      "ano": 1989
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos raros saurópodes com crânio completo conhecido em todo o mundo.",
+      "Ajuda a entender como era a cabeça de saurópodes parentes do Camarassauro na Ásia."
+    ]
+  },
+  {
+    "id": 251,
+    "nome": "Dicreossauro",
+    "latim": "Dicraeosaurus hansemanni",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 13,
+    "peso": 3000,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Saurópode de pescoço relativamente curto com pequenos espinhos neurais bífidos, parente distante do Amargassauro sul-americano.",
+    "fato": "Foi encontrado na mesma expedição alemã que revelou o Girafatitã e o Kentrossauro, na Tanzânia.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 3.5,
+    "periodo": {
+      "inicio": 154,
+      "fim": 150
+    },
+    "formacao": "Formação Tendaguru",
+    "local": "Tanzânia",
+    "mapa": {
+      "x": 195,
+      "y": 91
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Dicraeosauridae"
+    },
+    "descoberta": {
+      "por": "Expedição alemã, descrito por Werner Janensch",
+      "ano": 1914
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um parente próximo do Amargassauro argentino, apesar de viverem em continentes hoje muito distantes.",
+      "Seus espinhos neurais eram divididos em duas pontas, uma característica compartilhada com poucos outros saurópodes."
+    ]
+  },
+  {
+    "id": 252,
+    "nome": "Torniéria",
+    "latim": "Tornieria africana",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 18,
+    "peso": 8000,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Diplodocídeo africano, parente distante do Diplodoco e do Apatossauro norte-americanos, mostrando a ampla distribuição do grupo.",
+    "fato": "Já foi confundido e reclassificado junto com outros gêneros americanos antes de ganhar identidade taxonômica própria.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 4.5,
+    "periodo": {
+      "inicio": 154,
+      "fim": 150
+    },
+    "formacao": "Formação Tendaguru",
+    "local": "Tanzânia",
+    "mapa": {
+      "x": 197,
+      "y": 93
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Diplodocidae"
+    },
+    "descoberta": {
+      "por": "Expedição alemã, descrito por Eberhard Fraas",
+      "ano": 1908
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos poucos diplodocídeos conhecidos fora da América do Norte, mostrando a distribuição intercontinental do grupo.",
+      "Foi encontrado na mesma rica formação que revelou o Girafatitã, o Kentrossauro e o Dicreossauro."
+    ]
+  },
+  {
+    "id": 253,
+    "nome": "Draconix",
+    "latim": "Draconyx loureiroi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 6,
+    "peso": 800,
+    "regiao": "Europa",
+    "forma": "ornithopod",
+    "desc": "Ornitópode português, parente do Campitossauro norte-americano, um dos poucos dinossauros bem documentados do Jurássico de Portugal.",
+    "fato": "Seu nome significa 'garra de dragão', em referência às garras robustas encontradas junto ao esqueleto.",
+    "perigo": 3,
+    "velocidade": 5,
+    "altura": 2,
+    "periodo": {
+      "inicio": 152,
+      "fim": 150
+    },
+    "formacao": "Formação Lourinhã",
+    "local": "Portugal",
+    "mapa": {
+      "x": 157,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Camptosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Octávio Mateus e Miguel Telles Antunes",
+      "ano": 2001
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É um dos poucos ornitópodes bem documentados do Jurássico português.",
+      "Viveu na mesma formação rica em fósseis que revelou o Miragaia e o Lourinhanossauro."
+    ]
+  },
+  {
+    "id": 254,
+    "nome": "Nanossauro",
+    "latim": "Nanosaurus agilis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 1,
+    "peso": 10,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Pequeno ornitópode ágil da Formação Morrison, entre os menores dinossauros herbívoros conhecidos dessa formação.",
+    "fato": "Foi um dos primeiros pequenos ornitísquios descritos da Formação Morrison, ainda no século XIX.",
+    "perigo": 1,
+    "velocidade": 7,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 57,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Othniel Charles Marsh",
+      "ano": 1877
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Provavelmente dependia inteiramente da velocidade para escapar de predadores como o Alossauro.",
+      "É um dos vários pequenos ornitísquios cuja classificação exata ainda é debatida entre especialistas."
+    ]
+  },
+  {
+    "id": 255,
+    "nome": "Otnielossauro",
+    "latim": "Othnielosaurus consors",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 2,
+    "peso": 25,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Pequeno ornitópode ágil e bípede da Formação Morrison, batizado em homenagem a um dos paleontólogos mais influentes do século XIX.",
+    "fato": "Foi batizado em homenagem a Othniel Charles Marsh, cujo nome também aparece em vários outros dinossauros da mesma formação.",
+    "perigo": 1,
+    "velocidade": 7,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 56,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Peter Galton",
+      "ano": 2007
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Sua história taxonômica é complicada, com o material já tendo sido atribuído a vários outros gêneros ao longo do tempo.",
+      "É um dos pequenos ornitópodes mais numerosos da Formação Morrison em termos de espécimes conhecidos."
+    ]
+  },
+  {
+    "id": 256,
+    "nome": "Hesperossauro",
+    "latim": "Hesperosaurus mjosi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 5,
+    "peso": 1400,
+    "regiao": "América do Norte",
+    "forma": "stego",
+    "desc": "Estegossaurídeo da Formação Morrison, com placas dorsais mais largas e arredondadas que as do Estegossauro clássico.",
+    "fato": "É um dos estegossaurídeos mais antigos conhecidos da Formação Morrison, um pouco anterior ao Estegossauro propriamente dito.",
+    "perigo": 5,
+    "velocidade": 3,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 156,
+      "fim": 152
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 55,
+      "y": 41
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Stegosauria)",
+      "familia": "Stegosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Kenneth Carpenter e equipe",
+      "ano": 2001
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Ajuda a documentar a evolução inicial dos estegossaurídeos norte-americanos antes do Estegossauro clássico.",
+      "Suas placas mais largas e arredondadas o diferenciam visualmente de parentes mais famosos."
+    ]
+  },
+  {
+    "id": 257,
+    "nome": "Alcovassauro",
+    "latim": "Alcovasaurus longispinus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 6,
+    "peso": 1500,
+    "regiao": "América do Norte",
+    "forma": "stego",
+    "desc": "Estegossaurídeo da Formação Morrison com espinhos na cauda incomumente longos, já foi confundido com outros gêneros antes de ganhar identidade própria.",
+    "fato": "Passou décadas classificado como uma espécie de Stegosaurus antes de ganhar seu próprio gênero em estudos mais recentes.",
+    "perigo": 5,
+    "velocidade": 3,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 54,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Stegosauria)",
+      "familia": "Stegosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por William Reed (gênero revisado em 2018)",
+      "ano": 1901
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Seus espinhos caudais excepcionalmente longos o distinguem visualmente de outros estegossaurídeos da mesma formação.",
+      "Sua reclassificação recente é um bom exemplo de como a paleontologia revisa constantemente fósseis já conhecidos há mais de um século."
+    ]
+  },
+  {
+    "id": 258,
+    "nome": "Lexovissauro",
+    "latim": "Lexovisaurus durobrivensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 5,
+    "peso": 1300,
+    "regiao": "Europa",
+    "forma": "stego",
+    "desc": "Estegossaurídeo europeu conhecido tanto da Inglaterra quanto da França, com espinhos nos ombros além das placas dorsais.",
+    "fato": "É um dos poucos estegossaurídeos europeus razoavelmente bem documentados, ajudando a mostrar a distribuição do grupo pelo continente.",
+    "perigo": 5,
+    "velocidade": 3,
+    "altura": 1.7,
+    "periodo": {
+      "inicio": 164,
+      "fim": 161
+    },
+    "formacao": "Formação Oxford Clay",
+    "local": "Inglaterra / França",
+    "mapa": {
+      "x": 161,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Stegosauria)",
+      "familia": "Stegosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Richard Lydekker",
+      "ano": 1889
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Boa parte do material antes atribuído a essa espécie hoje é considerado pertencente a outros gêneros, como o Loricatossauro.",
+      "Seus espinhos de ombro sugerem uma defesa adicional além das placas nas costas."
+    ]
+  },
+  {
+    "id": 259,
+    "nome": "Loricatossauro",
+    "latim": "Loricatosaurus priscus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 5,
+    "peso": 1300,
+    "regiao": "Europa",
+    "forma": "stego",
+    "desc": "Estegossaurídeo britânico, separado do Lexovissauro em estudos mais recentes de revisão taxonômica.",
+    "fato": "Seu nome significa 'lagarto blindado', numa referência direta à armadura de placas e espinhos.",
+    "perigo": 5,
+    "velocidade": 3,
+    "altura": 1.7,
+    "periodo": {
+      "inicio": 164,
+      "fim": 161
+    },
+    "formacao": "Formação Oxford Clay",
+    "local": "Inglaterra",
+    "mapa": {
+      "x": 163,
+      "y": 26
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Stegosauria)",
+      "familia": "Stegosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Richard Owen (gênero revisado por Peter Galton, 2010)",
+      "ano": 1857
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É um exemplo de como um único conjunto de fósseis pode levar décadas para ser corretamente separado em espécies distintas.",
+      "Viveu na mesma formação e época que o Lexovissauro, seu parente mais próximo."
+    ]
+  },
+  {
+    "id": 260,
+    "nome": "Setchuanossauro",
+    "latim": "Szechuanosaurus campi",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 6,
+    "peso": 800,
+    "regiao": "Ásia",
+    "forma": "theropod",
+    "desc": "Terópode chinês conhecido a partir de material fragmentário, provavelmente parente dos alossauroides asiáticos.",
+    "fato": "Seu material é tão incompleto que vários fósseis diferentes já foram atribuídos e depois removidos do gênero ao longo dos anos.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 168,
+      "fim": 161
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 217,
+      "y": 47
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Allosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Yang Zhongjian (C. C. Young)",
+      "ano": 1942
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos primeiros terópodes chineses já descritos cientificamente.",
+      "Sua validade como gênero distinto é frequentemente questionada devido ao material fragmentário conhecido."
+    ]
+  },
+  {
+    "id": 261,
+    "nome": "Chuandongoceluro",
+    "latim": "Chuandongocoelurus primitivus",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 2,
+    "peso": 15,
+    "regiao": "Ásia",
+    "forma": "small",
+    "desc": "Pequeno terópode chinês primitivo, um dos vários coelurossauros basais conhecidos do Jurássico Médio asiático.",
+    "fato": "Seu nome de espécie, 'primitivus', reflete sua posição próxima da base da árvore genealógica dos terópodes coelurossauros.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 168,
+      "fim": 161
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 218,
+      "y": 49
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Coelurosauria)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Dong Zhiming",
+      "ano": 1984
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Ajuda a preencher o registro fóssil de pequenos terópodes do Jurássico Médio, período com poucos fósseis desse tipo no mundo todo.",
+      "É conhecido a partir de material bastante incompleto."
+    ]
+  },
+  {
+    "id": 262,
+    "nome": "Kaijiangossauro",
+    "latim": "Kaijiangosaurus lini",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 5,
+    "peso": 500,
+    "regiao": "Ásia",
+    "forma": "theropod",
+    "desc": "Terópode chinês de classificação incerta, conhecido a partir de material parcial do Jurássico Médio.",
+    "fato": "Sua posição exata na árvore genealógica dos terópodes segue incerta devido ao material limitado conhecido.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 168,
+      "fim": 161
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 219,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Dong Zhiming",
+      "ano": 1984
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É mais um entre vários terópodes chineses do Jurássico Médio conhecidos apenas por material fragmentário.",
+      "Ajuda a documentar a diversidade de predadores que existia na China durante esse período."
+    ]
+  },
+  {
+    "id": 263,
+    "nome": "Piveteauissauro",
+    "latim": "Piveteausaurus divesensis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 8,
+    "peso": 1500,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "Grande terópode francês, conhecido principalmente a partir de um crânio parcial, provavelmente parente dos megalossaurídeos.",
+    "fato": "Foi batizado em homenagem a Jean Piveteau, importante paleontólogo francês do século XX.",
+    "perigo": 7,
+    "velocidade": 6,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 164,
+      "fim": 161
+    },
+    "formacao": "Formação Calcaire de Caen",
+    "local": "Normandia, França",
+    "mapa": {
+      "x": 157,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Éric Buffetaut",
+      "ano": 1981
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos poucos terópodes grandes bem documentados do Jurássico Médio francês.",
+      "Foi encontrado na mesma região que revelou o Poequilopleuron décadas antes."
+    ]
+  },
+  {
+    "id": 264,
+    "nome": "Lexanossauro",
+    "latim": "Leshansaurus qianweiensis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 7,
+    "peso": 1000,
+    "regiao": "Ásia",
+    "forma": "theropod",
+    "desc": "Terópode chinês de porte médio a grande, parente dos megalossaurídeos ou dos primeiros carcarodontossaurídeos.",
+    "fato": "Foi encontrado numa região da China com grande concentração de fósseis do Jurássico Médio e Superior.",
+    "perigo": 6,
+    "velocidade": 6,
+    "altura": 2.2,
+    "periodo": {
+      "inicio": 161,
+      "fim": 155
+    },
+    "formacao": "Formação Shangshaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 218,
+      "y": 47
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Li Jianjun e equipe",
+      "ano": 2009
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos terópodes chineses mais recentemente descritos entre os que aparecem no catálogo.",
+      "Sua classificação exata ainda está sendo debatida entre pesquisadores."
+    ]
+  },
+  {
+    "id": 265,
+    "nome": "Chuanjiessauro",
+    "latim": "Chuanjiesaurus anaensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 20,
+    "peso": 15000,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Grande saurópode chinês, um dos poucos representantes bem documentados do início do período Jurássico na Ásia.",
+    "fato": "Viveu numa época de transição entre o fim do Triássico e o início do Jurássico, período com poucos saurópodes bem documentados.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 5,
+    "periodo": {
+      "inicio": 180,
+      "fim": 170
+    },
+    "formacao": "Formação Chuanjie",
+    "local": "Yunnan, China",
+    "mapa": {
+      "x": 213,
+      "y": 52
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Fang Xiaosi e equipe",
+      "ano": 2000
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos primeiros saurópodes verdadeiramente grandes conhecidos do início do Jurássico.",
+      "Ajuda a documentar como os saurópodes cresceram em tamanho rapidamente logo no início do período."
+    ]
+  },
+  {
+    "id": 266,
+    "nome": "Dachanpussauro",
+    "latim": "Dashanpusaurus dongi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 10,
+    "peso": 4000,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Saurópode chinês de porte médio, parente dos camarassaurídeos, contribuindo para a rica diversidade de saurópodes de Sichuan.",
+    "fato": "Foi batizado em homenagem a Dong Zhiming, um dos paleontólogos mais prolíficos da história da China.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 3.8,
+    "periodo": {
+      "inicio": 168,
+      "fim": 161
+    },
+    "formacao": "Formação Xiashaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 217,
+      "y": 49
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Camarasauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Peng Guangzhao e equipe",
+      "ano": 2005
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É mais um entre a grande variedade de saurópodes de Sichuan, uma das regiões mais ricas do mundo para o Jurássico Médio.",
+      "Viveu na mesma formação que o Datossauro e o Xunossauro."
+    ]
+  },
+  {
+    "id": 267,
+    "nome": "Moncoossauro",
+    "latim": "Monkonosaurus lawulacus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 5,
+    "peso": 1200,
+    "regiao": "Ásia",
+    "forma": "stego",
+    "desc": "Estegossaurídeo pouco conhecido do Tibete, um dos dinossauros blindados encontrados em maior altitude do mundo.",
+    "fato": "Foi encontrado numa região do planalto tibetano, uma das localidades de maior altitude já registradas para um fóssil de dinossauro.",
+    "perigo": 4,
+    "velocidade": 3,
+    "altura": 1.6,
+    "periodo": {
+      "inicio": 161,
+      "fim": 155
+    },
+    "formacao": "Formação Xiali",
+    "local": "Tibete, China",
+    "mapa": {
+      "x": 228,
+      "y": 55
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Stegosauria)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Zhao Xijin",
+      "ano": 1983
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É um dos dinossauros mais raros e menos conhecidos de todo o catálogo, com material extremamente limitado.",
+      "Sua localização no planalto tibetano o torna um dos fósseis de dinossauro mais remotos já escavados."
+    ]
+  },
+  {
+    "id": 268,
+    "nome": "Retossauro",
+    "latim": "Rhoetosaurus brownei",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 15,
+    "peso": 8000,
+    "regiao": "Oceania",
+    "forma": "sauropod",
+    "desc": "O primeiro dinossauro já descoberto na Austrália, saurópode de porte considerável para o início do Jurássico Médio.",
+    "fato": "Foi o primeiro dinossauro australiano já descrito cientificamente, décadas antes de outros como o Mutaburrassauro.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4.5,
+    "periodo": {
+      "inicio": 167,
+      "fim": 167
+    },
+    "formacao": "Formação Walloon",
+    "local": "Queensland, Austrália",
+    "mapa": {
+      "x": 271,
+      "y": 112
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Heber Longman",
+      "ano": 1926
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Foi encontrado originalmente por trabalhadores cavando um poço, décadas antes de ser devidamente escavado.",
+      "É um marco histórico da paleontologia australiana, o primeiro dinossauro do país a receber um nome científico."
+    ]
+  },
+  {
+    "id": 269,
+    "nome": "Calovossauro",
+    "latim": "Callovosaurus leedsi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 3,
+    "peso": 200,
+    "regiao": "Europa",
+    "forma": "ornithopod",
+    "desc": "Um dos ornitópodes mais antigos conhecidos da linhagem que levaria aos dryosaurídeos, encontrado na Inglaterra.",
+    "fato": "É considerado por alguns pesquisadores um dos primeiros representantes conhecidos da família dos dryosaurídeos.",
+    "perigo": 2,
+    "velocidade": 6,
+    "altura": 1,
+    "periodo": {
+      "inicio": 164,
+      "fim": 161
+    },
+    "formacao": "Formação Oxford Clay",
+    "local": "Inglaterra",
+    "mapa": {
+      "x": 163,
+      "y": 26
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Dryosauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Richard Lydekker",
+      "ano": 1889
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Foi batizado em homenagem a Alfred Leeds, colecionador britânico que reuniu uma das maiores coleções de fósseis marinhos e dinossauros do Jurássico inglês.",
+      "É conhecido a partir de material fragmentário, principalmente ossos das pernas."
+    ]
   }
 ]
