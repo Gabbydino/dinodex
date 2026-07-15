@@ -10758,5 +10758,765 @@
       "Foi batizado em homenagem a Alfred Leeds, colecionador britânico que reuniu uma das maiores coleções de fósseis marinhos e dinossauros do Jurássico inglês.",
       "É conhecido a partir de material fragmentário, principalmente ossos das pernas."
     ]
+  },
+  {
+    "id": 270,
+    "nome": "Euskelossauro",
+    "latim": "Euskelosaurus browni",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 2000,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Um dos primeiros dinossauros africanos já nomeados na história, sauropodomorfo robusto e quadrúpede.",
+    "fato": "Foi um dos primeiros dinossauros descritos no continente africano, ainda no século XIX.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 221,
+      "fim": 205
+    },
+    "formacao": "Formação Elliot",
+    "local": "África do Sul / Lesoto",
+    "mapa": {
+      "x": 186,
+      "y": 119
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Thomas Huxley",
+      "ano": 1866
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É conhecido a partir de material fragmentário, típico de muitos dos primeiros dinossauros descritos no século XIX.",
+      "Ajudou a estabelecer que dinossauros também existiam no continente africano, não só na Europa e América do Norte."
+    ]
+  },
+  {
+    "id": 271,
+    "nome": "Melanorossauro",
+    "latim": "Melanorosaurus readi",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 8,
+    "peso": 1500,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Sauropodomorfo grande e robusto, um dos parentes mais próximos da transição para os verdadeiros saurópodes quadrúpedes gigantes.",
+    "fato": "Deu nome à família Melanorosauridae, um grupo de sauropodomorfos grandes considerados intermediários entre parentes bípedes e os saurópodes verdadeiros.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 2.3,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Formação Elliot",
+    "local": "África do Sul",
+    "mapa": {
+      "x": 187,
+      "y": 120
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Melanorosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Friedrich von Huene",
+      "ano": 1932
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos maiores sauropodomorfos conhecidos do Triássico, próximo do tamanho dos primeiros saurópodes verdadeiros.",
+      "Ajuda a mostrar a transição gradual de dinossauros bípedes para os gigantes quadrúpedes que dominariam o Jurássico."
+    ]
+  },
+  {
+    "id": 272,
+    "nome": "Antetonitro",
+    "latim": "Antetonitrus ingenipes",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 10,
+    "peso": 2000,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Considerado um dos primeiros saurópodes verdadeiros já conhecidos, já totalmente quadrúpede, diferente de parentes ainda parcialmente bípedes.",
+    "fato": "Seu nome significa 'antes do trovão', numa referência a ser anterior aos saurópodes gigantes que fariam a terra tremer.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 3,
+    "periodo": {
+      "inicio": 210,
+      "fim": 205
+    },
+    "formacao": "Formação Elliot",
+    "local": "África do Sul",
+    "mapa": {
+      "x": 188,
+      "y": 121
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Adam Yates e James Kitching",
+      "ano": 2003
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um forte candidato a ser um dos primeiros saurópodes verdadeiros, no sentido técnico mais estrito do termo.",
+      "Suas patas totalmente colunares, como as de um elefante, o diferenciam de parentes ainda com postura mista."
+    ]
+  },
+  {
+    "id": 273,
+    "nome": "Blikanassauro",
+    "latim": "Blikanasaurus cromptoni",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 5,
+    "peso": 1500,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Sauropodomorfo robusto com patas traseiras excepcionalmente grossas para o tamanho do corpo, possível parente próximo dos primeiros saurópodes.",
+    "fato": "Suas patas traseiras eram desproporcionalmente robustas, sugerindo que já suportava boa parte do peso do corpo de forma semelhante a um saurópode verdadeiro.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 210,
+      "fim": 205
+    },
+    "formacao": "Formação Elliot",
+    "local": "África do Sul",
+    "mapa": {
+      "x": 185,
+      "y": 119
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Michael Raath",
+      "ano": 1980
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É conhecido principalmente a partir dos ossos das patas traseiras, incomumente robustos.",
+      "Ajuda a documentar a diversidade de sauropodomorfos de grande porte que existia na África no fim do Triássico."
+    ]
+  },
+  {
+    "id": 274,
+    "nome": "Lessemsauro",
+    "latim": "Lessemsaurus sauropoides",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 3000,
+    "regiao": "América do Sul",
+    "forma": "sauropod",
+    "desc": "Sauropodomorfo grande e robusto argentino, com características que já lembram bastante os saurópodes verdadeiros do Jurássico.",
+    "fato": "Seu nome de espécie, 'sauropoides', significa literalmente 'parecido com um saurópode', refletindo o quão próximo ele estava da verdadeira transição evolutiva.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 2.8,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Formação Los Colorados",
+    "local": "La Rioja, Argentina",
+    "mapa": {
+      "x": 88,
+      "y": 115
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por José Bonaparte",
+      "ano": 1999
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos maiores sauropodomorfos triássicos conhecidos da América do Sul.",
+      "Foi batizado em homenagem a Don Lessem, escritor e divulgador científico especializado em dinossauros."
+    ]
+  },
+  {
+    "id": 275,
+    "nome": "Coloradissauro",
+    "latim": "Coloradisaurus brevis",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 4,
+    "peso": 250,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Sauropodomorfo argentino de porte médio, com crânio relativamente curto e bem preservado para os padrões de dinossauros triássicos.",
+    "fato": "Apesar do nome, não tem relação com o estado americano do Colorado — o nome de espécie faz referência à Formação Los Colorados, na Argentina.",
+    "perigo": 2,
+    "velocidade": 4,
+    "altura": 1,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Formação Los Colorados",
+    "local": "La Rioja, Argentina",
+    "mapa": {
+      "x": 89,
+      "y": 116
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por José Bonaparte",
+      "ano": 1978
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Seu crânio é um dos mais bem preservados entre os sauropodomorfos triássicos sul-americanos.",
+      "Viveu na mesma formação que o Lessemsauro e o Riojassauro."
+    ]
+  },
+  {
+    "id": 276,
+    "nome": "Niassassauro",
+    "latim": "Nyasasaurus parringtoni",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 3,
+    "peso": 20,
+    "regiao": "África",
+    "forma": "small",
+    "desc": "Um dos candidatos mais antigos a dinossauro verdadeiro já encontrados — ou, no mínimo, um parente extremamente próximo da origem do grupo.",
+    "fato": "Se confirmado como dinossauro, seria um dos mais antigos já descobertos, ainda mais antigo que o Eoraptor e o Herrerassauro sul-americanos.",
+    "perigo": 2,
+    "velocidade": 5,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 245,
+      "fim": 241
+    },
+    "formacao": "Formação Manda",
+    "local": "Tanzânia",
+    "mapa": {
+      "x": 196,
+      "y": 90
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Dinosauria ou Dinosauromorpha (posição debatida)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Material coletado nos anos 1930, descrito por Sterling Nesbitt e equipe",
+      "ano": 2013
+    },
+    "tipo": null,
+    "curiosidades": [
+      "O material é tão fragmentário — parte de um úmero e algumas vértebras — que os próprios cientistas que o descreveram evitaram afirmar com certeza total que é um dinossauro.",
+      "Se validado, empurraria a origem dos dinossauros para ainda mais cedo do que se pensava."
+    ]
+  },
+  {
+    "id": 277,
+    "nome": "Saltopo",
+    "latim": "Saltopus elginensis",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1,
+    "peso": 1,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Um dos primeiros possíveis dinossauros já nomeados na Europa, minúsculo e conhecido a partir de material extremamente fragmentário.",
+    "fato": "Foi nomeado ainda em 1910, décadas antes dos métodos modernos de análise que hoje ajudariam a confirmar sua classificação com mais precisão.",
+    "perigo": 1,
+    "velocidade": 6,
+    "altura": 0.15,
+    "periodo": {
+      "inicio": 205,
+      "fim": 201
+    },
+    "formacao": "Formação Lossiemouth",
+    "local": "Escócia, Reino Unido",
+    "mapa": {
+      "x": 157,
+      "y": 17
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Dinosauria ou Dinosauromorpha (posição debatida)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Friedrich von Huene",
+      "ano": 1910
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É um dos dinossauros (ou quase-dinossauros) mais antigos já nomeados na história da paleontologia europeia.",
+      "Seu material é tão limitado que sua classificação exata segue incerta até hoje, mais de cem anos depois de descrito."
+    ]
+  },
+  {
+    "id": 278,
+    "nome": "Pantidraco",
+    "latim": "Pantydraco caducus",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 1.5,
+    "peso": 15,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Pequeno sauropodomorfo galês, um dos primeiros representantes conhecidos do grupo no Reino Unido.",
+    "fato": "Foi encontrado numa caverna de calcário no País de Gales, junto a outros pequenos répteis do fim do Triássico.",
+    "perigo": 1,
+    "velocidade": 5,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 205,
+      "fim": 201
+    },
+    "formacao": "Formação Pant-y-ffynnon",
+    "local": "País de Gales, Reino Unido",
+    "mapa": {
+      "x": 158,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Peter Galton e equipe",
+      "ano": 2007
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Já foi classificado como uma espécie jovem de outro gênero antes de ganhar identidade taxonômica própria.",
+      "É um dos poucos dinossauros triássicos conhecidos do território que hoje é o Reino Unido."
+    ]
+  },
+  {
+    "id": 279,
+    "nome": "Agnosfitis",
+    "latim": "Agnosphitys cromhallensis",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 1.2,
+    "peso": 8,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Réptil fragmentário inglês, possivelmente um dos primeiros dinossauros ou parente muito próximo, com classificação ainda incerta.",
+    "fato": "Seu nome significa 'origem desconhecida', uma referência direta à incerteza sobre sua real posição na árvore genealógica dos dinossauros.",
+    "perigo": 1,
+    "velocidade": 5,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 210,
+      "fim": 205
+    },
+    "formacao": "Formação Cromhall Quarry",
+    "local": "Inglaterra",
+    "mapa": {
+      "x": 160,
+      "y": 26
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Dinosauria ou Dinosauromorpha (posição debatida)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Michael Fraser e equipe",
+      "ano": 2002
+    },
+    "tipo": null,
+    "curiosidades": [
+      "O próprio nome do gênero reflete a incerteza científica genuína sobre sua classificação.",
+      "É conhecido a partir de material tão fragmentário que pode nunca ser definitivamente classificado."
+    ]
+  },
+  {
+    "id": 280,
+    "nome": "Arcossauro-galês",
+    "latim": "Arcusaurus pereirabdalorum",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 2,
+    "peso": 25,
+    "regiao": "África",
+    "forma": "small",
+    "desc": "Pequeno sauropodomorfo sul-africano, um dos primeiros representantes do grupo a serem descobertos na região.",
+    "fato": "Foi descrito a partir de ossos do crânio de mais de um indivíduo jovem, encontrados juntos.",
+    "perigo": 1,
+    "velocidade": 5,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 201,
+      "fim": 199
+    },
+    "formacao": "Formação Elliot",
+    "local": "África do Sul",
+    "mapa": {
+      "x": 186,
+      "y": 121
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Adam Yates e equipe",
+      "ano": 2011
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Viveu bem perto da transição entre o Triássico e o Jurássico.",
+      "Seu nome homenageia a família Pereira-Abdala, que apoiou pesquisas paleontológicas na região."
+    ]
+  },
+  {
+    "id": 281,
+    "nome": "Ignavossauro",
+    "latim": "Ignavusaurus rachelis",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 2.5,
+    "peso": 30,
+    "regiao": "África",
+    "forma": "small",
+    "desc": "Pequeno sauropodomorfo do Lesoto, conhecido a partir de um esqueleto juvenil razoavelmente completo.",
+    "fato": "Seu nome de gênero significa 'lagarto covarde', numa referência bem-humorada ao tamanho pequeno e à ausência de defesas óbvias.",
+    "perigo": 1,
+    "velocidade": 5,
+    "altura": 0.6,
+    "periodo": {
+      "inicio": 201,
+      "fim": 199
+    },
+    "formacao": "Formação Elliot",
+    "local": "Lesoto",
+    "mapa": {
+      "x": 187,
+      "y": 120
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Adam Yates e equipe",
+      "ano": 2011
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Foi descrito na mesma pesquisa que revelou o Arcossauro-galês, ambos do fim do Triássico africano.",
+      "É conhecido a partir de um esqueleto jovem, deixando incerto como seria um adulto totalmente crescido."
+    ]
+  },
+  {
+    "id": 282,
+    "nome": "Eucnemessauro",
+    "latim": "Eucnemesaurus fortis",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 7,
+    "peso": 1200,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Sauropodomorfo robusto sul-africano, parente próximo do Melanorossauro, contribuindo para a diversidade de grandes herbívoros do fim do Triássico.",
+    "fato": "Já foi confundido com outros gêneros de sauropodomorfos robustos da mesma região antes de estudos mais detalhados o separarem.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 2,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Formação Elliot",
+    "local": "África do Sul",
+    "mapa": {
+      "x": 185,
+      "y": 118
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Melanorosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Robert Broom",
+      "ano": 1911
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos vários sauropodomorfos robustos sul-africanos que ajudam a documentar a origem dos saurópodes gigantes.",
+      "Seu material foi reexaminado várias vezes ao longo de mais de cem anos desde sua descoberta original."
+    ]
+  },
+  {
+    "id": 283,
+    "nome": "Ruehleia",
+    "latim": "Ruehleia bedheimensis",
+    "era": "Triássico",
+    "dieta": "Herbívoro",
+    "comprimento": 6.5,
+    "peso": 800,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Sauropodomorfo alemão, parente muito próximo do Plateossauro, contribuindo para a rica fauna triássica da Alemanha.",
+    "fato": "Foi batizado em homenagem a Hugo Rühle von Lilienstern, o mesmo colecionador que também deu nome ao Lilienstérnus.",
+    "perigo": 2,
+    "velocidade": 4,
+    "altura": 1.5,
+    "periodo": {
+      "inicio": 214,
+      "fim": 204
+    },
+    "formacao": "Grupo Steinsandstein",
+    "local": "Alemanha",
+    "mapa": {
+      "x": 168,
+      "y": 23
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Plateosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Hans-Dieter Sues e Nicholas Fraser",
+      "ano": 2001
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um parente tão próximo do Plateossauro que por muito tempo material dos dois gêneros foi confundido.",
+      "Ajuda a documentar a grande diversidade de sauropodomorfos que existiu na Alemanha durante o Triássico."
+    ]
+  },
+  {
+    "id": 284,
+    "nome": "Gnatovorax",
+    "latim": "Gnathovorax cabreirai",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 3,
+    "peso": 80,
+    "regiao": "América do Sul",
+    "forma": "theropod",
+    "desc": "Predador brasileiro herrerassaurídeo, descrito a partir de um dos esqueletos mais completos já encontrados entre os primeiros dinossauros do mundo.",
+    "fato": "É considerado um dos esqueletos de dinossauro triássico mais completos já descobertos em qualquer lugar do planeta.",
+    "perigo": 5,
+    "velocidade": 6,
+    "altura": 1,
+    "periodo": {
+      "inicio": 233,
+      "fim": 231
+    },
+    "formacao": "Formação Santa Maria",
+    "local": "Rio Grande do Sul, Brasil",
+    "mapa": {
+      "x": 87,
+      "y": 133
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Herrerasauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Rodrigo Müller e equipe",
+      "ano": 2019
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Seu nome significa 'devorador de mandíbulas', em referência à mordida forte para o tamanho do corpo.",
+      "É um dos dinossauros brasileiros mais recentemente descritos, reforçando a importância do Brasil para entender a origem dos dinossauros."
+    ]
+  },
+  {
+    "id": 285,
+    "nome": "Poelvenator",
+    "latim": "Powellvenator podocitus",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1,
+    "peso": 5,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Pequeno terópode argentino, um dos vários predadores minúsculos que conviviam com os primeiros dinossauros maiores da região.",
+    "fato": "Foi batizado em homenagem a Jaime Powell, importante paleontólogo argentino.",
+    "perigo": 1,
+    "velocidade": 6,
+    "altura": 0.3,
+    "periodo": {
+      "inicio": 225,
+      "fim": 221
+    },
+    "formacao": "Formação Ischigualasto",
+    "local": "San Juan, Argentina",
+    "mapa": {
+      "x": 85,
+      "y": 117
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Martín Ezcurra",
+      "ano": 2017
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos menores terópodes conhecidos da rica fauna triássica argentina.",
+      "Ajuda a mostrar que dinossauros de tamanhos muito diferentes já coexistiam desde o início da história do grupo."
+    ]
+  },
+  {
+    "id": 286,
+    "nome": "Lucianovenator",
+    "latim": "Lucianovenator bonoi",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 2,
+    "peso": 25,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Terópode celofisoide argentino, parente do Celofise norte-americano, mostrando a ampla distribuição desse grupo de pequenos predadores.",
+    "fato": "É um dos terópodes celofisoides mais recentemente descritos da América do Sul, ajudando a expandir o conhecimento sobre o grupo no continente.",
+    "perigo": 3,
+    "velocidade": 7,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Formação Quebrada del Barro",
+    "local": "San Juan, Argentina",
+    "mapa": {
+      "x": 86,
+      "y": 118
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (basal)",
+      "familia": "Coelophysidae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Ricardo Martínez e equipe",
+      "ano": 2022
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É uma das descobertas mais recentes entre os dinossauros triássicos catalogados aqui.",
+      "Reforça que o grupo dos celofisoides estava espalhado por vários continentes já no fim do Triássico."
+    ]
+  },
+  {
+    "id": 287,
+    "nome": "Nhandumirim",
+    "latim": "Nhandumirim waldsangae",
+    "era": "Triássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1,
+    "peso": 3,
+    "regiao": "América do Sul",
+    "forma": "small",
+    "desc": "Não é um dinossauro verdadeiro — é um dinossauromorfo brasileiro, um dos parentes mais próximos conhecidos da origem dos dinossauros na América do Sul.",
+    "fato": "Seu nome vem do tupi-guarani e significa aproximadamente 'ema pequena', numa referência ao corpo leve e às pernas longas.",
+    "perigo": 1,
+    "velocidade": 6,
+    "altura": 0.15,
+    "periodo": {
+      "inicio": 237,
+      "fim": 228
+    },
+    "formacao": "Formação Santa Maria",
+    "local": "Rio Grande do Sul, Brasil",
+    "mapa": {
+      "x": 88,
+      "y": 133
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Dinosauromorpha (não é Dinosauria)",
+      "familia": "Lagerpetidae"
+    },
+    "descoberta": {
+      "por": "Descrito por Rodrigo Müller e equipe",
+      "ano": 2018
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É um dos poucos representantes conhecidos da família Lagerpetidae na América do Sul, grupo intimamente ligado à origem dos pterossauros e dos dinossauros.",
+      "Ajuda a mostrar que o Brasil também é um local-chave para entender parentes muito próximos dos primeiros dinossauros, não só os dinossauros em si."
+    ]
+  },
+  {
+    "id": 288,
+    "nome": "Aetossauro",
+    "latim": "Aetosaurus ferratus",
+    "era": "Triássico",
+    "dieta": "Onívoro",
+    "comprimento": 1,
+    "peso": 8,
+    "regiao": "Europa",
+    "forma": "ankylosaur",
+    "desc": "Não é um dinossauro — é um arcossauro blindado, parente distante dos crocodilianos modernos, coberto por placas ósseas como um dinossauro anquilossauro, num caso claro de evolução convergente.",
+    "fato": "Apesar de parecer muito com um pequeno anquilossauro, pertence a um grupo totalmente diferente de répteis, mais próximo dos crocodilos que dos dinossauros.",
+    "perigo": 2,
+    "velocidade": 4,
+    "altura": 0.3,
+    "periodo": {
+      "inicio": 210,
+      "fim": 201
+    },
+    "formacao": "Grupo Stubensandstein",
+    "local": "Alemanha",
+    "mapa": {
+      "x": 169,
+      "y": 24
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Pseudosuchia — Aetosauria (não é Dinosauria)",
+      "familia": "Aetosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Georg Fraas",
+      "ano": 1877
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É um excelente exemplo de evolução convergente: duas linhagens totalmente diferentes de répteis 'inventaram' armadura corporal parecida de forma independente.",
+      "Viveu na mesma região e época que o Procompsognato e a Efraasia."
+    ]
   }
 ]
