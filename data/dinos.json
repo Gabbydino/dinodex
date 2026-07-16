@@ -13678,5 +13678,205 @@
       "Foi formalmente descrito só em 2025 — uma das espécies mais recentemente nomeadas de todo o catálogo do DinoDex.",
       "Seu parente mais próximo identificado é chinês, não americano, mostrando conexões entre faunas de continentes hoje muito distantes."
     ]
+  },
+  {
+    "id": 343,
+    "nome": "Aviatirano",
+    "latim": "Aviatyrannis jurassica",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1.5,
+    "peso": 5,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Um dos tiranossauroides mais antigos já encontrados, minúsculo perto dos parentes gigantes que a linhagem geraria dezenas de milhões de anos depois, como o T. rex.",
+    "fato": "Seu nome significa 'avó tirana do Jurássico' — uma referência bem-humorada ao fato de ser um dos ancestrais mais antigos conhecidos da linhagem que chegaria ao Tiranossauro.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 157,
+      "fim": 152
+    },
+    "formacao": "Formação Alcobaça",
+    "local": "Leiria, Portugal",
+    "mapa": {
+      "x": 155,
+      "y": 31
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Tyrannosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Oliver Rauhut",
+      "ano": 2000
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É conhecido a partir de ossos minúsculos do quadril, alguns dentes, e nada mais — um lembrete de como fósseis fragmentários ainda revelam muito sobre a evolução.",
+      "Viveu na mesma região portuguesa que o Lusotitã e o Dinheirossauro, ambos saurópodes gigantes."
+    ]
+  },
+  {
+    "id": 344,
+    "nome": "Juratirano",
+    "latim": "Juratyrant langhami",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 6,
+    "peso": 500,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "Tiranossauroide inglês de porte médio, parente próximo do Estocessauro norte-americano — mostrando que a linhagem já estava presente nos dois lados do Atlântico no fim do Jurássico.",
+    "fato": "Foi descoberto em 1984 por um colecionador de fósseis profissional, mas só ganhou nome e descrição científica completa 24 anos depois, em 2008.",
+    "perigo": 6,
+    "velocidade": 7,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 152,
+      "fim": 145
+    },
+    "formacao": "Formação Kimmeridge Clay",
+    "local": "Dorset, Inglaterra",
+    "mapa": {
+      "x": 160,
+      "y": 27
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Tyrannosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Peter Langham",
+      "ano": 1984
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Seu nome de espécie homenageia Peter Langham, o colecionador que encontrou o fóssil.",
+      "É um dos tiranossauroides mais completos conhecidos do Jurássico europeu, com boa parte da bacia e das pernas preservada."
+    ]
+  },
+  {
+    "id": 345,
+    "nome": "Cetiossauriscus",
+    "latim": "Cetiosauriscus stewarti",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 15,
+    "peso": 4000,
+    "regiao": "Europa",
+    "forma": "sauropod",
+    "desc": "Saurópode inglês cuja classificação intrigou os cientistas por quase um século — já foi considerado parente do Diplodoco americano e do Mamenquissauro chinês, sem consenso definitivo até hoje.",
+    "fato": "Seu nome significa 'parecido com o Cetiossauro', mas décadas de estudo mostraram que talvez nem seja um parente tão próximo assim.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4,
+    "periodo": {
+      "inicio": 165,
+      "fim": 161
+    },
+    "formacao": "Formação Oxford Clay",
+    "local": "Inglaterra",
+    "mapa": {
+      "x": 161,
+      "y": 26
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Friedrich von Huene",
+      "ano": 1927
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Nenhum crânio já foi encontrado, apesar de cinco esqueletos parciais conhecidos — um mistério que persiste há mais de um século.",
+      "Sua posição intermediária entre saurópodes americanos e asiáticos intriga os cientistas, já que a Europa ficava geograficamente entre os dois territórios."
+    ]
+  },
+  {
+    "id": 346,
+    "nome": "Duriatitã",
+    "latim": "Duriatitan humerocristatus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 18,
+    "peso": 15000,
+    "regiao": "Europa",
+    "forma": "sauropod",
+    "desc": "Um dos maiores saurópodes já encontrados na Grã-Bretanha, conhecido a partir de um único osso do braço maior que a maioria das pessoas adultas.",
+    "fato": "Foi encontrado na década de 1870, mas por mais de 130 anos foi classificado como pertencente ao Cetiossauro — só em 2010 ganhou identidade própria, quando cientistas perceberam que o osso era grande demais e diferente demais para pertencer àquele gênero.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 6,
+    "periodo": {
+      "inicio": 152,
+      "fim": 145
+    },
+    "formacao": "Formação Kimmeridge Clay",
+    "local": "Dorset, Inglaterra",
+    "mapa": {
+      "x": 159,
+      "y": 27
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Brachiosauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "John Whitaker Hulke",
+      "ano": 1874
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Seu nome significa 'titã de Dorset', em homenagem à região inglesa onde foi encontrado.",
+      "É um forte candidato ao título de maior dinossauro já encontrado na Grã-Bretanha, mesmo sendo conhecido só por um osso."
+    ]
+  },
+  {
+    "id": 347,
+    "nome": "Dinheirossauro",
+    "latim": "Dinheirosaurus lourinhanensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 20,
+    "peso": 10000,
+    "regiao": "Europa",
+    "forma": "sauropod",
+    "desc": "Saurópode diplodocídeo português, tão parecido com o Supersauro norte-americano que alguns cientistas defendem que sejam, na verdade, a mesma espécie.",
+    "fato": "Ajuda a mostrar que os mesmos tipos de saurópodes gigantes existiam tanto na América do Norte quanto na Europa no fim do Jurássico, quando os continentes ainda estavam parcialmente conectados.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 5,
+    "periodo": {
+      "inicio": 152,
+      "fim": 145
+    },
+    "formacao": "Formação Lourinhã",
+    "local": "Portugal",
+    "mapa": {
+      "x": 156,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Diplodocidae"
+    },
+    "descoberta": {
+      "por": "Descrito por José Bonaparte e Octávio Mateus",
+      "ano": 1999
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Foi encontrado com dezenas de gastrólitos (pedras de moagem estomacal) preservados junto ao esqueleto.",
+      "É mais um entre os vários saurópodes gigantes da riquíssima Formação Lourinhã, ao lado do Lusotitã e do Supersauro europeu."
+    ]
   }
 ]
