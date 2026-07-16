@@ -13198,5 +13198,485 @@
       "É um dos pterossauros mais antigos com boa evidência de capacidade de voo ativo e eficiente.",
       "Viveu na mesma formação alemã que revelou o Dorignato, décadas antes."
     ]
+  },
+  {
+    "id": 331,
+    "nome": "Chaoiangossauro",
+    "latim": "Chaoyangsaurus youngi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 1,
+    "peso": 8,
+    "regiao": "Ásia",
+    "forma": "small",
+    "desc": "Um dos ceratopsianos mais antigos já confirmados, com fralda ainda minúscula e sem chifres — surpreendeu os cientistas ao mostrar que o grupo já existia no Jurássico, não só no Cretáceo.",
+    "fato": "Seu nome de espécie homenageia C. C. Young, um dos pais da paleontologia chinesa.",
+    "perigo": 1,
+    "velocidade": 6,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 151,
+      "fim": 145
+    },
+    "formacao": "Formação Tuchengzi",
+    "local": "Liaoning, China",
+    "mapa": {
+      "x": 227,
+      "y": 43
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ceratopsia (basal)",
+      "familia": "Chaoyangsauridae"
+    },
+    "descoberta": {
+      "por": "Cheng Zhengwu",
+      "ano": 1976
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Empurrou a origem dos ceratopsianos com chifres de volta para o Jurássico — antes dele, o grupo só era conhecido a partir do Cretáceo.",
+      "Deu nome à família Chaoyangsauridae, que também inclui o Yinlongo, já presente neste catálogo."
+    ]
+  },
+  {
+    "id": 332,
+    "nome": "Janenschia",
+    "latim": "Janenschia robusta",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 20,
+    "peso": 15000,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Um dos primeiros titanossauros já identificados, saurópode robusto encontrado na mesma rica formação que revelou o Girafatitã.",
+    "fato": "Foi originalmente descrito em 1914 sob outro nome pelo próprio Werner Janensch — só décadas depois, em 1991, ganhou o gênero próprio batizado em sua homenagem.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4.5,
+    "periodo": {
+      "inicio": 156,
+      "fim": 150
+    },
+    "formacao": "Formação Tendaguru",
+    "local": "Tanzânia",
+    "mapa": {
+      "x": 196,
+      "y": 91
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Titanosauria (posição basal)"
+    },
+    "descoberta": {
+      "por": "Werner Janensch (expedição alemã)",
+      "ano": 1909
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É um dos titanossauros mais antigos já identificados, ajudando a mostrar que esse grupo surgiu ainda no Jurássico, não só no Cretáceo.",
+      "Foi encontrado na mesma expedição alemã à Tanzânia que revelou o Girafatitã, o Kentrossauro e o Dicreossauro."
+    ]
+  },
+  {
+    "id": 333,
+    "nome": "Juravenator",
+    "latim": "Juravenator starki",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 0.75,
+    "peso": 2,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Pequeno terópode alemão conhecido a partir de um único filhote, com pele preservada mostrando escamas sensoriais na cauda, parecidas com as de crocodilos modernos.",
+    "fato": "Partes de sua pele preservada mostram escamas, não penas — mas parentes muito próximos tinham penugem, então os cientistas debatem se ele também teria penas em outras partes do corpo não preservadas.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 0.25,
+    "periodo": {
+      "inicio": 152,
+      "fim": 151
+    },
+    "formacao": "Formação Torleite",
+    "local": "Baviera, Alemanha",
+    "mapa": {
+      "x": 170,
+      "y": 24
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Coelurosauria)",
+      "familia": "Compsognathidae"
+    },
+    "descoberta": {
+      "por": "Klaus-Dieter Weiß e Hans-Joachim Weiß",
+      "ano": 1998
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É parente próximo do Compsognato e do Sinossauróptere, ambos também pequenos terópodes emplumados ou escamosos.",
+      "As escamas sensoriais em sua cauda são um dos poucos exemplos conhecidos desse tipo de estrutura em dinossauros não avianos."
+    ]
+  },
+  {
+    "id": 334,
+    "nome": "Lusotitã",
+    "latim": "Lusotitan atalaiensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 21,
+    "peso": 30000,
+    "regiao": "Europa",
+    "forma": "sauropod",
+    "desc": "Saurópode braquiossaurídeo português, antes classificado como uma espécie do Braquiossauro americano até estudos mais detalhados o separarem em gênero próprio.",
+    "fato": "Seu nome significa 'titã da Lusitânia', em referência ao nome romano antigo da região que hoje é Portugal.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 9,
+    "periodo": {
+      "inicio": 157,
+      "fim": 145
+    },
+    "formacao": "Formação Lourinhã",
+    "local": "Portugal",
+    "mapa": {
+      "x": 156,
+      "y": 30
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Brachiosauridae"
+    },
+    "descoberta": {
+      "por": "Manuel de Matos",
+      "ano": 1947
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "A presença de um braquiossaurídeo em Portugal, tão parecido com o americano, ajuda a confirmar que Europa e América do Norte ainda estavam parcialmente conectadas no fim do Jurássico.",
+      "Nenhum crânio foi encontrado até hoje — boa parte da cabeça reconstruída é baseada em parentes próximos."
+    ]
+  },
+  {
+    "id": 335,
+    "nome": "Metriacantossauro",
+    "latim": "Metriacanthosaurus parkeri",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 8,
+    "peso": 1000,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "Terópode inglês parente dos alossauroides asiáticos, como o Sinraptor e o Yangchuanossauro — o único representante do grupo já confirmado fora da Ásia.",
+    "fato": "Foi descoberto ainda em 1871, mas só ganhou o nome atual quase um século depois — antes disso, já tinha sido classificado como uma espécie do Megalossauro.",
+    "perigo": 6,
+    "velocidade": 6,
+    "altura": 2.2,
+    "periodo": {
+      "inicio": 163,
+      "fim": 157
+    },
+    "formacao": "Formação Oxford Clay",
+    "local": "Dorset, Inglaterra",
+    "mapa": {
+      "x": 160,
+      "y": 27
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Allosauroidea)",
+      "familia": "Metriacanthosauridae"
+    },
+    "descoberta": {
+      "por": "W. Parker",
+      "ano": 1871
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É a única prova conhecida de que a família dos metriacantossaurídeos, até então associada só à Ásia, também existia na Europa.",
+      "Seu nome significa 'lagarto de espinhos moderados', numa referência às vértebras com espinhos neurais nem muito altos nem muito baixos."
+    ]
+  },
+  {
+    "id": 336,
+    "nome": "Dubreuilossauro",
+    "latim": "Dubreuillosaurus valesdunensis",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 7,
+    "peso": 700,
+    "regiao": "Europa",
+    "forma": "theropod",
+    "desc": "Terópode megalossaurídeo francês, um dos esqueletos mais completos já encontrados desse grupo na Europa.",
+    "fato": "Foi batizado em homenagem a André Dubreuil, prefeito de uma pequena cidade francesa, que percebeu ossos de dinossauro aflorando durante obras de terraplanagem em 1994.",
+    "perigo": 6,
+    "velocidade": 6,
+    "altura": 2,
+    "periodo": {
+      "inicio": 168,
+      "fim": 166
+    },
+    "formacao": "Formação Calcaire de Caen",
+    "local": "Normandia, França",
+    "mapa": {
+      "x": 157,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Megalosauridae"
+    },
+    "descoberta": {
+      "por": "André Dubreuil",
+      "ano": 1994
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Viveu numa ilha da época, mas não apresenta sinais de nanismo insular, diferente de outros animais que evoluíram em ambientes isolados.",
+      "Foi inicialmente classificado como uma espécie do Poequilopleuron antes de ganhar gênero próprio em 2005."
+    ]
+  },
+  {
+    "id": 337,
+    "nome": "Aardonix",
+    "latim": "Aardonyx celestae",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 7,
+    "peso": 800,
+    "regiao": "África",
+    "forma": "sauropod",
+    "desc": "Sauropodomorfo sul-africano de transição, capaz de andar tanto em duas quanto em quatro patas — um elo importante entre os ancestrais bípedes e os saurópodes totalmente quadrúpedes.",
+    "fato": "Seu nome combina uma palavra em africâner para 'terra' com o grego para 'garra', e sua espécie foi batizada em homenagem a Celeste Yates, que preparou boa parte do fóssil original.",
+    "perigo": 2,
+    "velocidade": 4,
+    "altura": 2,
+    "periodo": {
+      "inicio": 201,
+      "fim": 199
+    },
+    "formacao": "Formação Elliot",
+    "local": "África do Sul",
+    "mapa": {
+      "x": 186,
+      "y": 120
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Adam Yates e equipe",
+      "ano": 2010
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Suas patas dianteiras já mostram adaptações para suportar peso, mesmo ele ainda conseguindo andar em duas patas quando queria.",
+      "É uma peça-chave para entender exatamente como e quando os saurópodes gigantes 'decidiram' andar permanentemente em quatro patas."
+    ]
+  },
+  {
+    "id": 338,
+    "nome": "Barapassauro",
+    "latim": "Barapasaurus tagorei",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 14,
+    "peso": 9000,
+    "regiao": "Ásia (Índia)",
+    "forma": "sauropod",
+    "desc": "Um dos primeiros saurópodes verdadeiros já confirmados na Índia, conhecido a partir de um dos conjuntos de ossos mais completos entre os saurópodes mais antigos do mundo.",
+    "fato": "Sua espécie foi batizada em homenagem a Rabindranath Tagore, o poeta indiano ganhador do Prêmio Nobel de Literatura.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4,
+    "periodo": {
+      "inicio": 199,
+      "fim": 175
+    },
+    "formacao": "Formação Kota",
+    "local": "Telangana, Índia",
+    "mapa": {
+      "x": 252,
+      "y": 60
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Sohan Lal Jain e equipe",
+      "ano": 1975
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É conhecido a partir de cerca de 300 ossos vindos de pelo menos seis indivíduos diferentes, um dos conjuntos mais ricos entre saurópodes primitivos.",
+      "Compartilhava a mesma formação geológica indiana com o Kotassauro, outro saurópode bem antigo."
+    ]
+  },
+  {
+    "id": 339,
+    "nome": "Cotassauro",
+    "latim": "Kotasaurus yamanpalliensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 9,
+    "peso": 2500,
+    "regiao": "Ásia (Índia)",
+    "forma": "sauropod",
+    "desc": "Um dos saurópodes mais basais conhecidos, com características que ainda lembram parentes sauropodomorfos bípedes mais antigos.",
+    "fato": "Mais de 840 ossos, vindos de pelo menos 12 indivíduos diferentes, foram encontrados na mesma localidade indiana — uma das maiores concentrações de saurópodes primitivos já registradas.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 3,
+    "periodo": {
+      "inicio": 199,
+      "fim": 190
+    },
+    "formacao": "Formação Kota",
+    "local": "Telangana, Índia",
+    "mapa": {
+      "x": 253,
+      "y": 61
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por P. M. Yadagiri",
+      "ano": 1988
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Dividia a mesma formação geológica com o Barapassauro, tornando essa região da Índia um dos lugares mais importantes do mundo para saurópodes bem antigos.",
+      "Seu crânio praticamente não é conhecido — só dois dentes foram preservados."
+    ]
+  },
+  {
+    "id": 340,
+    "nome": "Iimenossauro",
+    "latim": "Yimenosaurus youngi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 7,
+    "peso": 1200,
+    "regiao": "Ásia",
+    "forma": "small",
+    "desc": "Sauropodomorfo chinês parente do Plateossauro europeu, mais um entre a grande diversidade de herbívoros primitivos do início do Jurássico de Yunnan.",
+    "fato": "Seu nome de espécie também homenageia C. C. Young, assim como o Chaoiangossauro.",
+    "perigo": 2,
+    "velocidade": 4,
+    "altura": 1.8,
+    "periodo": {
+      "inicio": 196,
+      "fim": 183
+    },
+    "formacao": "Formação Fengjiahe",
+    "local": "Yunnan, China",
+    "mapa": {
+      "x": 210,
+      "y": 52
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (basal)",
+      "familia": "Plateosauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Bai Ziqi, Yang Jie e Wang Guohui",
+      "ano": 1990
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Seu crânio quase completo é uma peça rara entre sauropodomorfos basais do início do Jurássico.",
+      "É mais um entre a extraordinária diversidade de sauropodomorfos que existiu em Yunnan, uma das regiões mais ricas do mundo para esse período."
+    ]
+  },
+  {
+    "id": 341,
+    "nome": "Ianxanossauro",
+    "latim": "Yingshanosaurus jichuanensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 5,
+    "peso": 1300,
+    "regiao": "Ásia",
+    "forma": "stego",
+    "desc": "Estegossaurídeo chinês com um grande espinho protegendo o ombro, além das placas e espinhos ao longo do corpo.",
+    "fato": "Foi descoberto por acaso por um morador local, que encontrou os ossos enquanto cavava a fundação da própria casa em 1983.",
+    "perigo": 5,
+    "velocidade": 3,
+    "altura": 1.7,
+    "periodo": {
+      "inicio": 168,
+      "fim": 166
+    },
+    "formacao": "Formação Superior Shaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 217,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Stegosauria)",
+      "familia": "Stegosauridae"
+    },
+    "descoberta": {
+      "por": "Morador local de Yingshan",
+      "ano": 1983
+    },
+    "tipo": null,
+    "curiosidades": [
+      "O grande espinho no ombro é um dos ornamentos mais distintos entre os estegossaurídeos chineses.",
+      "Levou mais de dez anos entre a descoberta e a publicação da descrição científica oficial, em 1994."
+    ]
+  },
+  {
+    "id": 342,
+    "nome": "Enigmacursor",
+    "latim": "Enigmacursor mollyborthwickae",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 1.5,
+    "peso": 15,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Pequeno ornitísquio veloz da Formação Morrison, descrito tão recentemente que é uma das descobertas mais novas de todo este catálogo.",
+    "fato": "Seu nome significa 'corredor enigma' — referência direta à confusão taxonômica que cercava os pequenos ornitísquios da Formação Morrison, incluindo dúvidas recentes sobre a validade do próprio Otnielossauro, já catalogado aqui.",
+    "perigo": 1,
+    "velocidade": 7,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 57,
+      "y": 45
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Neornithischia (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Empresa privada Dinosaurs of America (adquirido pelo Museu de História Natural de Londres)",
+      "ano": 2022
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Foi formalmente descrito só em 2025 — uma das espécies mais recentemente nomeadas de todo o catálogo do DinoDex.",
+      "Seu parente mais próximo identificado é chinês, não americano, mostrando conexões entre faunas de continentes hoje muito distantes."
+    ]
   }
 ]
