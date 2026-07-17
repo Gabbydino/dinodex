@@ -13878,5 +13878,445 @@
       "Foi encontrado com dezenas de gastrólitos (pedras de moagem estomacal) preservados junto ao esqueleto.",
       "É mais um entre os vários saurópodes gigantes da riquíssima Formação Lourinhã, ao lado do Lusotitã e do Supersauro europeu."
     ]
+  },
+  {
+    "id": 348,
+    "nome": "Mimurapelta",
+    "latim": "Mymoorapelta maysi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 3,
+    "peso": 500,
+    "regiao": "América do Norte",
+    "forma": "ankylosaur",
+    "desc": "O primeiro anquilossauro já descoberto na Formação Morrison, e o primeiro dinossauro blindado confirmado em toda a América do Norte.",
+    "fato": "Antes dele, na década de 1990, nenhum anquilossauro tinha sido encontrado na riquíssima Formação Morrison — sua descoberta mudou completamente o que se sabia sobre dinossauros blindados na América do Norte.",
+    "perigo": 4,
+    "velocidade": 3,
+    "altura": 1,
+    "periodo": {
+      "inicio": 155,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado / Utah, EUA",
+    "mapa": {
+      "x": 56,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Ankylosauria)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por James Kirkland e Kenneth Carpenter",
+      "ano": 1994
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Sua descoberta comprovou que anquilossauros já existiam na América do Norte ainda no Jurássico, não só a partir do Cretáceo.",
+      "É conhecido a partir de fragmentos de crânio e partes de pelo menos três esqueletos diferentes."
+    ]
+  },
+  {
+    "id": 349,
+    "nome": "Tanicolagreu",
+    "latim": "Tanycolagreus topwilsoni",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 3.4,
+    "peso": 40,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Pequeno terópode celurossauro da Formação Morrison, parecido em tamanho e forma com o Celuro, mas reconhecido como espécie distinta.",
+    "fato": "Foi batizado em homenagem a Tow Wilson, o rancheiro dono da propriedade onde o fóssil foi encontrado.",
+    "perigo": 3,
+    "velocidade": 8,
+    "altura": 0.8,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 55,
+      "y": 42
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Coelurosauria)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Kenneth Carpenter, Clifford Miles e Karen Cloward",
+      "ano": 2005
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos vários pequenos terópodes coelurossauros que dividiam a Formação Morrison com gigantes como o Alossauro.",
+      "Sua semelhança com o Celuro levou anos de debate sobre se seriam a mesma espécie."
+    ]
+  },
+  {
+    "id": 350,
+    "nome": "Esperornitoide",
+    "latim": "Hesperornithoides miessleri",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1,
+    "peso": 3,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Um dos troodontídeos mais antigos confirmados, pequeno terópode intimamente aparentado com a linhagem que levaria às aves modernas.",
+    "fato": "Seu apelido de campo era 'Lori' — o fóssil ajudou a mostrar que o voo em aves e parentes próximos pode ter surgido mais tarde do que alguns cientistas pensavam.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 0.3,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 54,
+      "y": 43
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Paraves)",
+      "familia": "Troodontidae"
+    },
+    "descoberta": {
+      "por": "Descrito por Scott Hartman e equipe",
+      "ano": 2019
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "É um dos parentes mais próximos das aves já encontrados fora da Ásia, onde a maioria dos fósseis desse tipo é achada.",
+      "Ajudou a mostrar que características associadas ao voo podem ter surgido de forma independente em diferentes linhagens de terópodes."
+    ]
+  },
+  {
+    "id": 351,
+    "nome": "Coparion",
+    "latim": "Koparion douglassi",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 1,
+    "peso": 2,
+    "regiao": "América do Norte",
+    "forma": "small",
+    "desc": "Um dos possíveis troodontídeos mais antigos já identificados, conhecido a partir de um único dente minúsculo e serrilhado.",
+    "fato": "Toda a espécie é baseada em um único dente — um exemplo extremo de quanto os paleontólogos conseguem descobrir a partir de evidências mínimas.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 0.25,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Utah, EUA",
+    "mapa": {
+      "x": 53,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Paraves)",
+      "familia": "Troodontidae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por James Kirkland",
+      "ano": 1993
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Se a identificação como troodontídeo estiver correta, seria um dos representantes mais antigos do grupo em todo o mundo.",
+      "Foi encontrado no Monumento Nacional dos Dinossauros, um dos sítios mais ricos da Formação Morrison."
+    ]
+  },
+  {
+    "id": 352,
+    "nome": "Ardetossauro",
+    "latim": "Ardetosaurus viator",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 18,
+    "peso": 8000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Saurópode diplodocídeo da Formação Morrison, uma das descrições mais recentes de dinossauro em todo este catálogo.",
+    "fato": "Foi descrito formalmente apenas em 2024, por uma equipe holandesa — uma das espécies mais novas cientificamente conhecidas hoje no DinoDex.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4.5,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 56,
+      "y": 43
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Diplodocidae"
+    },
+    "descoberta": {
+      "por": "Descrito por Tom van der Linden, Emanuel Tschopp e equipe",
+      "ano": 2024
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Seu nome de espécie, 'viator', significa 'viajante' em latim.",
+      "Mostra que, mesmo numa das formações geológicas mais estudadas do mundo, novas espécies de dinossauro continuam sendo descobertas."
+    ]
+  },
+  {
+    "id": 353,
+    "nome": "Dislocossauro",
+    "latim": "Dyslocosaurus polyonychius",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 15,
+    "peso": 5000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Saurópode diplodocoide de classificação incerta, conhecido apenas a partir de partes das patas — um dos dinossauros mais enigmáticos da Formação Morrison.",
+    "fato": "Seu nome de espécie significa 'muitas garras', em referência às garras bem desenvolvidas encontradas nas patas.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 4,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Wyoming, EUA",
+    "mapa": {
+      "x": 55,
+      "y": 44
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por John McIntosh, Walter Coombs e Dale Russell",
+      "ano": 1992
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Sua posição exata na árvore genealógica dos saurópodes segue sem consenso, por causa do material limitado.",
+      "É mais um exemplo de como a Formação Morrison ainda guarda mistérios não resolvidos, mesmo depois de mais de 150 anos de escavações."
+    ]
+  },
+  {
+    "id": 354,
+    "nome": "Esmitanossauro",
+    "latim": "Smitanosaurus agilis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 15,
+    "peso": 4000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "Saurópode dicreossaurídeo, parente do Amargassauro e do Dicreossauro, originalmente confundido com o Diplodoco antes de ser reclassificado.",
+    "fato": "Foi originalmente descrito ainda no século XIX como uma espécie de outro gênero — só um estudo de 2020 reconheceu que se tratava, na verdade, de um dicreossaurídeo.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 3.5,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 57,
+      "y": 45
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Dicraeosauridae"
+    },
+    "descoberta": {
+      "por": "Reclassificado por Jeffrey Whitlock e J. A. Wilson Mantilla",
+      "ano": 2020
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Mostra que até saurópodes conhecidos há mais de cem anos ainda podem revelar novidades quando reexaminados com métodos modernos.",
+      "Confirma que a família Dicraeosauridae, com pescoço mais curto que a maioria dos saurópodes, também vivia na América do Norte, não só na América do Sul e na África."
+    ]
+  },
+  {
+    "id": 355,
+    "nome": "Maraapunissauro",
+    "latim": "Maraapunisaurus fragillimus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 30,
+    "peso": 40000,
+    "regiao": "América do Norte",
+    "forma": "sauropod",
+    "desc": "A versão renomeada e reclassificada do lendário 'Amphicoelias fragillimus' — o mesmo animal descrito no século XIX a partir de uma única vértebra hoje perdida, que intriga cientistas há mais de 140 anos.",
+    "fato": "As dimensões apresentadas aqui são estimativas históricas, baseadas apenas nas medidas originais anotadas por Edward Drinker Cope antes do fóssil desaparecer — sem o osso original, é impossível confirmá-las com a ciência atual.",
+    "perigo": 2,
+    "velocidade": 2,
+    "altura": 6,
+    "periodo": {
+      "inicio": 152,
+      "fim": 148
+    },
+    "formacao": "Formação Morrison",
+    "local": "Colorado, EUA",
+    "mapa": {
+      "x": 58,
+      "y": 45
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Rebbachisauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Renomeado por Kenneth Carpenter",
+      "ano": 2018
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "Já está catalogado neste site como 'Anficélias' (o gênero original, Amphicoelias altus) — este é o parente perdido e maior, hoje reclassificado com nome próprio.",
+      "Se as medidas históricas estiverem corretas, estaria entre os maiores animais terrestres já propostos pela ciência — mas isso nunca poderá ser confirmado, já que o único osso conhecido foi perdido ainda no século XIX."
+    ]
+  },
+  {
+    "id": 356,
+    "nome": "Disalotossauro",
+    "latim": "Dysalotosaurus lettowvorbecki",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 2.5,
+    "peso": 80,
+    "regiao": "África",
+    "forma": "ornithopod",
+    "desc": "Pequeno ornitópode africano conhecido a partir de milhares de ossos de mais de 100 indivíduos, um dos registros de crescimento mais detalhados já obtidos para um dinossauro.",
+    "fato": "Estudos de seus ossos revelaram a evidência mais antiga já registrada de uma infecção viral em qualquer animal — uma doença parecida com uma condição óssea que afeta humanos até hoje.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 1,
+    "periodo": {
+      "inicio": 152,
+      "fim": 151
+    },
+    "formacao": "Formação Tendaguru",
+    "local": "Tanzânia",
+    "mapa": {
+      "x": 197,
+      "y": 92
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda",
+      "familia": "Dryosauridae"
+    },
+    "descoberta": {
+      "por": "Expedição alemã de Tendaguru (1909–1913)",
+      "ano": 1909
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Os melhores esqueletos conhecidos foram destruídos durante a Segunda Guerra Mundial — hoje restam principalmente desenhos e fotografias antigas.",
+      "Ocupava na Tanzânia o mesmo papel ecológico que o Dryossauro ocupava na Formação Morrison, do outro lado do Atlântico."
+    ]
+  },
+  {
+    "id": 357,
+    "nome": "Veterupristissauro",
+    "latim": "Veterupristisaurus milneri",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 9,
+    "peso": 2000,
+    "regiao": "África",
+    "forma": "theropod",
+    "desc": "O membro mais antigo já identificado da família dos carcarodontossaurídeos, o mesmo grupo que geraria gigantes como o Giganotossauro e o Carcarodontossauro dezenas de milhões de anos depois.",
+    "fato": "Seu nome significa 'antigo lagarto tubarão', numa referência aos dentes serrilhados parecidos com os de um tubarão, característicos de toda a família.",
+    "perigo": 7,
+    "velocidade": 6,
+    "altura": 2.5,
+    "periodo": {
+      "inicio": 154,
+      "fim": 150
+    },
+    "formacao": "Formação Tendaguru",
+    "local": "Tanzânia",
+    "mapa": {
+      "x": 196,
+      "y": 91
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Carcharodontosauria)",
+      "familia": "Carcharodontosauridae"
+    },
+    "descoberta": {
+      "por": "Descrito por Oliver Rauhut",
+      "ano": 2011
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Sua descoberta mostrou que a linhagem dos carcarodontossaurídeos já existia bem antes do que se pensava, ainda no Jurássico.",
+      "Foi originalmente confundido com uma espécie de Ceratossauro, décadas antes de ganhar identidade própria."
+    ]
+  },
+  {
+    "id": 358,
+    "nome": "Esciurumimo",
+    "latim": "Sciurumimus albersdoerferi",
+    "era": "Jurássico",
+    "dieta": "Carnívoro",
+    "comprimento": 0.7,
+    "peso": 1,
+    "regiao": "Europa",
+    "forma": "small",
+    "desc": "Pequeno terópode alemão conhecido a partir de um esqueleto de filhote quase completo, coberto por penugem simples preservada em detalhe.",
+    "fato": "Surpreendeu os cientistas por pertencer a um grupo de terópodes (os megalossauroides) que não se esperava ter penas — uma evidência importante de que penas eram muito mais comuns entre dinossauros do que se imaginava.",
+    "perigo": 1,
+    "velocidade": 7,
+    "altura": 0.2,
+    "periodo": {
+      "inicio": 152,
+      "fim": 150
+    },
+    "formacao": "Formação Solnhofen",
+    "local": "Baviera, Alemanha",
+    "mapa": {
+      "x": 169,
+      "y": 25
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Theropoda (Megalosauroidea)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Oliver Rauhut e equipe",
+      "ano": 2012
+    },
+    "tipo": "Terópode",
+    "curiosidades": [
+      "Seu nome significa 'imitador de esquilo', numa referência à cauda longa e peluda do fóssil preservado.",
+      "É uma das provas mais fortes de que penas surgiram muito cedo na árvore genealógica dos terópodes, não só perto das aves."
+    ]
   }
 ]
