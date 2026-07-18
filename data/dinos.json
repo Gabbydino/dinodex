@@ -14318,5 +14318,325 @@
       "Seu nome significa 'imitador de esquilo', numa referência à cauda longa e peluda do fóssil preservado.",
       "É uma das provas mais fortes de que penas surgiram muito cedo na árvore genealógica dos terópodes, não só perto das aves."
     ]
+  },
+  {
+    "id": 359,
+    "nome": "Gigantespinossauro",
+    "latim": "Gigantspinosaurus sichuanensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 4.5,
+    "peso": 700,
+    "regiao": "Ásia",
+    "forma": "stego",
+    "desc": "Estegossaurídeo chinês com espinhos de ombro gigantescos — desproporcionalmente maiores que os do Estegossauro americano — e placas dorsais pequenas em comparação.",
+    "fato": "Foi confundido com um Tuojiangossauro quando encontrado em 1985, e só foi reconhecido como espécie própria em 1992.",
+    "perigo": 5,
+    "velocidade": 3,
+    "altura": 1.5,
+    "periodo": {
+      "inicio": 161,
+      "fim": 155
+    },
+    "formacao": "Formação Shaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 218,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Stegosauria)",
+      "familia": "Stegosauridae"
+    },
+    "descoberta": {
+      "por": "Ouyang Hui",
+      "ano": 1985
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Seus espinhos de ombro eram duas vezes mais compridos que a omoplata sobre a qual se apoiavam.",
+      "É exibido, montado, no Museu de Dinossauros de Zigong, um dos três maiores museus de dinossauros do mundo."
+    ]
+  },
+  {
+    "id": 360,
+    "nome": "Xiaossauro",
+    "latim": "Xiaosaurus dashanpensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 1,
+    "peso": 10,
+    "regiao": "Ásia",
+    "forma": "small",
+    "desc": "Pequeno ornitópode chinês, um dos vários pequenos herbívoros que dividiam a Formação Dashanpu com estegossaurídeos e saurópodes gigantes.",
+    "fato": "Sua classificação exata dentro dos ornitísquios segue incerta até hoje, mais de 40 anos depois de descrito.",
+    "perigo": 1,
+    "velocidade": 7,
+    "altura": 0.4,
+    "periodo": {
+      "inicio": 170,
+      "fim": 163
+    },
+    "formacao": "Formação Shaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 219,
+      "y": 49
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Dong Zhiming e equipe",
+      "ano": 1983
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Foi encontrado no mesmo sítio de Dashanpu que revelou o Gassauro, o Xunossauro e vários outros dinossauros deste catálogo.",
+      "É um dos ornitísquios mais antigos conhecidos de toda a fauna de Dashanpu."
+    ]
+  },
+  {
+    "id": 361,
+    "nome": "Bashanossauro",
+    "latim": "Bashanosaurus primitivus",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 3,
+    "peso": 400,
+    "regiao": "Ásia",
+    "forma": "stego",
+    "desc": "Um dos estegossaurídeos mais antigos e primitivos já confirmados no mundo, ao lado do Adratiklit africano e da Isaberrissauro argentina.",
+    "fato": "Foi descoberto numa pedreira encontrada apenas em 2016, mostrando que a China ainda revela novidades importantes sobre a origem dos estegossaurídeos.",
+    "perigo": 4,
+    "velocidade": 3,
+    "altura": 1.2,
+    "periodo": {
+      "inicio": 168,
+      "fim": 166
+    },
+    "formacao": "Formação Shaximiao",
+    "local": "Chongqing, China",
+    "mapa": {
+      "x": 219,
+      "y": 47
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Stegosauria)",
+      "familia": "Huayangosauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Xing Lida e equipe",
+      "ano": 2023
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É uma das descobertas mais recentes de todo o catálogo, formalmente descrita há pouquíssimos anos.",
+      "Ajuda a mostrar que os estegossaurídeos mais antigos e primitivos apareciam em vários continentes quase ao mesmo tempo."
+    ]
+  },
+  {
+    "id": 362,
+    "nome": "Hexinlussauro",
+    "latim": "Hexinlusaurus multidens",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 1.2,
+    "peso": 15,
+    "regiao": "Ásia",
+    "forma": "small",
+    "desc": "Pequeno ornitópode chinês com muitos dentes pequenos, originalmente classificado como uma espécie do Iandussauro antes de ganhar gênero próprio.",
+    "fato": "Seu nome de espécie, 'multidens', significa 'muitos dentes', em referência à dentição incomumente numerosa para um dinossauro tão pequeno.",
+    "perigo": 1,
+    "velocidade": 7,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 170,
+      "fim": 163
+    },
+    "formacao": "Formação Shaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 218,
+      "y": 49
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito originalmente por He Xinlu, renomeado por Paul Barrett e equipe",
+      "ano": 1984
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Foi renomeado em 2005 em homenagem a He Xinlu, o próprio paleontólogo que o descreveu originalmente décadas antes.",
+      "É mais um entre a grande diversidade de pequenos ornitópodes conhecidos da fauna de Dashanpu."
+    ]
+  },
+  {
+    "id": 363,
+    "nome": "Iandussauro",
+    "latim": "Yandusaurus hongheensis",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 1.4,
+    "peso": 20,
+    "regiao": "Ásia",
+    "forma": "small",
+    "desc": "Pequeno ornitópode chinês, um dos primeiros dinossauros descritos da rica fauna de Dashanpu, em Sichuan.",
+    "fato": "Deu nome a um grupo inteiro de pequenos ornitópodes chineses, incluindo parentes próximos como o Hexinlussauro.",
+    "perigo": 1,
+    "velocidade": 7,
+    "altura": 0.5,
+    "periodo": {
+      "inicio": 170,
+      "fim": 163
+    },
+    "formacao": "Formação Shaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 217,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Ornithopoda (basal)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por He Xinlu",
+      "ano": 1979
+    },
+    "tipo": null,
+    "curiosidades": [
+      "Foi um dos primeiros dinossauros formalmente descritos a partir da agora famosa fauna de Dashanpu.",
+      "Ajudou a estabelecer Sichuan como uma das regiões mais importantes do mundo para o Jurássico Médio."
+    ]
+  },
+  {
+    "id": 364,
+    "nome": "Chialingossauro",
+    "latim": "Chialingosaurus kuani",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 4,
+    "peso": 500,
+    "regiao": "Ásia",
+    "forma": "stego",
+    "desc": "Um dos estegossaurídeos mais antigos já descobertos na China, anterior à fauna clássica de Dashanpu.",
+    "fato": "Foi um dos primeiros estegossaurídeos chineses já descritos, décadas antes da explosão de descobertas em Sichuan a partir dos anos 1970 e 1980.",
+    "perigo": 4,
+    "velocidade": 3,
+    "altura": 1.3,
+    "periodo": {
+      "inicio": 174,
+      "fim": 163
+    },
+    "formacao": "Formação Ziliujing",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 216,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Ornithischia — Thyreophora (Stegosauria)",
+      "familia": "Classificação de família ainda incerta"
+    },
+    "descoberta": {
+      "por": "Descrito por Yang Zhongjian (C. C. Young)",
+      "ano": 1959
+    },
+    "tipo": null,
+    "curiosidades": [
+      "É um dos estegossaurídeos mais antigos conhecidos de toda a Ásia, contemporâneo do Huaianguessauro.",
+      "Seu material é relativamente incompleto, deixando parte de sua anatomia ainda incerta."
+    ]
+  },
+  {
+    "id": 365,
+    "nome": "Daanossauro",
+    "latim": "Daanosaurus zhangi",
+    "era": "Jurássico",
+    "dieta": "Herbívoro",
+    "comprimento": 8,
+    "peso": 1500,
+    "regiao": "Ásia",
+    "forma": "sauropod",
+    "desc": "Pequeno saurópode chinês, possivelmente um indivíduo jovem, parente dos mamenquissaurídeos de pescoço longo.",
+    "fato": "Como o único esqueleto conhecido é de um indivíduo jovem, o tamanho real de um adulto totalmente crescido segue sendo uma incógnita.",
+    "perigo": 2,
+    "velocidade": 3,
+    "altura": 3,
+    "periodo": {
+      "inicio": 161,
+      "fim": 155
+    },
+    "formacao": "Formação Shangshaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 219,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Saurischia — Sauropodomorpha (Sauropoda)",
+      "familia": "Mamenchisauridae (posição debatida)"
+    },
+    "descoberta": {
+      "por": "Descrito por Ye Yong e equipe",
+      "ano": 2005
+    },
+    "tipo": "Saurópode",
+    "curiosidades": [
+      "É mais um entre a impressionante diversidade de saurópodes conhecida da bacia de Sichuan.",
+      "Seu esqueleto quase completo é uma referência importante para entender saurópodes jovens, geralmente muito mais raros no registro fóssil que adultos."
+    ]
+  },
+  {
+    "id": 366,
+    "nome": "Angustinarítero",
+    "latim": "Angustinaripterus longicephalus",
+    "era": "Jurássico",
+    "dieta": "Piscívoro",
+    "comprimento": 1.5,
+    "peso": 1,
+    "regiao": "Ásia",
+    "forma": "pterosaur",
+    "desc": "Pterossauro chinês de crânio alongado, um dos poucos répteis voadores bem documentados da rica fauna de Dashanpu.",
+    "fato": "Não é um dinossauro. É um dos pterossauros mais antigos e mais completos já encontrados na China.",
+    "perigo": 2,
+    "velocidade": 7,
+    "altura": 0.2,
+    "periodo": {
+      "inicio": 170,
+      "fim": 163
+    },
+    "formacao": "Formação Shaximiao",
+    "local": "Sichuan, China",
+    "mapa": {
+      "x": 218,
+      "y": 48
+    },
+    "classificacao": {
+      "classe": "Reptilia (Sauropsida)",
+      "ordem": "Pterosauria — Rhamphorhynchidae",
+      "familia": "Rhamphorhynchidae"
+    },
+    "descoberta": {
+      "por": "Descrito por He Xinlu e equipe",
+      "ano": 1983
+    },
+    "tipo": "Voador",
+    "curiosidades": [
+      "Viveu ao lado de dinossauros como o Xiaossauro e o Gassauro, na mesma fauna de Dashanpu.",
+      "Seu crânio alongado e estreito sugere uma dieta baseada em peixes pequenos."
+    ]
   }
 ]
